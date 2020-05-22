@@ -1,10 +1,9 @@
 ---
 layout: lesson
 ---
-This Library Carpentry lesson introduces people working in library- and information-related roles to working with data in OpenRefine. At the conclusion of the lesson you will understand what the OpenRefine software does and how to use the OpenRefine software to work with data files.
+This Carpentries-style lesson introduces people working in catalogue-related roles in galleries, libraries, archives, and museums to working with catalogue data in AntConc. At the conclusion of the lesson you will understand what the AntConc software does and how to use papproaches from computational linguistics for the purposes of examining catalogue data.
 
 > ## Prerequisites
-> To complete this lesson you will need to install [OpenRefine](http://openrefine.org/download.html) and download the file [doaj-article-sample.csv](https://github.com/LibraryCarpentry/lc-open-refine/raw/gh-pages/data/doaj-article-sample.csv).
-> OpenRefine does not support Internet Explorer or Edge. Please use [Firefox](https://www.mozilla.org/firefox/new/), [Chrome](https://www.google.com/chrome/) or [Safari](https://www.apple.com/safari/) instead.
-> See [Setup](https://librarycarpentry.org/lc-open-refine/setup.html) for more information.
+> To complete this lesson you will need to install [AntConc](http://www.laurenceanthony.net/software/antconc/) and download the file FIXME.
+> See [Setup](https://cataloguelegacies.github.io/antconc.github.io/setup.html) for more information.
 {: .prereq}
