@@ -1,9 +1,10 @@
 ---
-title: "Transformations - Handling Arrays"
+title: "Next Steps 4: using regular expressions in AntConc"
 teaching: 5
 exercises: 15
 questions:
-- "How do I use Arrays in data transformation?"
+- "What are regular expressions?"
+- "How do I use regular expressions in AntConc?"
 objectives:
 - "Introduce Arrays, and how to use them to run transformations in GREL"
 keypoints:
