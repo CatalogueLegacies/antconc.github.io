@@ -1,12 +1,11 @@
 ---
-title: "Faceting and filtering"
+title: "Settings in AntConc"
 teaching: 10
 exercises: 10
 questions:
-- "What is a facet in OpenRefine?"
-- "What is a filter in OpenRefine?"
-- "How can I use filters and facets to explore data in OpenRefine?"
-- "How can I easily correct common data issues in my data with OpenRefine?"
+- "What are the default settings in AntConc?"
+- "What changes are recommended for analysing catalogue data?"
+- "How can I keep a track of the settings I am using in AntConc?"
 objectives:
 - "Explain what Facets and Filters are"
 - "Answer questions about the content of a data set using Facets"
