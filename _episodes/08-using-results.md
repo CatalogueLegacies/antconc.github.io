@@ -1,10 +1,10 @@
 ---
-title: "Writing Transformations"
+title: "Next Steps 1: using results"
 teaching: 5
 exercises: 10
 questions:
-- "Where do I write GREL expressions in the OpenRefine interface?"
-- "How do I write a valid GREL expression?"
+- "What options are there for working with AntConc results?"
+- "How can I use tools like WordNet to think about the lexical choices made by cataloguers?"
 objectives:
 - "Explain how to write one's own transformations using GREL"
 keypoints:
