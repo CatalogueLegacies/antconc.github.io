@@ -1,9 +1,11 @@
 ---
-title: "Transformations - Undo and Redo"
+title: "Next Steps 2: comparing corpora"
 teaching: 5
 exercises: 0
 questions:
-- "How do the Undo and Redo features work?"
+- "How do can I use AntConc to compare multiple sets of catalogue data?"
+- "How can I compare curatorial 'voice' to general language?"
+- "What are the benefits of comparison?"
 objectives:
 - "Explain how to use Undo and Redo to retrace ones' steps"
 keypoints:
