@@ -5,7 +5,7 @@ title: "Licenses"
 
 ## Instructional Material
 
-This site is based on the Library Carpentry Open Refine repo, instructional material for which made available under the [Creative Commons Attribution license](https://github.com/LibraryCarpentry/lc-open-refine/blob/gh-pages/LICENSE.md). All subsequent edits are made as part of the project "[Legacies of Catalogue Descriptions and Curatorial Voice: Opportunities for Digital Scholarship](https://cataloguelegacies.github.io/)", outputs of which are licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/) (exceptions: logos and marked images).
+This site is based on the [Library Carpentry Open Refine repo](https://github.com/LibraryCarpentry/lc-open-refine/), instructional material for which made available under the [Creative Commons Attribution license](https://github.com/LibraryCarpentry/lc-open-refine/blob/gh-pages/LICENSE.md). All subsequent edits are made as part of the project "[Legacies of Catalogue Descriptions and Curatorial Voice: Opportunities for Digital Scholarship](https://cataloguelegacies.github.io/)", outputs of which are licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/) (exceptions: logos and marked images).
 
 The following is a human-readable summary of (and not a substitute for) the [full legal text of the CC BY 4.0 license][cc-by-legal].
 
