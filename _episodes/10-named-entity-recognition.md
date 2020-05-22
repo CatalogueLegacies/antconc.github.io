@@ -1,10 +1,11 @@
 ---
-title: "Transforming Strings, Numbers, Dates and Booleans"
+title: "Next Steps 3: Named Entity Recognition"
 teaching: 5
 exercises: 15
 questions:
-- "How do I use transformations to programmatically edit my data?"
-- "How do I transform the various data types?"
+- "What is Named Entity Recognition (NER)?"
+- "How do I apply NER to catalogue data?"
+- "How can I use NER to analyse catalogue data in AntConc?"
 objectives:
 - "Introduce data formats"
 - "Introduce Boolean values and how to run transformations based on them"
