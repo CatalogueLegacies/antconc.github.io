@@ -1,15 +1,15 @@
-*Library Carpentry builds on the work of [Software Carpentry][swc-site] and [Data Carpentry][dc-site]. It uses the same contribution guidelines as these projects. This can be found below.*
+*This module was developed as part of the project [Legacies of Catalogue Descriptions and Curatorial Voice: Opportunities for Digital Scholarship](https://cataloguelegacies.github.io/). It builds on the work of [Software Carpentry][swc-site], [Data Carpentry][dc-site] and [Library Carpentry][lc-site]. It use contribution guidelines adapated from these projects. This can be found below.*
 
 ----
 
 # Contributing
 
-[Software Carpentry][swc-site] and [Data Carpentry][dc-site] are open source projects,
-and we welcome contributions of all kinds:
-new lessons,
-fixes to existing material,
-bug reports,
-and reviews of proposed changes are all welcome.
+[Software Carpentry][swc-site], [Data Carpentry][dc-site] and Library Carpentry][lc-site] are open source projects, and welcome contributions of all kinds:
+
+- new lessons,
+- fixes to existing material,
+- bug reports,
+- and reviews of proposed changes are all welcome.
 
 ## Contributor Agreement
 
@@ -18,7 +18,7 @@ you agree that we may redistribute your work under [our license](LICENSE.md).
 In exchange,
 we will address your issues and/or assess your change proposal as promptly as we can,
 and help you become a member of our community.
-Everyone involved in [Software Carpentry][swc-site] and [Data Carpentry][dc-site]
+Everyone involved in [Software Carpentry][swc-site], [Data Carpentry][dc-site], and Library Carpentry][lc-site]
 agrees to abide by our [code of conduct](CONDUCT.md).
 
 ## How to Contribute
@@ -50,8 +50,8 @@ and to meet some of our community members.
 ## Where to Contribute
 
 1.  If you wish to change this lesson,
-    please work in <https://github.com/LibraryCarpentry/lc-open-refine>,
-    which can be viewed at <https://librarycarpentry.github.io/lc-open-refine/>.
+    please work in <https://github.com/CatalogueLegacies/antconc.github.io>,
+    which can be viewed at <https://cataloguelegacies.github.io/antconc.github.io/>.
 
 2.  If you wish to change the example lesson,
     please work in <https://github.com/swcarpentry/lesson-example>,
@@ -77,8 +77,7 @@ and and submitting [bug reports][issues]
 about things that don't work, aren't clear, or are missing.
 If you are looking for ideas,
 please see [the list of issues for this repository][issues],
-or the issues for [Data Carpentry][dc-issues]
-and [Software Carpentry][swc-issues] projects.
+or the issues for [Data Carpentry][dc-issues, [Software Carpentry][swc-issues], or [Library Carpentry][lc-issues] projects.
 
 Comments on issues and reviews of pull requests are just as welcome:
 we are smarter together than we are on our own.
@@ -134,7 +133,7 @@ and have final say over what gets merged into the lesson.
 
 ## Other Resources
 
-General discussion of [Software Carpentry][swc-site] and [Data Carpentry][dc-site]
+General discussion of [Software Carpentry][swc-site], [Data Carpentry][dc-site], and [Library Carpentry][lc-site]
 happens on the [discussion mailing list][discuss-list],
 which everyone is welcome to join.
 You can also [reach us by email][contact].
