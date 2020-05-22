@@ -3,7 +3,7 @@ title: "Importing data into AntConc"
 teaching: 10
 exercises: 5
 questions:
-- "How do I get data into OpenRefine?"
+- "How do I get data into AntConc?"
 objectives:
 - "Successfully import data into OpenRefine"
 keypoints:
