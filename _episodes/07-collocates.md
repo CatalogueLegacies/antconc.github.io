@@ -1,11 +1,11 @@
 ---
-title: "Introduction to Transformations"
+title: "Collocates"
 teaching: 5
 exercises: 5
 questions:
-- "How do I use transformations to programmatically edit my data?"
-- "What are the kind of transformations Open Refine supports?"
-- "What is GREL?"
+- "What are collocates?"
+- "How do collocates work in AntConc?"
+- "What conclusions can be reached based on collocation data?"
 objectives:
 - "Describe common transformations"
 - "Explain GREL, the General Refine Expression Language"
