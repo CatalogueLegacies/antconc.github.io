@@ -1,10 +1,11 @@
 ---
-title: "Clustering"
+title: "Wordlists"
 teaching: 10
 exercises: 10
 questions:
-- "What is Clustering in OpenRefine and when would you use it?"
-- "How does clustering work in OpenRefine?"
+- "What are Wordlists in AntConc and when would you use it?"
+- "How do Wordlists work in AntConc?"
+- "How might I interpret wordlists generated from catalogue data?"
 objectives:
 - "Explain what clustering is in OpenRefine"
 - "Use clustering to identify and fix replace varying forms of the same data with a single consistent value"
