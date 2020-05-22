@@ -3,8 +3,8 @@ title: "Wordlists"
 teaching: 10
 exercises: 10
 questions:
-- "What are Wordlists in AntConc and when would you use it?"
-- "How do Wordlists work in AntConc?"
+- "What are wordlists in AntConc and when would you use it?"
+- "How do wordlists work in AntConc?"
 - "How might I interpret wordlists generated from catalogue data?"
 objectives:
 - "Explain what clustering is in OpenRefine"
