@@ -1,10 +1,10 @@
 ---
-title: "Working with columns and sorting"
+title: "Search"
 teaching: 5
 exercises: 5
 questions:
-- "How do I move, rename or remove columns in OpenRefine?"
-- "How do I sort data in OpenRefine?"
+- "How do search in AntConc?"
+- "How can I use search to discover features of catalogue data?"
 objectives:
 - "Explain how to reorder, rename and remove columns"
 - "Explain how to sort data in columns"
