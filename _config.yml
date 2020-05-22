@@ -10,7 +10,7 @@
 carpentry: "lc"
 
 # Overall title for pages.
-title: "Library Carpentry: OpenRefine"
+title: "Computational Analysis of Catalogue Data"
 
 
 #------------------------------------------------------------
@@ -26,7 +26,7 @@ kind: "lesson"
 repository: <USERNAME>/<PROJECT>
 
 # Email address, no mailto:
-email: "team@carpentries.org"
+email: "drjameswbaker@gmail.com"
 
 # Sites.
 amy_site: "https://amy.software-carpentry.org/workshops"
