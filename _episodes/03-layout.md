@@ -1,12 +1,11 @@
 ---
-title: "Layout of OpenRefine, Rows vs Records"
+title: "Layout of AntConc"
 teaching:  10
 exercises: 5
 questions:
-- "How is data organised in OpenRefine?"
-- "How do I access options to amend data in OpenRefine?"
-- "What is the difference between Rows and Records in OpenRefine?"
-- "How do I work with single cells that contain multiple values in a list?"
+- "How is data organised in AntConc?"
+- "How do I access different tools in AntConc?"
+- What is the differnce between 'global' and 'tool' settings in AntConc?"
 objectives:
 - Locate controls for navigating data in OpenRefine
 - Find options to work with data through the OpenRefine dropdown menus
