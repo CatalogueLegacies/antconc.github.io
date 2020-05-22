@@ -3,7 +3,7 @@ title: "Introduction to OpenRefine"
 teaching: 15
 exercises: 0
 questions:
-- "What is OpenRefine? What can it do?"
+- "What is AntConc? What is corpus linguistics? What can they do?"
 objectives:
 - "Explain what the OpenRefine software does"
 - "Explain how the OpenRefine software can help work with data files"
