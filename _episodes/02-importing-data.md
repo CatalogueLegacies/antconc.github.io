@@ -1,5 +1,5 @@
 ---
-title: "Importing data into OpenRefine"
+title: "Importing data into AntConc"
 teaching: 10
 exercises: 5
 questions:
