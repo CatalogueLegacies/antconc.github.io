@@ -1,10 +1,10 @@
-*This module was developed as part of the project [Legacies of Catalogue Descriptions and Curatorial Voice: Opportunities for Digital Scholarship](https://cataloguelegacies.github.io/). It builds on the work of [Software Carpentry][swc-site], [Data Carpentry][dc-site] and [Library Carpentry][lc-site]. It use contribution guidelines adapated from these projects. This can be found below.*
+*This module was developed as part of the project [Legacies of Catalogue Descriptions and Curatorial Voice: Opportunities for Digital Scholarship](https://cataloguelegacies.github.io/). It builds on the work of [Software Carpentry][swc-site], [Data Carpentry][dc-site] and [Library Carpentry][https://librarycarpentry.org/]. It use contribution guidelines adapated from these projects. This can be found below.*
 
 ----
 
 # Contributing
 
-[Software Carpentry][swc-site], [Data Carpentry][dc-site] and Library Carpentry][lc-site] are open source projects, and welcome contributions of all kinds:
+[Software Carpentry][swc-site], [Data Carpentry][dc-site] and Library Carpentry][https://librarycarpentry.org/] are open source projects, and welcome contributions of all kinds:
 
 - new lessons,
 - fixes to existing material,
@@ -18,7 +18,7 @@ you agree that we may redistribute your work under [our license](LICENSE.md).
 In exchange,
 we will address your issues and/or assess your change proposal as promptly as we can,
 and help you become a member of our community.
-Everyone involved in [Software Carpentry][swc-site], [Data Carpentry][dc-site], and Library Carpentry][lc-site]
+Everyone involved in [Software Carpentry][swc-site], [Data Carpentry][dc-site], and Library Carpentry][https://librarycarpentry.org/]
 agrees to abide by our [code of conduct](CONDUCT.md).
 
 ## How to Contribute
@@ -133,7 +133,7 @@ and have final say over what gets merged into the lesson.
 
 ## Other Resources
 
-General discussion of [Software Carpentry][swc-site], [Data Carpentry][dc-site], and [Library Carpentry][lc-site]
+General discussion of [Software Carpentry][swc-site], [Data Carpentry][dc-site], and [Library Carpentry][https://librarycarpentry.org/]
 happens on the [discussion mailing list][discuss-list],
 which everyone is welcome to join.
 You can also [reach us by email][contact].
