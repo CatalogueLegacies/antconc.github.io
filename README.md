@@ -9,7 +9,7 @@ license](https://github.com/LibraryCarpentry/lc-open-refine/blob/gh-pages/LICENS
 
 ## Contributing
 
-FIXME
+There are many ways to discuss and contribute to a Carpentries-style lesson. Visit the lesson [Contributing](https://github.com/CatalogueLegacies/antconc.github.io/blob/gh-pages/CONTRIBUTING.md) page to learn more.
 
 ## Code of Conduct
 
