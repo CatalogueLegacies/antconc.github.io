@@ -68,7 +68,7 @@ Having learnt about the `Word List` tab in AntConc, work in pairs or small group
 >>
 >>1. Remove any text from the search box, select `Sort by Freq` and hit `Start`.
 >>2. Observe the figure of `1214917` word tokens. Select the frequency values of the 30 most common word types, paste them into a spreadsheet programme, and sum them. You should get `508791`. Use these two figures to calculate a percentage: `(508791/1214917) x 100 = 41.87%`
->>* It is common in English language corpora to find that roughly half the corpus is accounted for by a small number of frequent words. This observation goes a long way to explaining way corpus linguists often present and work with lists of ‘top’ words (not that word lists are the only tool in the corpus linguists armoury, as we shall see!
+>>>* It is common in English language corpora to find that roughly half the corpus is accounted for by a small number of frequent words. This observation goes a long way to explaining way corpus linguists often present and work with lists of ‘top’ words (not that word lists are the only tool in the corpus linguists armoury, as we shall see!
 >{: .solution}
 {: .challenge}
 
@@ -87,5 +87,19 @@ Having learnt about the `Word List` tab in AntConc, work in pairs or small group
 >>3. Note the lack of entries in the past tense form (`entered`) and the active present participle form (`entering`). Instead the third-person present form dominates, used in speech to refer to individuals, such as in `She enters`, `Samir enters`, or `Gene enters`.
 >>4. `Enter` can also be used in both the plural present form - `they enter` - and the future tense form - `He/She/It/You/We/They will/shall enter` - so we need to check which usage is most common in the corpus. To do this, click on the word form `enter` and look at the output in the `Concordance` tab. Note that the output shows a predominant use of the present tense form of enter, such as in `who enter from the left`, `are about to enter it`, `tries to enter through a door`.
 >>5. What we can conclude then is that the verb `enter` is used largely in the present tense. We can infer - pending further investigation - that the curatorial descriptions in the corpus describe what is in front of the curator rather than, for example, describe the life of the object or its principle characters.
+>{: .solution}
+{: .challenge}
+
+>## Task 3: Find the word variants of the string `behind` and estimate their use relative to each other. Without looking at the concordances for these, discuss what hypotheses might explain this result.
+>* Use the `Word List` tab to count all word types and then use the output to make an estimate. Note: you may need to do some calculation outside of AntConc.
+>
+>>## Solution
+>>
+>>1. Remove any text from the search box, select `Sort by Word` and hit `Start`.
+>>2. Browse to the string `behind`. There are two word varients in the corpus: `behind` and `Behind`. Their use is roughly 50/50 (with slightly more uses of `behind`).
+>>3. In most cases, `Behind` would be used at the start of a sentence. With this capitalised form accounting for roughly half of the total uses of the word `behind`, we can infer a series of possible hypotheses (with increasing uncertainty) about the corpus:
+>>>* The word `behind` is used often at the start of a sentence.
+>>>* Postitional/spatial words might frequently be used at the start of sentences.
+>>>* The high frequency of capitalised varients of words like `behind` in the form of prepositions, could indicate the presence in the corpus of many short sentences (because frequent capitalisation is a rough proxy for short sentence length).
 >{: .solution}
 {: .challenge}
