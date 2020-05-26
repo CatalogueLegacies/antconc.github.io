@@ -16,18 +16,47 @@ keypoints:
 - "Outputs from AntConc queries can be saved locally as text files"
 ---
 
-## Clustering
-The Cluster function groups together similar, but inconsistent values in a given column and lets you merge these inconsistent values into a single value you choose.
+## Wordlists
+A word list counts how many times each word occurs in the selected text(s). Generally, in a word list we expect the most frequent words to be function words, e.g. for English-language texts, words like `the`, `of`, `and`, `but`, etc. However, for texts that are restricted by topic, genre and/or text type - which we would expect descriptive text in catalogue data to be - then the order of these words can vary and there will also be domain-specific vocabulary.
 
-This is very effective where you have data with minor variations in data values, e.g. names of people, organisations, places, classification terms.
+Word lists then as a useful starting point for getting an overview of the lingustic features of a corpus. They are very effective where you have a corpus with minor variations in data values, e.g. names of people, organisations, places, classification terms.
 
-To use the 'Cluster' function, click on the `Edit Cells` menu option in the relevant column and choose `Cluster and edit...`
+### Making a word list
+To use the 'Word List' function in AntConc, click on the `Word List` tab and press `Start`.
 
-The 'Clusters' are created automatically according to an algorithm. OpenRefine supports a number of different clustering algorithms - some experimentation may be required to see which clustering algorithm works best with any particular set of data, and you may find that using different algorithms highlights different clusters.
+Antconc then presents a returns the following information:
+- The total number of unique words in the corpus (`Word Tokens`).
+- The vocabulary size of the corpus (`Word Types`).
+- A ranking of every unique word type by its frequency in the corpus.
 
-For more information on the methods used to create Clusters, see [https://github.com/OpenRefine/OpenRefine/wiki/Clustering-In-Depth](https://github.com/OpenRefine/OpenRefine/wiki/Clustering-In-Depth)
+> ## What is a word?
+>
+> Note here that depending on your dataset, an important setting is `Token Definition` under `Global Settings` (found in the top navbar). This defines what AntConc sees as a word, e.g. you need to specify that numbers, punctuation characters and symbols can be part of words in order for AntConc to see things like urls or other special characters that provide meaning (e.g. hashtags in tweets).
+{: .callout}
 
-For each cluster, you have the option of 'merging' the values together - that is, replace the various inconsistent values with a single consistent value. By default, OpenRefine uses the most common value in the cluster as the new value, but you can select another value by clicking the value itself, or you can simply type the desired value into the 'New Cell Value' box.
+You will note that AntConc has treated all text as lowercase. This should be changed when examining curatorial voice, because knowing where words are used in relation to punctuation is a tell for features like sentence structure and length. In AntConc you need to change these settings for each tool individually. Change this now by going to `Tool Preferences`, choosing `Word List`, and unticking `Treat all data as lowercase`, and then pressing `Apply`. Back in the `Word List` tab hit `Start` again to see the difference.
+
+## Interacting with a word list
+There are a number of ways in which you can interact with your wordlist output:
+
+First, turning to the `Freq` column you can select and highlight frequenct values. If you click on an individual word, AntConc will move to the `Concordance` tab and plot a 'condordance' for that word: that is, a few that shows sentences the contain the word you clicked on. We will look at concordances the next episode. For now, move back to te `Word List` tab and observe that your results haven't been lost.
+
+> ## Is AntConc thinking or has it crashed?
+>
+> AntConc can often become non-functional. In most cases the software is processing your request rather than fallen over. For example, when looking at a word list it is ill-advised to click on a very frequent word as AntConc may take a while to process. Of course, if a very frequent word is one your interested in, you'll just have to be patient!
+{: .callout}
+
+Second, you can re-sort the output in the `Word List` tab using the options in the `Sort by` area. By default sorts in the `Word List` tab are set by rank, meaning that the most common word type is shown at the top, and the least common word type is shown at the bottom. For example, the sort can be involved by ticking `Invert Order` and pressing `Start`. Note that you are now presented with a long tail of infrequently used word types.
+
+The sort can also be changed so that rather than sorting by the frequencty of words, the sort is made by the words themselves, listed in alphabetical order. To do this, untick `Invest Order`, select `Sort by Word` in the dropdown and hit `Start`. Browsing through an alphabetical sort can be a useful way of finding errors in the data (e.g. stray punctuation), spelling mistakes, variations in capitalisation, or - thinking of curatorical voice - different lemma forms of words.
+
+## Saving your output
+To save the output from your `Word List` go to the `File` menu in the navbar and select `Save Output`.
+
+> ## Saving outputs
+>
+> All tabs in AntConc provide the option to save the output. This is vital for keeping a record of your findings. Note that the default output is a file called `antconc_results.txt`. As this contains no information about your corpus, your query, your settings, or what version AntConc you are using, you are encourged to note that information seperately.
+{: .callout}
 
 >## Use Clustering to clean up author data
 >
