@@ -71,3 +71,21 @@ Having learnt about the `Word List` tab in AntConc, work in pairs or small group
 >>* It is common in English language corpora to find that roughly half the corpus is accounted for by a small number of frequent words. This observation goes a long way to explaining way corpus linguists often present and work with lists of ‘top’ words (not that word lists are the only tool in the corpus linguists armoury, as we shall see!
 >{: .solution}
 {: .challenge}
+
+>## Task 2: What might the variant uses of the verb `enter` infer about language use in the dataset as a whole?
+>* Use the `Word List` tab to count all word types, then use the sorting options to help you navigate to variants of the verb `enter` and their use in context.
+>
+>>## Solution
+>>
+>>1. Remove any text from the search box, select `Sort by Word` and hit `Start`.
+>>2. Browse to the string `enter`. There are five word varients of `enter` with frequencies as follows:
+>>>* Enter: 1
+>>>* enter: 54
+>>>* entered: 25
+>>>* entering : 18
+>>>* enters:  110 
+>>3. Note the lack of entries in the past tense form (`entered`) and the active present participle form (`entering`). Instead the third-person present form dominates, used in speech to refer to individuals, such as in `She enters`, `Samir enters`, or `Gene enters`.
+>>4. `Enter` can also be used in both the plural present form - `they enter` - and the future tense form - `He/She/It/You/We/They will/shall enter` - so we need to check which usage is most common in the corpus. To do this, click on the word form `enter` and look at the output in the `Concordance` tab. Note that the output shows a predominant use of the present tense form of enter, such as in `who enter from the left`, `are about to enter it`, `tries to enter through a door`.
+>>5. What we can conclude then is that the verb `enter` is used largely in the present tense. We can infer - pending further investigation - that the curatorial descriptions in the corpus describe what is in front of the curator rather than, for example, describe the life of the object or its principle characters.
+>{: .solution}
+{: .challenge}
