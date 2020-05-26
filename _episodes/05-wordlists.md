@@ -7,13 +7,13 @@ questions:
 - "How do wordlists work in AntConc?"
 - "How might I interpret wordlists generated from catalogue data?"
 objectives:
-- "Explain what clustering is in OpenRefine"
-- "Use clustering to identify and fix replace varying forms of the same data with a single consistent value"
+- "Explain what wordlists are in OpenRefine"
+- "Use wordlists to start identifying the lingustic character of a corpus"
 keypoints:
-- "Clustering is a way of finding variant forms of the same piece of data within a dataset (e.g. different spellings of a name)"
-- "There are a number of different Clustering algorithms that work in different ways and will produce different results"
-- "The best clustering algorithm to use will depend on the data"
-- "Using clustering you can replace varying forms of the same data with a single consistent value"
+- "Wordlists are a way of getting an overview of the lingustic features of a corpus"
+- "AntConc provides a number of options for presenting wordlists"
+- "When using AntConc to count things, we need to be mindful that machine readable strings and are not the same as human readable words"
+- "Outputs from AntConc queries can be saved locally as text files"
 ---
 
 ## Clustering
