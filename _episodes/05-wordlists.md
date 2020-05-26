@@ -53,26 +53,21 @@ The sort can also be changed so that rather than sorting by the frequencty of wo
 ## Saving your output
 To save the output from your `Word List` go to the `File` menu in the navbar and select `Save Output`.
 
-> ## Saving outputs
+> ## Good practice when saving outputs
 >
 > All tabs in AntConc provide the option to save the output. This is vital for keeping a record of your findings. Note that the default output is a file called `antconc_results.txt`. As this contains no information about your corpus, your query, your settings, or what version AntConc you are using, you are encourged to note that information seperately.
 {: .callout}
 
->## Use Clustering to clean up author data
->
->1. Split out the author names into individual cells using `Edit cells -> Split multi-valued cells`, using the pipe ( \| ) character as the separator
->2. Choose `Edit cells -> Cluster and edit` from the 'author' column.
->3. Using the `key collision` method with the `fingerprint` Keying Function, work through the clusters of values, merging them to a single value where appropriate
->4. Try changing the clustering method being used - which ones work well?
-{: .challenge}
+## Tasks
+Having learnt about the `Word List` tab in AntConc, work in pairs or small groups on the following challenges.
 
->## Find all entries without a photographer name
->* If we accept that Column 8 lists the surnames of photographers, use the `Facet by blank` function to find all photographs in this data set without a named photographer
+>## Task 1: What % of all word tokens are accounted for by the 30 most common word types?
+>* Use the `Word List` tab to count all word types and then use the output to make an estimate. Note: you may need to do some calculation outside of AntConc.
 >
 >>## Solution
 >>
->>1. On `Column 8` drop down and select `Customized facets > Facet by blank`
->>2. `True` means that it is blank, so you can:
->>    * Select `include` on True in the facet to filter the list of lines on Column 8 that don't have a family name (4524 rows).
+>>1. Remove any text from the search box, select `Sort by Freq` and hit `Start`.
+>>2. Observe the figure of `1214917` word tokens. Select the frequency values of the 30 most common word types, paste them into a spreadsheet programme, and sum them. You should get `508791`. Use these two figures to calculate a percentage: `(508791/1214917) x 100 = 41.87%`
+>>    It is common in English language corpora to find that roughly half the corpus is accounted for by a small number of frequent words. This observation goes a long way to explaining way corpus linguists often present and work with lists of ‘top’ words (not that word lists are the only tool in the corpus linguists armoury, as we shall see!
 >{: .solution}
 {: .challenge}
