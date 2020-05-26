@@ -36,3 +36,14 @@ For each cluster, you have the option of 'merging' the values together - that is
 >3. Using the `key collision` method with the `fingerprint` Keying Function, work through the clusters of values, merging them to a single value where appropriate
 >4. Try changing the clustering method being used - which ones work well?
 {: .challenge}
+
+>## Find all entries without a photographer name
+>* If we accept that Column 8 lists the surnames of photographers, use the `Facet by blank` function to find all photographs in this data set without a named photographer
+>
+>>## Solution
+>>
+>>1. On `Column 8` drop down and select `Customized facets > Facet by blank`
+>>2. `True` means that it is blank, so you can:
+>>    * Select `include` on True in the facet to filter the list of lines on Column 8 that don't have a family name (4524 rows).
+>{: .solution}
+{: .challenge}
