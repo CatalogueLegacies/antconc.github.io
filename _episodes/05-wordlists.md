@@ -17,7 +17,7 @@ keypoints:
 ---
 
 ## Wordlists
-A word list counts how many times each word occurs in the selected text(s). Generally, in a word list we expect the most frequent words to be function words, e.g. for English-language texts, words like `the`, `of`, `and`, `but`, etc. However, for texts that are restricted by topic, genre and/or text type - which we would expect descriptive text in catalogue data to be - then the order of these words can vary and there will also be domain-specific vocabulary.
+A word list counts how many times each word occurs in the selected text(s). Generally, in a word list we expect the most frequent words to be function words, e.g. for English-language texts, words like "the", "of", "and", "but", etc. However, for texts that are restricted by topic, genre and/or text type - which we would expect descriptive text in catalogue data to be - then the order of these words can vary and there will also be domain-specific vocabulary.
 
 Word lists then as a useful starting point for getting an overview of the lingustic features of a corpus. They are very effective where you have a corpus with minor variations in data values, e.g. names of people, organisations, places, classification terms.
 
@@ -72,34 +72,34 @@ Having learnt about the `Word List` tab in AntConc, work in pairs or small group
 >{: .solution}
 {: .challenge}
 
->## Task 2: What might the variant uses of the verb `enter` infer about language use in the dataset as a whole?
->* Use the `Word List` tab to count all word types, then use the sorting options to help you navigate to variants of the verb `enter` and their use in context.
+>## Task 2: What might the variant uses of the verb "enter" infer about language use in the dataset as a whole?
+>* Use the `Word List` tab to count all word types, then use the sorting options to help you navigate to variants of the verb "enter" and their use in context.
 >
 >>## Solution
 >>
 >>1. Remove any text from the search box, select `Sort by Word` and hit `Start`.
->>2. Browse to the string `enter`. There are five word varients of `enter` with frequencies as follows:
+>>2. Browse to the string "enter". There are five word varients of "enter" with frequencies as follows:
 >>>* Enter: 1
 >>>* enter: 54
 >>>* entered: 25
 >>>* entering : 18
 >>>* enters:  110 
->>3. Note the lack of entries in the past tense form (`entered`) and the active present participle form (`entering`). Instead the third-person present form dominates, used in speech to refer to individuals, such as in `She enters`, `Samir enters`, or `Gene enters`.
->>4. `Enter` can also be used in both the plural present form - `they enter` - and the future tense form - `He/She/It/You/We/They will/shall enter` - so we need to check which usage is most common in the corpus. To do this, click on the word form `enter` and look at the output in the `Concordance` tab. Note that the output shows a predominant use of the present tense form of enter, such as in `who enter from the left`, `are about to enter it`, `tries to enter through a door`.
->>5. What we can conclude then is that the verb `enter` is used largely in the present tense. We can infer - pending further investigation - that the curatorial descriptions in the corpus describe what is in front of the curator rather than, for example, describe the life of the object or its principle characters.
+>>3. Note the lack of entries in the past tense form ("entered") and the active present participle form ("entering"). Instead the third-person present form dominates, used in speech to refer to individuals, such as in "She enters", "Samir enters", or "Gene enters".
+>>4. "Enter" can also be used in both the plural present form - "they enter" - and the future tense form - "He/She/It/You/We/They will/shall enter" - so we need to check which usage is most common in the corpus. To do this, click on the word form "enter" and look at the output in the `Concordance` tab. Note that the output shows a predominant use of the present tense form of enter, such as in "who enter from the left", "are about to enter it", "tries to enter through a door".
+>>5. What we can conclude then is that the verb "enter" is used largely in the present tense. We can infer - pending further investigation - that the curatorial descriptions in the corpus describe what is in front of the curator rather than, for example, describe the life of the object or its principle characters.
 >{: .solution}
 {: .challenge}
 
->## Task 3: Find the word variants of the string `behind` and estimate their use relative to each other. Without looking at the concordances for these, discuss what hypotheses might explain this result.
+>## Task 3: Find the word variants of the string "behind" and estimate their use relative to each other. Without looking at the concordances for these, discuss what hypotheses might explain this result.
 >* Use the `Word List` tab to count all word types and then use the output to make an estimate. Note: you may need to do some calculation outside of AntConc.
 >
 >>## Solution
 >>
 >>1. Remove any text from the search box, select `Sort by Word` and hit `Start`.
->>2. Browse to the string `behind`. There are two word varients in the corpus: `behind` and `Behind`. Their use is roughly 50/50 (with slightly more uses of `behind`).
->>3. In most cases, `Behind` would be used at the start of a sentence. With this capitalised form accounting for roughly half of the total uses of the word `behind`, we can infer a series of possible hypotheses (with increasing uncertainty) about the corpus:
->>>* The word `behind` is used often at the start of a sentence.
+>>2. Browse to the string "behind". There are two word varients in the corpus: "behind" and "Behind". Their use is roughly 50/50 (with slightly more uses of "behind").
+>>3. In most cases, "Behind" would be used at the start of a sentence. With this capitalised form accounting for roughly half of the total uses of the word "behind", we can infer a series of possible hypotheses (with increasing uncertainty) about the corpus:
+>>>* The word "behind" is used often at the start of a sentence.
 >>>* Postitional/spatial words might frequently be used at the start of sentences.
->>>* The high frequency of capitalised varients of words like `behind` in the form of prepositions, could indicate the presence in the corpus of many short sentences (because frequent capitalisation is a rough proxy for short sentence length).
+>>>* The high frequency of capitalised varients of words like "behind" in the form of prepositions, could indicate the presence in the corpus of many short sentences (because frequent capitalisation is a rough proxy for short sentence length).
 >{: .solution}
 {: .challenge}
