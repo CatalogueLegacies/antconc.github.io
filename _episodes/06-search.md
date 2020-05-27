@@ -1,17 +1,17 @@
 ---
 title: "Search"
-teaching: 5
-exercises: 5
+teaching: 10
+exercises: 10
 questions:
 - "How do search in AntConc?"
 - "How can I use search to discover features of catalogue data?"
 objectives:
-- "Explain how to reorder, rename and remove columns"
-- "Explain how to sort data in columns"
+- "Explain how to search"
+- "Explain how to read a concordance"
 keypoints:
-- "You can reorder, rename and remove columns in OpenRefine"
-- "Sorting in OpenRefine always sorts all rows"
-- "The original order of rows in OpenRefine is maintained during a sort until you use the option to Reorder Rows Permanently"
+- "You can search a corpus in AntConc using free text and wildcards"
+- "Carefully changing the search settings enables you to build better queries"
+- "AntConc can be used for making both rough estimates of lingustic features within a corpus, as well as collecting precise data"
 ---
 
 ## Reordering columns
