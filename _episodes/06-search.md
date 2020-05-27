@@ -11,7 +11,7 @@ objectives:
 keypoints:
 - "You can search a corpus in AntConc using free text and wildcards"
 - "Carefully changing the search settings enables you to build better queries"
-- "AntConc can be used for making both rough estimates of lingustic features within a corpus, as well as collecting precise data"
+- "In addition to generating precise data, AntConc can be used get to know a corpus and make rough suggestions as to its character"
 ---
 
 ## Searching in AntConc
@@ -94,6 +94,18 @@ Having learnt using AntConc's `Concordance` tab to search a corpus, work in pair
 >>1. Search for `said|say|says|saying` (with `Words` ticked and `Case` unticked), with the `Kwic sort` set to `Level 1` equals `0` and the other levels unticked. 
 >>2. The word "says" is the most common. We can infer this by scrolling through the sorted results, as "says" starts roughly half way down the list and continues to the end.
 >>3. `8300` hits are returned, only around 70 of which are for the word "said", meaning that present tense forms are over one-hundred times more common.
+>>4. In terms of what characterises the use of "said" in the corpus, browsing the concordance suggests two main uses: first, instances where the curator/cataloguer is speaking or interpretating ("he is said to be", "the print is said to be"), and second errors replacing transcribed speech with the placeholder `*TRANSCRIBED*`.
 >>>* This is a good example of using the browsing features within AntConc to infer results. The exact answers could computed from outputs saved to file, but in many cases reading a sorted list does the same job.
+>{: .solution}
+{: .challenge}
+
+>## Task 4: Examine the use of adverbs for the verb "stand".
+>* Note: you can search for two-word strings and wildcards can be used more than once.
+>
+>>## Solution
+>>
+>>1. Search for `stand*` `Words` ticked and `Case` unticked. You should get `7858` hits.
+>>2. Next, search for `stand* *ly` (again with `Words` ticked and `Case` unticked), with the `Kwic sort` set to `Level 1` equals `1R` and the other levels unticked. You should get `277` hits, suggesting that modifiers are used infrequently for the word "stand".
+>>3. Browse through the output. Note that of the "-ly" words present, there is a small number of unique words, and that those that are more commons indicate readily identifiable states of being ("agressively" and "stiffly" are more common than "truculently" and "deprecatingly"). This potentially indicates that the cataloguer exercised relative control of their vocabulary (that is, there are few modifiers and of those a small number dominate), but this hypothesis would need to be tested against the wider corpus.
 >{: .solution}
 {: .challenge}
