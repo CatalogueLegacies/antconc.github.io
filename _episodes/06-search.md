@@ -14,8 +14,24 @@ keypoints:
 - "AntConc can be used for making both rough estimates of lingustic features within a corpus, as well as collecting precise data"
 ---
 
-## Reordering columns
-You can re-order the columns by clicking the drop-down menu at the top of the first column (labelled 'All'), and choosing `Edit columns->Re-order / remove columns …`.
+## Searching in AntConc
+After generating lists that characterise a whole corpus, the other main way to interact with a dataset in AntConc is to use search to narrow your enquiry to a subset of a corpus.
+
+The `Concordance` tab is one many that responds to search. Navigate to the `Concordance` tab, put the string "wear" into the search box, and hit `Start`.
+
+After a little thought, AntConc populates the tab. We can observe that - by default - a search in the `Concordance` tab does a number of things:
+
+- It prompts AntConc to tell us how many times the search term has matched in the corpus.
+- It looks for the search term as a word rather than as a string of characters (so our hit count is for *words* not *strings*).
+- It uses a case-insensitive search.
+- It assumes we care more about the word next *after* the search term rather than *before* it.
+- It sorts the results alphabetically by the first character after the search term.
+- For each line, it returns information on the file name from which the search term orginates. That is, whilst we’ve separated our file into parts to ease import and processing, you should be able to see there is comparative potential here.
+
+> ## Compartive analysis in AntConc
+>
+> By working on multiple files, and providing outputs that identify which result relates to which file, the `Concordance` tab gives us a way into comparative analysis of catalogue data, be that longitudinal (files seperated by the decades in which catalogue entries were made), by collection, or be catalouger. We discuss comparing corpora in more detail in a [later module](https://cataloguelegacies.github.io/antconc.github.io/09-comparing/index.html).
+{: .callout}
 
 You can then drag and drop column names to re-order the columns, or remove columns completely if they are not required.
 
