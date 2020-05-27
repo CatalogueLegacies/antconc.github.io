@@ -75,13 +75,25 @@ Note that by turning off the `Words` option, AntConc will return results that co
 
 Having learnt using AntConc's `Concordance` tab to search a corpus, work in pairs or small groups on the following challenges.
 
->## Task 1: Work out rough % of the word "he" used at the start of a sentence
+>## Task 2: Work out rough % of the word "he" used at the start of a sentence.
 >* Note: to solve this problem, you may find it helpful to do more than one search.
 >
 >>## Solution
 >>
->>1. Search "he" and "He" separately with `Words` and `Case` both tickted. You should get `4716` hits for "he" and `4456` hits for "He".
+>>1. Search "he" and "He" separately with `Words` and `Case` both ticked. You should get `4716` hits for "he" and `4456` hits for "He".
 >>2. The answer is just under half.
 >>>* If you scroll through the results, you'll see that this is an exact solution *for this corpus*. However, this is not a perfect query, as other corpora may contain typographic errors or uncommon uses of the word "he". This is an example when knowing your corpus can help you craft a good enough query, rather than have to expend time and energy creating the perfect query. Handily, the ouputs provided by AntConc are a great way of getting to know a corpus.
+>{: .solution}
+{: .challenge}
+
+>## Task 3: Compare the use of past and present tense forms of the verb "say". Decide which is more common, by roughly what factor, and if there anything that characterises the past tense form.
+>* Note: there are three present tense forms of the word "say". This problem can also be solved with one query.
+>
+>>## Solution
+>>
+>>1. Search for `said|say|says|saying` (with `Words` ticked and `Case` unticked), with the `Kwic sort` set to `Level 1` equals `0` and the other levels unticked. 
+>>2. The word "says" is the most common. We can infer this by scrolling through the sorted results, as "says" starts roughly half way down the list and continues to the end.
+>>3. `8300` hits are returned, only around 70 of which are for the word "said", meaning that present tense forms are over one-hundred times more common.
+>>>* This is a good example of using the browsing features within AntConc to infer results. The exact answers could computed from outputs saved to file, but in many cases reading a sorted list does the same job.
 >{: .solution}
 {: .challenge}
