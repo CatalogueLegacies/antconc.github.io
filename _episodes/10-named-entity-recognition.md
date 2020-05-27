@@ -1,5 +1,5 @@
 ---
-title: "Next Steps 3: Named Entity Recognition"
+title: "Next Steps 3: Named Entity Recognition (fixme)"
 teaching: 5
 exercises: 15
 questions:
