@@ -65,43 +65,23 @@ Using the string "wear" as an example, wildcards behave as follows (with `Words`
 
 Note that by turning off the `Words` option, AntConc will return results that contain your search string *irrespective* of where in the word it appears. So, for example with `Words` unticked (and `Case` ticked) wildcards behave as follows:
 
-- `wear*` returns "wear", "wears", "wearing", "wear123" and "footwear" (as well as any strings containing "wear" followed by zero or more characters).
-- `wear+` returns "wear", "wears", and "footwear" (as well as any strings containing "wear" followed by zero or more characters), but not "wearing" , "wear123", or "footwear".
-- `wear?` returns "wears" (as well as any five letter strings starting wear), but not "wear", "wearing", "wear123", or "footwear".
-- `wear?*` returns "wears" (as well as any five or more letter strings starting wear), "wearing", "wear123", and "footwear", but not "wear".
-- `wear|wears|wearing` returns only "wear", "wears", and "wearing".
+- `wear*` returns "wear", "wears", "wearing", "wear123" and "footwear" (as well as any strings containing "wear" followed by zero or more characters). Note: with `Words` unticked, this is the same as `wear`.
+- `wear+` returns "wear", "wears", "footwear", "wearing" , and "wear123" (as well as any strings containing "wear" followed by zero or one character). Note: with `Words` unticked, this is the same as `wear`.
+- `wear?` returns "wears", "wearing", and "wear123" (as well as any strings containing "wear" followed by one character), but not "wear" or "footwear".
+- `wear?*` returns "wears", "wearing", and "wear123" (as well as any strings containing "wear" followed by one character), but not "wear" or "footwear". Note: with `Words` unticked, this is the same as `wear?`.
+- `wear|wears|wearing` returns any strings containing "wear", "wears", or "wearing". Note: with `Words` unticked, this is the same as `wear`.
 
-Tick ‘Case’ to make a case sensitive search.
-Tick ‘Regex’ to use regular expressions (more on which in an optional module unit)
-Use the ‘Kwic Sort’ (Kwic here means ‘Keywords in Context’) to change which words before and after the search term are highlighted, and which word of those words is used to sort the view.
-Spend some time on kwic to explain function wrt CL approach.
+## Tasks
 
+Having learnt using AntConc's `Concordance` tab to search a corpus, work in pairs or small groups on the following challenges.
 
-## Renaming columns
-
-You can rename a column by opening the drop-down menu at the top of the column that you would like to rename, and choosing 'Edit column' > 'Rename this column'. You will then be prompted to enter the new column name. 
-
-## Sorting data
-You can sort data in OpenRefine by clicking on the drop-down menu for the column you want to sort on, and choosing `Sort`.
-
-Once you have sorted the data, a new `Sort` drop-down menu will be displayed.
-
-Unlike in Excel, 'Sorts' in OpenRefine are temporary - that is, if you remove the `Sort`, the data will go back to its original 'unordered' state. The 'Sort' drop-down menu lets you amend the existing sort (e.g., reverse the sort order), remove existing sorts, and/or make sorts permanent.
-
-You can sort on multiple columns at the same time by adding another sorted column (in the same way).
-
-> ## What is a word?
->
-> Note here that depending on your dataset, an important setting is `Token Definition` under `Global Settings` (found in the top navbar). This defines what AntConc sees as a word, e.g. you need to specify that numbers, punctuation characters and symbols can be part of words in order for AntConc to see things like urls or other special characters that provide meaning (e.g. hashtags in tweets).
-{: .callout}
-
->## Task 1: What % of all word tokens are accounted for by the 30 most common word types?
->* Use the `Word List` tab to count all word types and then use the output to make an estimate. Note: you may need to do some calculation outside of AntConc.
+>## Task 1: Work out rough % of the word "he" used at the start of a sentence
+>* Note: to solve this problem, you may find it helpful to do more than one search.
 >
 >>## Solution
 >>
->>1. Remove any text from the search box, select `Sort by Freq` and hit `Start`.
->>2. Observe the figure of `1214917` word tokens. Select the frequency values of the 30 most common word types, paste them into a spreadsheet programme, and sum them. You should get `508791`. Use these two figures to calculate a percentage: `(508791/1214917) x 100 = 41.87%`
->>>* It is common in English language corpora to find that roughly half the corpus is accounted for by a small number of frequent words. This observation goes a long way to explaining way corpus linguists often present and work with lists of ‘top’ words (not that word lists are the only tool in the corpus linguists armoury, as we shall see!
+>>1. Search "he" and "He" separately with `Words` and `Case` both tickted. You should get `4716` hits for "he" and `4456` hits for "He".
+>>2. The answer is just under half.
+>>>* If you scroll through the results, you'll see that this is an exact solution *for this corpus*. However, this is not a perfect query, as other corpora may contain typographic errors or uncommon uses of the word "he". This is an example when knowing your corpus can help you craft a good enough query, rather than have to expend time and energy creating the perfect query. Handily, the ouputs provided by AntConc are a great way of getting to know a corpus.
 >{: .solution}
 {: .challenge}
