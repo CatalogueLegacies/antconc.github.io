@@ -47,6 +47,29 @@ Finally for now, note the `Kwic Sort` section. `Kwic` means `Keywords in Context
 >* Search the corpus until you find a word with somehow between 50 and 100 hits (you might want to play around with the `Words` and `Case` options to narrow or expand your search). Spending a few minutes changing the `Kwic Sort` to resort your output in various ways. Write down any queries you have about how the sort works and ask your instructor when the time is up.
 {: .challenge}
 
+## Wildcard search
+Search in AntConc also takes wildcases, both in the form of a limited set of native wildcards, and in the form of regular expressions. We discuss using regular expressions (or regex) in AntConc in a [later module](https://cataloguelegacies.github.io/antconc.github.io/11-regex/index.html). For now, we will focus on the native wildcards, which are similar to those in regex (for those who are familiar). These are:
+
+- `*` is a placeholder for zero or more characters
+- `+` for zero or one character
+- `?` for any character
+- `|` used as an OR operator
+
+Using the string "wear" as an example, wildcards behave as follows (with `Words` and `Case` ticked):
+
+- `wear*` returns "wear", "wears", "wearing", and "wear123" (as well as any five or more letter strings starting wear), but not "footwear".
+- `wear+` returns "wear" and "wears" (as well as any five letter strings starting wear), but not "wearing" , "wear123", or "footwear".
+- `wear?` returns "wears" (as well as any five letter strings starting wear), but not "wear", "wearing", "wear123", or "footwear".
+- `wear?*` returns "wears" (as well as any five or more letter strings starting wear), "wearing", "wear123", and "footwear", but not "wear".
+- `wear|wears|wearing` returns only "wear", "wears", and "wearing".
+
+Note that by turning off the `Words` option, AntConc will return results that contain your search string *irrespective* of where in the word it appears. So, for example with `Words` unticked (and `Case` ticked) wildcards behave as follows:
+
+- `wear*` returns "wear", "wears", "wearing", "wear123" and "footwear" (as well as any strings containing "wear" followed by zero or more characters).
+- `wear+` returns "wear", "wears", and "footwear" (as well as any strings containing "wear" followed by zero or more characters), but not "wearing" , "wear123", or "footwear".
+- `wear?` returns "wears" (as well as any five letter strings starting wear), but not "wear", "wearing", "wear123", or "footwear".
+- `wear?*` returns "wears" (as well as any five or more letter strings starting wear), "wearing", "wear123", and "footwear", but not "wear".
+- `wear|wears|wearing` returns only "wear", "wears", and "wearing".
 
 Tick ‘Case’ to make a case sensitive search.
 Tick ‘Regex’ to use regular expressions (more on which in an optional module unit)
