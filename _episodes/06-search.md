@@ -21,6 +21,7 @@ The `Concordance` tab is one many that responds to search. Navigate to the `Conc
 
 After a little thought, AntConc populates the tab. We can observe that - by default - a search in the `Concordance` tab does a number of things:
 
+- It returns a series of lines of text, known as 'condordances' (hence the name of the tab).
 - It prompts AntConc to tell us how many times the search term has matched in the corpus.
 - It looks for the search term as a word rather than as a string of characters (so our hit count is for *words* not *strings*).
 - It uses a case-insensitive search.
@@ -28,12 +29,30 @@ After a little thought, AntConc populates the tab. We can observe that - by defa
 - It sorts the results alphabetically by the first character after the search term.
 - For each line, it returns information on the file name from which the search term orginates. That is, whilst we’ve separated our file into parts to ease import and processing, you should be able to see there is comparative potential here.
 
-> ## Compartive analysis in AntConc
+> ## Comparative analysis in AntConc
 >
-> By working on multiple files, and providing outputs that identify which result relates to which file, the `Concordance` tab gives us a way into comparative analysis of catalogue data, be that longitudinal (files seperated by the decades in which catalogue entries were made), by collection, or be catalouger. We discuss comparing corpora in more detail in a [later module](https://cataloguelegacies.github.io/antconc.github.io/09-comparing/index.html).
+> By working on multiple files, and by providing outputs that identify which result relates to which file, the `Concordance` tab gives us a way into comparative analysis of catalogue data, be that longitudinal (files seperated by the decades in which catalogue entries were made), by collection, or be catalouger. We discuss comparing corpora in more detail in a [later module](https://cataloguelegacies.github.io/antconc.github.io/09-comparing/index.html).
 {: .callout}
 
-You can then drag and drop column names to re-order the columns, or remove columns completely if they are not required.
+## Adapting your search
+The default search can be changed by use of the options available in the `Condordance` tab.
+
+If you untick `Words`, and rerun your search, you'll notice that AntConc returns more hits and that some of those results are for variants of the word "wear". This does not mean, however, that you've instructed AntConc to look for variants of the word "wear". Rather, you have searched for the four-character string `wear`, meaning that the results could include everything from real English words such as "wear", "wears", and "wearing" to strings that contain the character sequence `wear`, such as "footwear", "12345wear", or "jdeoakewearldsgldslg".
+
+Now we know how the `Words` option works, tick the `Case` option, change the search term to the string "Wear" and hit `Start`. Five results are returned. This is because we have made a case-sensitive search, and the only instances of the string "Wear" in the corpus are for the word 'Wearing' positioned at the start of a sentence (presumably, there are no people called "Wearing" named in the corpus!) 
+
+Finally for now, note the `Kwic Sort` section. `Kwic` means `Keywords in Context` and in AntConc this sort works on `levels`: first `Level 1`, then `Level 2`, then `Level 3`. The values to in the boxes refer to the position relative to the search term on which the sort takes places: so `1R` sorts by the first word to the right of the search term, `1L` by the first word to the left of the search term, `0` by the search term itself, and so on. Note that these `levels` correspond to not only to how the concordance is sorted, but also to the colouring on the words in the concordance.
+
+>## Task 1: get to know the Kwic sort
+>* Search the corpus until you find a word with somehow between 50 and 100 hits (you might want to play around with the `Words` and `Case` options to narrow or expand your search). Spending a few minutes changing the `Kwic Sort` to resort your output in various ways. Write down any queries you have about how the sort works and ask your instructor when the time is up.
+{: .challenge}
+
+
+Tick ‘Case’ to make a case sensitive search.
+Tick ‘Regex’ to use regular expressions (more on which in an optional module unit)
+Use the ‘Kwic Sort’ (Kwic here means ‘Keywords in Context’) to change which words before and after the search term are highlighted, and which word of those words is used to sort the view.
+Spend some time on kwic to explain function wrt CL approach.
+
 
 ## Renaming columns
 
