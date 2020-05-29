@@ -7,8 +7,7 @@ questions:
 - "How do collocates work in AntConc?"
 - "What conclusions can be reached based on collocation data?"
 objectives:
-- "Describe common transformations"
-- "Explain GREL, the General Refine Expression Language"
+- "Learn how collocates work in AntConc"
 keypoints:
 - "Common transformations are available through the Menu option"
 ---
