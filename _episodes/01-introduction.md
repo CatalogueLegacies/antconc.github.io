@@ -5,14 +5,9 @@ exercises: 0
 questions:
 - "What is AntConc? What is corpus linguistics? What can they do?"
 objectives:
-- "Explain what the OpenRefine software does"
-- "Explain how the OpenRefine software can help work with data files"
+- "Explain what the AntConc software does"
 keypoints:
-- "OpenRefine is 'a tool for working with messy data'"
-- "OpenRefine works best with data in a simple tabular format"
-- "OpenRefine can help you split data up into more granular parts"
-- "OpenRefine can help you match local data up to other data sets"
-- "OpenRefine can help you enhance a data set with data from other sources"
+- "AntConc is a tool for working language corpora"
 ---
 
 ## What is OpenRefine?
