@@ -25,8 +25,8 @@ Word lists then as a useful starting point for getting an overview of the lingus
 To use the 'Word List' function in AntConc, click on the `Word List` tab and press `Start`.
 
 Antconc then presents a returns the following information:
-- The total number of unique words in the corpus (`Word Tokens`).
-- The vocabulary size of the corpus (`Word Types`).
+- The total number of words in the corpus (`Word Tokens`).
+- The total number of unique words in the corpus, which is the vocabulary size of the corpus (`Word Types`).
 - A ranking of every unique word type by its frequency in the corpus.
 
 You will note that AntConc has treated all text as lowercase. This should be changed when examining curatorial voice, because knowing where words are used in relation to punctuation is a tell for features like sentence structure and length. In AntConc you need to change these settings for each tool individually. Change this now by going to `Tool Preferences`, choosing `Word List`, and unticking `Treat all data as lowercase`, and then pressing `Apply`. Back in the `Word List` tab hit `Start` again to see the difference.
