@@ -16,7 +16,7 @@ keypoints:
 
 The collocates of a word are those words that tend to occur in proximity to that word more than they occur in proximity to all other words in the corpus general. The idea of collocation is implemented using a variety of different statistics to determine the co-occurrence of words.
 
-Click on the `Collocates` tab, enter the string "behind" in the search box, ensure that `Words` and `Case` are ticked, change `Sort by` to `Sort by Freq`, then press `Start`.
+Click on the `Collocates` tab, enter the string "behind" in the search box, ensure that `Words` is ticked and `Case` is unticked, change `Sort by` to `Sort by Freq`, then press `Start`.
 
 > ## AntConc tab interdependencies
 >
@@ -33,7 +33,25 @@ Antconc then presents a returns a slightly confusing screen. It contains the fol
 
 Browsing this we can start to make some observations, building on similar themes from episodes [five](https://cataloguelegacies.github.io/antconc.github.io/05-wordlists/index.html and [six](https://cataloguelegacies.github.io/antconc.github.io/06-search/index.html). We see many commons words ("the", "a", "is", "and"). We see that people ("him", "his", "her") and actions ("stands", "says", "says") are related to spatial term. And we see a long tail of vocabulary, 5509 of the 24292 unique words (or about 1 in 5) occur at least once in proximity to the word "behind'.
 
-Full documentation for the GREL is available at [https://github.com/OpenRefine/OpenRefine/wiki/General-Refine-Expression-Language](https://github.com/OpenRefine/OpenRefine/wiki/General-Refine-Expression-Language). This tutorial covers only a small subset of the commands available.
+Now edit the `From..` and `To..` settings to `1L` and `1R` respectively, and hit `Start` again. A few things stand out:
+
+* Some high frequency words have zero or very small frequencies on one or either side of "behind";
+* Some words have jumped up the list ("them" from 17 to 5, "just" from 65 to 17, "immediately" from 81 to 19);
+* There is one word in the top 15 words ("a") that has a negative stat value.
+
+This output tells us something about both language use and the subject of the cataloguing.
+
+* The absence of "the behind", "a behind", and "this behind" tells us that bums are not described as "behinds" ([George](https://doi.org/10.1093/ref:odnb/45657) tends to prefere "posterior").
+* The dominance of "behind are" over "are behind", suggests a preference for saying 'where' then 'what' in a sentence, rather than 'what' then 'where' then 'what' (that is, the relation between things doesn’t cross sentences). If we click on "are" we go - once again - to the `Condordance` tab to see examples of this: "Behind are constables with staves", "Behind are flames", "close behind are eight other judges", etc, are more common than over "The cobbler and his wife are behind a stall" or "His hands are behind him".	
+	* We are also reminded of the value of retaining capitalization (look at how common it is to see punctuation before "Behind".
+* We can also start to make inferences about the high `stat` values for words that have jumped up the list ("them", "just", "immediately"), though to do this properly we need to know more about what the `stat` value means.
+
+## Reading Stat values
+
+>## Task 1: Go to the `Collocates` tab for the string "behind" (`Words` ticked, `Case` unticked, `From..` and `To..` settings to `1L` and `1R` respectively) and observe the stat column. Note that the values around 0.5 and below (and even in negative!) are words like "a", "and", "left": words that we know are common in the corpus. Note also that the higher stat values are for those words that have jumped up the list since we moved from `5L/5R` to `1L/1R` ("them", "just", "immediately"). Given this information, work in pairs to discuss what might the stat value signify?
+>* The stat value signifies the unusually high or low occurrence of words near the target word, compared to the occurance of those words in the corpus as a whole. So, there are **fewer** occurrences of "a" `1L/1R` of "behind" than we would expect given the frequency of "a" in the corpus, and a **greater** number of occurances of "just" `1L/1R` of "behind" than we would expect given the frequency of "just" in the corpus
+>>* Note: by default, the `Stat` column records a '[Mutual Information](https://en.wikipedia.org/wiki/Mutual_information)' score, which is a measure of the probability that the collocate and key word occur near to each other, relative to how many times they each occur in total.)
+{: .challenge}
 
 ### Common transformations
 Some transformations are used regularly and are accessible directly through menu options, without having to type them directly.
