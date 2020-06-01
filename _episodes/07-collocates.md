@@ -74,12 +74,9 @@ The `Collocates` tab enables you to create a statistical overview of a corpus. T
 >
 >>## Solution
 >>
->1. Edit your `From..` and `To..` settings to `4L` and `4R` respectively, chose the `Sort by Stat` option, and set the `Min. Collocate Frequency` field to "25".
->2. Note that even at this frequency, some very specialised language is present: "biretta" (a type of hat worn by Roman Catholic clergy), "gorget" (an armoured throat piece), and "rouges" (presumably with "bonnet" to refer to a type of French revolutionary hat). This indicates that precision was important to the cataloguer.
->3. In terms of controlled vocabulary there is one prominent example: 123 occurances of "spectacles" in the output, compared with zero occurances of "glasses". 
->>* Note: this suggests a use case for corpus linguistics in the review of catalogue data, because tools like those in AntConc's `concordance` tab can indicate hisorically specific cataloguing choices that may have implications for contemporary user experience for catalogue data.
+>>1. Edit your `From..` and `To..` settings to `4L` and `4R` respectively, chose the `Sort by Stat` option, and set the `Min. Collocate Frequency` field to "25".
+>>2. Note that even at this frequency, some very specialised language is present: "biretta" (a type of hat worn by Roman Catholic clergy), "gorget" (an armoured throat piece), and "rouges" (presumably with "bonnet" to refer to a type of French revolutionary hat). This indicates that precision was important to the cataloguer.
+>>3. In terms of controlled vocabulary there is one prominent example: 123 occurances of "spectacles" in the output, compared with zero occurances of "glasses". 
+>>>* Note: this suggests a use case for corpus linguistics in the review of catalogue data, because tools like those in AntConc's `concordance` tab can indicate hisorically specific cataloguing choices that may have implications for contemporary user experience for catalogue data.
 >{: .solution}
 {: .challenge}
-
-
-Note: to solve this problem, start by going to the `Collocates` tab for the string "behind" (`Words` ticked, `Case` unticked, `From..` and `To..` settings to `1L` and `1R` respectively) and observe the stat column. Note that the values around 0.5 and below (and even in negative!) are words like "a", "and", "left": words that we know are common in the corpus. Note also that the higher stat values are for those words that have jumped up the list since we moved from `5L/5R` to `1L/1R` ("them", "just", "immediately").
