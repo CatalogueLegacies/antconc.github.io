@@ -31,7 +31,7 @@ Antconc then presents a returns a slightly confusing screen. It contains the fol
 
 ## Reading Collocates
 
-Browsing this we can start to make some observations, building on similar themes from episodes [five](https://cataloguelegacies.github.io/antconc.github.io/05-wordlists/index.html and [six](https://cataloguelegacies.github.io/antconc.github.io/06-search/index.html). We see many commons words ("the", "a", "is", "and"). We see that people ("him", "his", "her") and actions ("stands", "says", "says") are related to spatial term. And we see a long tail of vocabulary, 5509 of the 24292 unique words (or about 1 in 5) occur at least once in proximity to the word "behind'.
+Browsing this we can start to make some observations, building on similar themes from episodes [five](https://cataloguelegacies.github.io/antconc.github.io/05-wordlists/index.html) and [six](https://cataloguelegacies.github.io/antconc.github.io/06-search/index.html). We see many commons words ("the", "a", "is", "and"). We see that people ("him", "his", "her") and actions ("stands", "says", "says") are related to spatial term. And we see a long tail of vocabulary, 5509 of the 24292 unique words (or about 1 in 5) occur at least once in proximity to the word "behind'.
 
 Now edit the `From..` and `To..` settings to `1L` and `1R` respectively, and hit `Start` again. A few things stand out:
 
