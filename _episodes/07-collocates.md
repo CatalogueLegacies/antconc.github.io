@@ -9,7 +9,7 @@ questions:
 objectives:
 - "Learn how collocates work in AntConc"
 keypoints:
-- "Common transformations are available through the Menu option"
+- "The collocates of a word are those words that tend to occur in proximity to that word more than they occur in proximity to all other words in the corpus general"
 ---
 
 ## Introducing Transformations
