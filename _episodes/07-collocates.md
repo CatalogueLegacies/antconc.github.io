@@ -53,8 +53,8 @@ This output tells us something about both language use and the subject of the ca
 >
 >>## Solution
 >>
->* The stat value signifies the unusually high or low occurrence of words near the target word, compared to the occurance of those words in the corpus as a whole. So, there are **fewer** occurrences of "a" `1L/1R` of "behind" than we would expect given the frequency of "a" in the corpus, and a **greater** number of occurances of "just" `1L/1R` of "behind" than we would expect given the frequency of "just" in the corpus
->>* Note: by default, the `Stat` column records a '[Mutual Information](https://en.wikipedia.org/wiki/Mutual_information)' score, which is a measure of the probability that the collocate and key word occur near to each other, relative to how many times they each occur in total.)
+>>* The stat value signifies the unusually high or low occurrence of words near the target word, compared to the occurance of those words in the corpus as a whole. So, there are **fewer** occurrences of "a" `1L/1R` of "behind" than we would expect given the frequency of "a" in the corpus, and a **greater** number of occurances of "just" `1L/1R` of "behind" than we would expect given the frequency of "just" in the corpus
+>>>* Note: by default, the `Stat` column records a '[Mutual Information](https://en.wikipedia.org/wiki/Mutual_information)' score, which is a measure of the probability that the collocate and key word occur near to each other, relative to how many times they each occur in total.)
 >{: .solution}
 {: .challenge}
 
