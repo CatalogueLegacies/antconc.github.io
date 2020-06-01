@@ -58,34 +58,9 @@ This output tells us something about both language use and the subject of the ca
 >{: .solution}
 {: .challenge}
 
-### Common transformations
-Some transformations are used regularly and are accessible directly through menu options, without having to type them directly.
+Now we have a better sense of what `Stat` is doing, change `Sort by` to `Sort by Stat` and hit `Start`. All the top 50 ranked works are now those that occur only once `1L/1R` of "behind", and that - as a result - have high stat scores. This isn’t very useful. To work more effectively with `Sort by Stat`, change the `Min. Collocate Frequency` field to "10" and hit `Start`. We now have sensible results - "immediately", "them", and "just" pop to the top, and we by browsing the list we can continue to make inferences about both the language used in cataloguing and the subject of that cataloguing:
 
-Examples of some of these common transformations are given in the table below, with their 'GREL' equivalents. We'll see how to use the GREL version later in this lesson.
-
-Common Transformation  | Action | GREL expression
---------------------| ------------- | -------------
-To Uppercase| Converts the current value to uppercase | ```value.toUppercase()```
-To Lowercase| Converts the current value to lowercase | ```value.toLowercase()```
-To Titlecase| Converts the current value to titlecase (i.e. each word starts with an uppercase character and all other characters are converted to lowercase) | ```value.toTitlecase()```
-Trim leading and trailing whitespace | Removes any 'whitespace' characters (e.g. spaces, tabs) from the start or end of the current value | ```value.trim()```
-
-> ## Comparative analysis in AntConc
->
-> By working on multiple files, and by providing outputs that identify which result relates to which file, the `Concordance` tab gives us a way into comparative analysis of catalogue data, be that longitudinal (files seperated by the decades in which catalogue entries were made), by collection, or be catalouger. We discuss comparing corpora in more detail in a [later episode](https://cataloguelegacies.github.io/antconc.github.io/09-comparing/index.html).
-{: .callout}
-
->## Task 1: get to know the Kwic sort
->* Search the corpus until you find a word with somehow between 50 and 100 hits (you might want to play around with the `Words` and `Case` options to narrow or expand your search). Spending a few minutes changing the `Kwic Sort` to resort your output in various ways. Write down any queries you have about how the sort works and ask your instructor when the time is up.
-{: .challenge}
-
->## Task 2: Work out rough % of the word "he" used at the start of a sentence.
->* Note: to solve this problem, you may find it helpful to do more than one search.
->
->>## Solution
->>
->>1. Search "he" and "He" separately with `Words` and `Case` both ticked. You should get `4716` hits for "he" and `4456` hits for "He".
->>2. The answer is just under half.
->>>* If you scroll through the results, you'll see that this is an exact solution *for this corpus*. However, this is not a perfect query, as other corpora may contain typographic errors or uncommon uses of the word "he". This is an example when knowing your corpus can help you craft a good enough query, rather than have to expend time and energy creating the perfect query. Handily, the ouputs provided by AntConc are a great way of getting to know a corpus.
->{: .solution}
-{: .challenge}
+* Verbs in the present tense forms are prominent.
+* Relative spatial arrangements ("behind her", "stand behind", "close behind") are important features of the corpus.
+* There are suggestions that the cataloguing used a relatively controlled vocabulary and phrasing: for example, if we click on the word "pen" almost all of the forty-two occurances are for the phrase ‘a pen behind his ear’.
+* Proper names ("Canning", "Castlereagh", "Napoleon", "Wellington") are frequent, tend to occur in proximity to spatial words like "behind", and tend to appear before the word "behind", suggesting they they appear towards the front of the satirical prints described in the corpus.
