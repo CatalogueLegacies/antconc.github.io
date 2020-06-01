@@ -48,9 +48,14 @@ This output tells us something about both language use and the subject of the ca
 
 ## Reading Stat values
 
->## Task 1: Go to the `Collocates` tab for the string "behind" (`Words` ticked, `Case` unticked, `From..` and `To..` settings to `1L` and `1R` respectively) and observe the stat column. Note that the values around 0.5 and below (and even in negative!) are words like "a", "and", "left": words that we know are common in the corpus. Note also that the higher stat values are for those words that have jumped up the list since we moved from `5L/5R` to `1L/1R` ("them", "just", "immediately"). Given this information, work in pairs to discuss what might the stat value signify?
+>## Task 1: Work in pairs to discuss what might the stat value signify?
+>* Note: to solve this problem, start by going to the `Collocates` tab for the string "behind" (`Words` ticked, `Case` unticked, `From..` and `To..` settings to `1L` and `1R` respectively) and observe the stat column. Note that the values around 0.5 and below (and even in negative!) are words like "a", "and", "left": words that we know are common in the corpus. Note also that the higher stat values are for those words that have jumped up the list since we moved from `5L/5R` to `1L/1R` ("them", "just", "immediately"). Given this information, work in pairs to discuss what might the stat value signify?
+>
+>>## Solution
+>>
 >* The stat value signifies the unusually high or low occurrence of words near the target word, compared to the occurance of those words in the corpus as a whole. So, there are **fewer** occurrences of "a" `1L/1R` of "behind" than we would expect given the frequency of "a" in the corpus, and a **greater** number of occurances of "just" `1L/1R` of "behind" than we would expect given the frequency of "just" in the corpus
 >>* Note: by default, the `Stat` column records a '[Mutual Information](https://en.wikipedia.org/wiki/Mutual_information)' score, which is a measure of the probability that the collocate and key word occur near to each other, relative to how many times they each occur in total.)
+>{: .solution}
 {: .challenge}
 
 ### Common transformations
