@@ -31,7 +31,7 @@ Antconc then presents a returns a slightly confusing screen. It contains the fol
 
 ## Reading Collocates
 
-To support this type of activity OpenRefine supports 'Transformations' which are ways of manipulating data in columns. Transformations are normally written in a special language called 'GREL' (General Refine Expression Language). To some extent GREL expressions are similar to Excel Formula, although they tend to focus on text manipulations rather than numeric functions.
+Browsing this we can start to make some observations, building on similar themes from episodes [five](https://cataloguelegacies.github.io/antconc.github.io/05-wordlists/index.html and [six](https://cataloguelegacies.github.io/antconc.github.io/06-search/index.html). We see many commons words ("the", "a", "is", "and"). We see that people ("him", "his", "her") and actions ("stands", "says", "says") are related to spatial term. And we see a long tail of vocabulary, 5509 of the 24292 unique words (or about 1 in 5) occur at least once in proximity to the word "behind'.
 
 Full documentation for the GREL is available at [https://github.com/OpenRefine/OpenRefine/wiki/General-Refine-Expression-Language](https://github.com/OpenRefine/OpenRefine/wiki/General-Refine-Expression-Language). This tutorial covers only a small subset of the commands available.
 
