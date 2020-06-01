@@ -67,15 +67,15 @@ Now we have a better sense of what `Stat` is doing, change `Sort by` to `Sort by
 
 ## From collocation to curatorial voice 
 
-The `Collocates` tab enables you to create a statistical overview of a corpus. The following tasks suggest some of the ways this AntConc tool might be used to analyse 'voice' in a corpus of catalogue data.
+The `Collocates` tab enables you to create a statistical overview of a corpus. But small changes to the variables in the `Collocates` tab can significantly change the statistics that are produced. The tool then needs to be used with caution.
 
 >## Task 2: How regularised are the descriptions of clothing, accessories, and body adornments?
 >* Note: to solve this problem, start by searching to the `Collocates` tab for `wear|wears|wearing|wore` (with `Words` ticked, `Case` unticked). You may need to adjust the other settings to capture the ways that words for clothing (e.g. "hat") are used in proximity to the verb "to wear". 
 >
 >>## Solution
 >>
->>1. Edit your `From..` and `To..` settings to `4L` and `4R` respectively, chose the `Sort by Stat` option, and set the `Min. Collocate Frequency` field to "25".
->>2. Note that even at this frequency, some very specialised language is present: "biretta" (a type of hat worn by Roman Catholic clergy), "gorget" (an armoured throat piece), and "rouges" (presumably with "bonnet" to refer to a type of French revolutionary hat). This indicates that precision was important to the cataloguer.
+>>1. There is no one way of examining this problem. One approach is to edit your `From..` and `To..` settings to `4L` and `4R` respectively, chose the `Sort by Stat` option, and set the `Min. Collocate Frequency` field to "25".
+>>2. Hit `Start`. Note that even at this frequency, some very specialised language is present: "biretta" (a type of hat worn by Roman Catholic clergy), "gorget" (an armoured throat piece), and "rouges" (presumably with "bonnet" to refer to a type of French revolutionary hat). This indicates that precision was important to the cataloguer.
 >>3. In terms of controlled vocabulary there is one prominent example: 123 occurances of "spectacles" in the output, compared with zero occurances of "glasses". 
 >>>* Note: this suggests a use case for corpus linguistics in the review of catalogue data, because tools like those in AntConc's `concordance` tab can indicate hisorically specific cataloguing choices that may have implications for contemporary user experience for catalogue data.
 >{: .solution}
