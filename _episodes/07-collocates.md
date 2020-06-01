@@ -38,9 +38,22 @@ To Lowercase| Converts the current value to lowercase | ```value.toLowercase()``
 To Titlecase| Converts the current value to titlecase (i.e. each word starts with an uppercase character and all other characters are converted to lowercase) | ```value.toTitlecase()```
 Trim leading and trailing whitespace | Removes any 'whitespace' characters (e.g. spaces, tabs) from the start or end of the current value | ```value.trim()```
 
->## Correct Publisher data
->1. Create a text facet on the Publisher column
->2. Note that in the values there are two that look identical - why does this value appear twice?
->3. On the publisher column use the dropdown menu to select ```Edit cells->Common transforms->Trim leading and trailing whitespace```
->4. Look at the publisher facet now - has it changed? (if it hasn't changed try clicking the ```Refresh``` option to make sure it updates)
-{: .checklist}
+> ## Comparative analysis in AntConc
+>
+> By working on multiple files, and by providing outputs that identify which result relates to which file, the `Concordance` tab gives us a way into comparative analysis of catalogue data, be that longitudinal (files seperated by the decades in which catalogue entries were made), by collection, or be catalouger. We discuss comparing corpora in more detail in a [later episode](https://cataloguelegacies.github.io/antconc.github.io/09-comparing/index.html).
+{: .callout}
+
+>## Task 1: get to know the Kwic sort
+>* Search the corpus until you find a word with somehow between 50 and 100 hits (you might want to play around with the `Words` and `Case` options to narrow or expand your search). Spending a few minutes changing the `Kwic Sort` to resort your output in various ways. Write down any queries you have about how the sort works and ask your instructor when the time is up.
+{: .challenge}
+
+>## Task 2: Work out rough % of the word "he" used at the start of a sentence.
+>* Note: to solve this problem, you may find it helpful to do more than one search.
+>
+>>## Solution
+>>
+>>1. Search "he" and "He" separately with `Words` and `Case` both ticked. You should get `4716` hits for "he" and `4456` hits for "He".
+>>2. The answer is just under half.
+>>>* If you scroll through the results, you'll see that this is an exact solution *for this corpus*. However, this is not a perfect query, as other corpora may contain typographic errors or uncommon uses of the word "he". This is an example when knowing your corpus can help you craft a good enough query, rather than have to expend time and energy creating the perfect query. Handily, the ouputs provided by AntConc are a great way of getting to know a corpus.
+>{: .solution}
+{: .challenge}
