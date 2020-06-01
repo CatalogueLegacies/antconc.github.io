@@ -48,7 +48,7 @@ This output tells us something about both language use and the subject of the ca
 
 ## Reading Stat values
 
->## Task 1: Work in pairs to discuss what might the stat value signify?
+>## Task 1: What might the stat value signify?
 >* Note: to solve this problem, start by going to the `Collocates` tab for the string "behind" (`Words` ticked, `Case` unticked, `From..` and `To..` settings to `1L` and `1R` respectively) and observe the stat column. Note that the values around 0.5 and below (and even in negative!) are words like "a", "and", "left": words that we know are common in the corpus. Note also that the higher stat values are for those words that have jumped up the list since we moved from `5L/5R` to `1L/1R` ("them", "just", "immediately"). Given this information, work in pairs to discuss what might the stat value signify?
 >
 >>## Solution
