@@ -70,7 +70,7 @@ Now we have a better sense of what `Stat` is doing, change `Sort by` to `Sort by
 The `Collocates` tab enables you to create a statistical overview of a corpus. The following tasks suggest some of the ways this AntConc tool might be used to analyse 'voice' in a corpus of catalogue data.
 
 >## Task 2: How regularised are the descriptions of clothing, accessories, and body adornments?
->* Note: to solve this problem, start by searching to the `Collocates` tab for "wear|wears|wearing|wore" (`Words` ticked, `Case` unticked). You may need to adjust the other settings to capture the ways that words for clothing (e.g. "hat") are used in proximity to the verb "to wear". 
+>* Note: to solve this problem, start by searching to the `Collocates` tab for `wear|wears|wearing|wore` (with `Words` ticked, `Case` unticked). You may need to adjust the other settings to capture the ways that words for clothing (e.g. "hat") are used in proximity to the verb "to wear". 
 >
 >>## Solution
 >>
