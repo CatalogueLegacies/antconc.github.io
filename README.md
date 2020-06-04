@@ -1,6 +1,6 @@
 # Maintainers for Computational Analysis of Catalogue Data
 
-This repo is maintained by [drjwbaker] and [rossi-uk]. The training materials are work-in-progress, and developed as part of the [Arts and Humanities Research Council](https://gtr.ukri.org/projects?ref=AH%2FT013036%2F1) (UK) funded project [*Legacies of Catalogue Descriptions and Curatorial Voice: Opportunities for Digital Scholarship*](https://cataloguelegacies.github.io/)
+This repo is maintained by [drjwbaker](https://github.com/drjwbaker/) and [rossi-uk](https://github.com/rossi-uk). The training materials are work-in-progress, and developed as part of the [Arts and Humanities Research Council](https://gtr.ukri.org/projects?ref=AH%2FT013036%2F1) (UK) funded project [*Legacies of Catalogue Descriptions and Curatorial Voice: Opportunities for Digital Scholarship*](https://cataloguelegacies.github.io/)
 
 ## License
 
