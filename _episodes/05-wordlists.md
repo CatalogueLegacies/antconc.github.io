@@ -1,22 +1,22 @@
 ---
-title: "Wordlists"
+title: "Word lists"
 teaching: 10
 exercises: 10
 questions:
-- "What are wordlists in AntConc and when would you use it?"
-- "How do wordlists work in AntConc?"
-- "How might I interpret wordlists generated from catalogue data?"
+- "What are word lists in AntConc and when would you use it?"
+- "How do word lists work in AntConc?"
+- "How might I interpret word lists generated from catalogue data?"
 objectives:
-- "Explain what wordlists are in AntConc"
-- "Use wordlists to start identifying the lingustic character of a corpus"
+- "Explain what word lists are in AntConc"
+- "Use word lists to start identifying the lingustic character of a corpus"
 keypoints:
-- "Wordlists are a way of getting an overview of the lingustic features of a corpus"
-- "AntConc provides a number of options for presenting wordlists"
+- "Word lists are a way of getting an overview of the lingustic features of a corpus"
+- "AntConc provides a number of options for presenting word lists"
 - "When using AntConc to count things, we need to be mindful that machine readable strings and are not the same as human readable words"
 - "Outputs from AntConc queries can be saved locally as text files"
 ---
 
-## Wordlists
+## Word lists
 A word list counts how many times each word occurs in the selected text(s). Generally, in a word list we expect the most frequent words to be function words, e.g. for English-language texts, words like "the", "of", "and", "but", etc. However, for texts that are restricted by topic, genre and/or text type - which we would expect descriptive text in catalogue data to be - then the order of these words can vary and there will also be domain-specific vocabulary.
 
 Word lists then are a useful starting point for getting an overview of the lingustic features of a corpus. They are very effective where you have a corpus with minor variations in data values, e.g. names of people, organisations, places, classification terms.
@@ -37,7 +37,7 @@ You will note that AntConc has treated all text as lowercase. This should be cha
 {: .callout}
 
 ## Interacting with a word list
-There are a number of ways in which you can interact with your wordlist output:
+There are a number of ways in which you can interact with your word list output:
 
 First, turning to the `Freq` column you can select and highlight frequency values. If you click on an individual word, AntConc will move to the `Concordance` tab and plot a 'concordance' for that word: that is, a list that shows sentences that contain the word you clicked on. We will look at concordances in the next episode. For now, move back to the `Word List` tab and observe that your results haven't been lost.
 
