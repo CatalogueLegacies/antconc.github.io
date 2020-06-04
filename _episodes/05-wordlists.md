@@ -90,7 +90,7 @@ Having learnt about the `Word List` tab in AntConc, work in pairs or small group
 >{: .solution}
 {: .challenge}
 
->## Task 3: Find the word variants of the string "behind" and estimate their use relative to each other. Without looking at the concordances for these, discuss what hypotheses might explain this result.
+>## Task 3: Find the variants of the word "behind" and estimate their use relative to each other. Without looking at the concordances for these, discuss what hypotheses might explain this result.
 >* Use the `Word List` tab to count all word types and then use the output to make an estimate. Note: you may need to do some calculation outside of AntConc.
 >
 >>## Solution
