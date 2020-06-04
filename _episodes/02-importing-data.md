@@ -1,5 +1,5 @@
 ---
-title: "Importing data into AntConc (fixme)"
+title: "Importing data into AntConc"
 teaching: 10
 exercises: 5
 questions:
