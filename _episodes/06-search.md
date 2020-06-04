@@ -57,19 +57,21 @@ Search in AntConc also takes wildcases, both in the form of a limited set of nat
 
 Using the string "wear" as an example, wildcards behave as follows (with `Words` and `Case` ticked):
 
-- `wear*` returns "wear", "wears", "wearing", and "wear123" (as well as any five or more letter strings starting wear), but not "footwear".
-- `wear+` returns "wear" and "wears" (as well as any five letter strings starting wear), but not "wearing" , "wear123", or "footwear".
-- `wear?` returns "wears" (as well as any five letter strings starting wear), but not "wear", "wearing", "wear123", or "footwear".
-- `wear?*` returns "wears" (as well as any five or more letter strings starting wear), "wearing", "wear123", and "footwear", but not "wear".
-- `wear|wears|wearing` returns only "wear", "wears", and "wearing".
+- `wear*` could return "wear", "wears", "wearing", and "wear123" (as well as any five or more letter strings starting wear), but not "footwear".
+- `wear+` could return "wear" and "wears" (as well as any five letter strings starting wear), but not "wearing" , "wear123", or "footwear".
+- `wear?` could return "wears" (as well as any five letter strings starting wear), but not "wear", "wearing", "wear123", or "footwear".
+- `wear?*` could return "wears" (as well as any five or more letter strings starting wear), "wearing", "wear123", and "footwear", but not "wear".
+- `wear|wears|wearing` could return only "wear", "wears", and "wearing".
+	- Note: not all examples above are of words in the corpus.
 
 Note that by turning off the `Words` option, AntConc will return results that contain your search string *irrespective* of where in the word it appears. So, for example with `Words` unticked (and `Case` ticked) wildcards behave as follows:
 
-- `wear*` returns "wear", "wears", "wearing", "wear123" and "footwear" (as well as any strings containing "wear" followed by zero or more characters). Note: with `Words` unticked, this is the same as `wear`.
-- `wear+` returns "wear", "wears", "footwear", "wearing" , and "wear123" (as well as any strings containing "wear" followed by zero or one character). Note: with `Words` unticked, this is the same as `wear`.
-- `wear?` returns "wears", "wearing", and "wear123" (as well as any strings containing "wear" followed by one character), but not "wear" or "footwear".
-- `wear?*` returns "wears", "wearing", and "wear123" (as well as any strings containing "wear" followed by one character), but not "wear" or "footwear". Note: with `Words` unticked, this is the same as `wear?`.
-- `wear|wears|wearing` returns any strings containing "wear", "wears", or "wearing". Note: with `Words` unticked, this is the same as `wear`.
+- `wear*` could return "wear", "wears", "wearing", "wear123" and "footwear" (as well as any strings containing "wear" followed by zero or more characters). Note: with `Words` unticked, this is the same as `wear`.
+- `wear+` could return "wear", "wears", "footwear", "wearing" , and "wear123" (as well as any strings containing "wear" followed by zero or one character). Note: with `Words` unticked, this is the same as `wear`.
+- `wear?` could return "wears", "wearing", and "wear123" (as well as any strings containing "wear" followed by one character), but not "wear" or "footwear".
+- `wear?*` could return "wears", "wearing", and "wear123" (as well as any strings containing "wear" followed by one character), but not "wear" or "footwear". Note: with `Words` unticked, this is the same as `wear?`.
+- `wear|wears|wearing` returns any strings containing "wear", "wears", or "wearing". Note: with `Words` unticked, this is the same as searching `wear`.
+	- Note: not all examples above are of words in the corpus.
 
 ## Tasks
 
