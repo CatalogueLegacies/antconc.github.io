@@ -25,13 +25,14 @@ keypoints:
 > To import the data for the exercise below, follow the instructions in [Setup](https://cataloguelegacies.github.io/antconc.github.io/setup.html) to download the data and run AntConc.
 >
 >1. Once AntConc is launched, click `File` from the navbar and select `Open Files`
->2. Navigate to where you unzipped [BM-MDG.zip](https://github.com/CatalogueLegacies/antconc.github.io/blob/gh-pages/data/BM-MDG.zip), and whilst holding `ctrl` (`cmd` for Mac) click on each of the twelve .txt files. Note: holding `shift` and  hitting the `down arrow` also works here. 
+>2. Navigate to where you unzipped [BM-MDG.zip](https://github.com/CatalogueLegacies/antconc.github.io/blob/gh-pages/data/BM-MDG.zip), and whilst holding `ctrl` (`cmd` for Mac) click on each of the twelve .txt files (note: holding `shift` and  hitting the `down arrow` also works here). Alternatively, the `Open Dir` option in the `File` dropdown can be used to open a whole directory.
 >3. Click `Open`. The names of the twelve .txt files will now appear in the left-hand `Corpus Files` pane.
 >   
 >
 {: .checklist}
 
-### Going Further
-* Files can be added the AntConc 'corpus' at any time during analysis, just note that your results will change depending on the files listed under `Corpus Files`.
-* If at any time you want to remove a file from AntConc, highlight it in the `Corpus Files` pane, go to the navbar, click `File` and select `Close Selected File(s)`.
+Note that although this module asks you to upload twelve .txt files, they are in fact a single corpus of around 1.2 million words seperated into parts containing roughly 100,000 words each. AntConc peforms better with many smaller files than it does it one large file, so if you expect to be working with a large corpus, or notice AntConc running slowly (or even crashing!), consider dividing up your corpus to achieve performance benefits.
 
+### Going Further
+* Files can be added to the AntConc 'corpus' at any time during analysis, just note that your results will change depending on the files listed under `Corpus Files`.
+* If at any time you want to remove a file from AntConc, highlight it in the `Corpus Files` pane, go to the navbar, click `File` and select `Close Selected File(s)`.
