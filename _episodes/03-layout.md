@@ -9,11 +9,10 @@ objectives:
 - Locate controls for navigating data in AntConc
 - Find options to work with data through the AntConc tabs
 keypoints:
-- "OpenRefine uses rows and columns to display data"
 - "Most options for working with data in AntConc are accessed through a menu pane below the output window"
 ---
 
-## The layout of OpenRefine
+## The layout of AntConc
 The main window has a long pane on the left which displays in which the files that are to be analysed are listed (the 'Corpus Files').
 
 To the right of this, the main pane displays the tool that is currently being used and the outputs of that tool. When you first open AntConc the default tool shown is the `Concordance` tool and the output window is blank.
