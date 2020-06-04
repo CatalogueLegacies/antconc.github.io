@@ -37,6 +37,10 @@ Notices:
   rights such as publicity, privacy, or moral rights may limit how you
   use the material.
 
+## Data
+
+As [BM-MDG.zip](https://github.com/CatalogueLegacies/antconc.github.io/blob/gh-pages/data/BM-MDG.zip) is derived from a dataset [published by the British Museum](https://www.britishmuseum.org/about_this_site/terms_of_use/copyright_and_permissions.aspx), data and derived data are licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/) [license](https://github.com/CuratorialVoice/data/blob/master/README.md).
+
 ## Software
 
 Except where otherwise noted, the example programs and other software
