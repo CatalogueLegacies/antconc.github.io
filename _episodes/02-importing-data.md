@@ -9,8 +9,8 @@ objectives:
 keypoints:
 - "Use the `Open` option to import data"
 - "You can import individual files or a folder"
-- "Antconc works only with plain-text files with the file extension .txt"
-- "Antconc will not read common formats like .doc, .xls, or .pdf. You will need to convert these into .txt files to use AntConc."
+- "AntConc works only with plain-text files with the file extension .txt"
+- "AntConc will not read common formats like .doc, .xls, or .pdf. You will need to convert these into .txt files to use AntConc."
 ---
 
 ## Importing data
