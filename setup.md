@@ -9,7 +9,7 @@ You need to install AntConc and download a data file to follow this lesson.
 
 ### Installing and running AntConc
 
-You can download AntCocnc from [https://www.laurenceanthony.net/software/antconc/](https://www.laurenceanthony.net/software/antconc/). This lesson has been developed and tested with AntConc version 3.5.8.
+You can download AntConc from [https://www.laurenceanthony.net/software/antconc/](https://www.laurenceanthony.net/software/antconc/). This lesson has been developed and tested with AntConc version 3.5.8.
 
 If you are using an older version, it is recommended you upgrade to the latest tested version. 
 
