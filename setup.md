@@ -19,7 +19,11 @@ Please follow the installation instructions on the main [AntConc page](https://w
 
 ### Downloading the data
 
-You can download [FIXME DATASET], which is a .txt file that will open in a new browser tab. Be sure to right click or control click in order to save the file (NOTE: In Safari, right click and select **download linked file**; in Chrome and Firefox, right click and select **save link as...**). Make a note of the location (i.e. the folder, your desktop) to which you save the file.
+You can download [BM-MDG.zip](https://github.com/CatalogueLegacies/antconc.github.io/blob/gh-pages/data/BM-MDG.zip), which is a .zip file that contains a corpus seperated into twelve .txt files. Clicking on [BM-MDG.zip](https://github.com/CatalogueLegacies/antconc.github.io/blob/gh-pages/data/BM-MDG.zip) will open the file in a new browser tab. Be sure to right click or control click in order to save the file (NOTE: In Safari, right click and select **download linked file**; in Chrome and Firefox, right click and select **save link as...**). Unzip the contents and make a note of the location (i.e. the folder, your desktop) in which the twelve .txt files are saved.
+
+If you want to know more about the dataset, see Baker, James, & Salway, Andrew. (2019, June 13). Creation of the BMSatire Descriptions corpus (Version v1.0). Zenodo. [http://doi.org/10.5281/zenodo.3245037](http://doi.org/10.5281/zenodo.3245037).
+
+As [BM-MDG.zip](https://github.com/CatalogueLegacies/antconc.github.io/blob/gh-pages/data/BM-MDG.zip) is derived from a dataset [published by the British Museum](https://www.britishmuseum.org/about_this_site/terms_of_use/copyright_and_permissions.aspx), data and derived data are licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/) [license](https://github.com/CuratorialVoice/data/blob/master/README.md).
 
 ### Getting help
 
