@@ -31,7 +31,7 @@ Antconc then presents a returns a slightly confusing screen. It contains the fol
 
 ## Reading Collocates
 
-Browsing this we can start to make some observations, building on similar themes from episodes [five](https://cataloguelegacies.github.io/antconc.github.io/05-wordlists/index.html) and [six](https://cataloguelegacies.github.io/antconc.github.io/06-search/index.html). We see many commons words ("the", "a", "is", "and"). We see that people ("him", "his", "her") and actions ("stands", "says", "says") are related to spatial term. And we see a long tail of vocabulary, 5509 of the 24292 unique words (or about 1 in 5) occur at least once in proximity to the word "behind'.
+Browsing this we can start to make some observations, building on similar themes from episodes [five](https://cataloguelegacies.github.io/antconc.github.io/05-wordlists/index.html) and [six](https://cataloguelegacies.github.io/antconc.github.io/06-search/index.html). We see many commons words ("the", "a", "is", "and"). We see that people ("him", "his", "her") and actions ("stands", "says", "holds") are related to spatial term. And we see a long tail of vocabulary, 5509 of the 24292 unique words (or about 1 in 5) occur at least once in proximity to the word "behind'.
 
 Now edit the `From..` and `To..` settings to `1L` and `1R` respectively, and hit `Start` again. A few things stand out:
 
@@ -42,7 +42,7 @@ Now edit the `From..` and `To..` settings to `1L` and `1R` respectively, and hit
 This output tells us something about both language use and the subject of the cataloguing.
 
 * The absence of "the behind", "a behind", and "this behind" tells us that bums are not described as "behinds" ([George](https://doi.org/10.1093/ref:odnb/45657) tends to prefere "posterior").
-* The dominance of "behind are" over "are behind", suggests a preference for saying 'where' then 'what' in a sentence, rather than 'what' then 'where' then 'what' (that is, the relation between things doesn’t cross sentences). If we click on "are" we go - once again - to the `Condordance` tab to see examples of this: "Behind are constables with staves", "Behind are flames", "close behind are eight other judges", etc, are more common than over "The cobbler and his wife are behind a stall" or "His hands are behind him".	
+* The dominance of "behind are" over "are behind", suggests a preference for saying 'where' then 'what' in a sentence, rather than 'what' then 'where' then 'what' (that is, the relation between things doesn’t cross sentences). If we click on "are" we go - once again - to the `Condordance` tab to see examples of this: "Behind are constables with staves", "Behind are flames", "close behind are eight other judges", etc, are more common than "The cobbler and his wife are behind a stall" or "His hands are behind him".	
 	* We are also reminded of the value of retaining capitalization (look at how common it is to see punctuation before "Behind".
 * We can also start to make inferences about the high `stat` values for words that have jumped up the list ("them", "just", "immediately"), though to do this properly we need to know more about what the `stat` value means.
 
@@ -54,16 +54,16 @@ This output tells us something about both language use and the subject of the ca
 >>## Solution
 >>
 >>* The stat value signifies the unusually high or low occurrence of words near the target word, compared to the occurance of those words in the corpus as a whole. So, there are **fewer** occurrences of "a" `1L/1R` of "behind" than we would expect given the frequency of "a" in the corpus, and a **greater** number of occurances of "just" `1L/1R` of "behind" than we would expect given the frequency of "just" in the corpus
->>>* Note: by default, the `Stat` column records a '[Mutual Information](https://en.wikipedia.org/wiki/Mutual_information)' score, which is a measure of the probability that the collocate and key word occur near to each other, relative to how many times they each occur in total.)
+>>>* Note: by default, the `Stat` column records a '[Mutual Information](https://en.wikipedia.org/wiki/Mutual_information)' score, which is a measure of the probability that the collocate and key word occur near to each other, relative to how many times they each occur in total.
 >{: .solution}
 {: .challenge}
 
-Now we have a better sense of what `Stat` is doing, change `Sort by` to `Sort by Stat` and hit `Start`. All the top 50 ranked works are now those that occur only once `1L/1R` of "behind", and that - as a result - have high stat scores. This isn’t very useful. To work more effectively with `Sort by Stat`, change the `Min. Collocate Frequency` field to "10" and hit `Start`. We now have sensible results - "immediately", "them", and "just" pop to the top, and we by browsing the list we can continue to make inferences about both the language used in cataloguing and the subject of that cataloguing:
+Now we have a better sense of what `Stat` is doing, change `Sort by` to `Sort by Stat` and hit `Start`. All the top 50 ranked works are now those that occur only once `1L/1R` of "behind", and that - as a result - have high stat scores. This isn’t very useful. To work more effectively with `Sort by Stat`, change the `Min. Collocate Frequency` field to "10" and hit `Start`. We now have sensible results - "immediately", "them", and "just" pop to the top, and by browsing the list we can continue to make inferences about both the language used in cataloguing and the subject of that cataloguing:
 
 * Verbs in the present tense forms are prominent.
 * Relative spatial arrangements ("behind her", "stand behind", "close behind") are important features of the corpus.
 * There are suggestions that the cataloguing used a relatively controlled vocabulary and phrasing: for example, if we click on the word "pen" almost all of the forty-two occurances are for the phrase ‘a pen behind his ear’.
-* Proper names ("Canning", "Castlereagh", "Napoleon", "Wellington") are frequent, tend to occur in proximity to spatial words like "behind", and tend to appear before the word "behind", suggesting they they appear towards the front of the satirical prints described in the corpus.
+* Proper names ("Canning", "Castlereagh", "Napoleon", "Wellington") are frequent, tend to occur in proximity to spatial words like "behind", and tend to appear before the word "behind", suggesting they appear towards the front of the satirical prints described in the corpus.
 
 ## From collocation to curatorial voice 
 
