@@ -34,7 +34,7 @@ Note that `Letter` is ticked by default (otherwise AntConc would have nothing to
 >* To import your settings, click `File` in the navbar, then `Import Settings from File...`.  Now navigate to your saved `.ant` file and hit `Open`. Should you need them, we've [made available in our repo](https://github.com/CatalogueLegacies/antconc.github.io/tree/gh-pages/data) a `.ant` file with the settings needed for these training materials.
 {: .callout}
 
-## Tool Preferences
+## Tool Preferences
 
 The `Tool Preferences` screen is seperated into six categoreies, one for each AntConc tool.
 
