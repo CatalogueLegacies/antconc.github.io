@@ -15,9 +15,9 @@ keypoints:
 - "You can export and import settings"
 ---
 
-## Global Settings
-
 As discussed in the [previous episode](https://cataloguelegacies.github.io/antconc.github.io/03-layout/index.html), in AntConc setting can be reached via the navbar and are separated into `Global Settings` (which contains settings that apply to all tools, including font sizes and colours) and `Tool Preferences` (which contains tool specific settings). Note that in some versions of AntConc `Global Settings` and `Tool Preferences` appear together under the heading `Settings`.
+
+## Global Settings
 
 The `Global Settings` screeen has seven categories, all of which are described in the [AntConc help pages](https://www.laurenceanthony.net/software/antconc/). We will focus on two of these: `Character Encoding` and `Token Definition`.
 
