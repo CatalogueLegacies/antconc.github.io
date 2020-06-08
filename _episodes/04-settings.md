@@ -15,103 +15,21 @@ keypoints:
 - "You can export and import settings"
 ---
 
-## Facets
-Facets are one of the most useful features of OpenRefine and can help in both getting an overview of the data and to improve the consistency of the data.
+As discussed in the [previous episode](https://cataloguelegacies.github.io/antconc.github.io/03-layout/index.html), in AntConc setting can be reached via the navbar and are separated into `Global Settings` (which contains settings that apply to all tools, including font sizes and colours) and `Tool Preferences` (which contains tool specific settings). Note that in some versions of AntConc `Global Settings` and `Tool Preferences` appear together under the heading `Settings`.
 
-A 'Facet' groups all the values that appear in a column, and then allows you to filter the data by these values and edit values across many records at the same time.
+## Global Settings
 
-The simplest type of Facet is called a 'Text facet'. This simply groups all the text values in a column and lists each value with the number of records it appears in. The facet information always appears in the left hand panel in the OpenRefine interface.
+The `Global Settings` screeen has seven categories, all of which are described in the [AntConc help pages](https://www.laurenceanthony.net/software/antconc/). We will focus on two of these: `Character Encoding` and `Token Definition`.
 
-To create a Text Facet for a column, click on the drop down menu at the top of the publisher column and choose `Facet -> Text Facet`. The facet will then appear in the left hand panel.
+The `Character Encoding` category has one option: to edit how the text is encoded. By default, the encoding is set to `Unicode (UTF-8)`, which is the most common [character encoding](https://en.wikipedia.org/wiki/UTF-8) set for text that uses the latin or roman alphabet. We will leave this setting unchanged, but if we hit `Edit` we note that AntConc supports encodings for a range of character sets.
 
-The facet consists of a list of values used in the data. You can filter the data displayed by clicking on one of these headings.
+`Token Definition` contains a number of options that Antconc will use to define which tokens (letters, numbers, punctuation) should be treated as important. For example, if ampersands are regularly used in a corpus to represent the word `and`, we would need to make sure that AntConc treated the token "&" as an item of interst, rather than passed over it. Equally, for catalogue data where series of numbers are used to represent a feature of the collections, lingustic analysis of that data might benefit from being able to - say - conduct sorts that include those sequences.
 
-You can include multiple values from the facet in a filter at one time by using the `Include` option which appears when you put your mouse over a value in the Facet.
+Note that `Letter` is ticked by default (otherwise AntConc would have nothing to analyse!). For the purposed of these training materials, you should also tick `Number`, `Punctuation`, and `Symbol`. To save your settings, hit `Apply`.
 
-You can also `invert` the filter to show all records which do not match your selected values. This option appears at the top of the Facet panel when you select a value from the facet to apply as a filter.
-
->## Let's create a text facet
->1. Click on the drop down menu at the top of the publisher column and choose `Facet > Text Facet`. The facet will then appear in the left hand panel
->2. To select a single value, just click the relevant line in the facet
->3. To select multiple values click the `Include` option on the appropriate line in the facet (which only appears when you mouse over the line)
->3. You can 'invert' your selections to `exclude`
->4. Include a value and then look at top to invert inclusion.
-{: .checklist}
-
->## Which licences are used for articles in this file?
-> Use a `text facet` for the `licence` column and answer these questions:
+> ## Saving settings
 >
->1. What is the most common Licence in the file?
->2. How many articles in the file don't have a licence assigned?
->
->>## Solution
->>1. Create a facet for the 'Licence' column
->>2. Sort values by `count`
->>3. What is the most common Licence in the file? Answer: `CC BY`
->>4. How many articles in the file don't have a licence assigned? Answer: **6**
->{: .solution}
-{: .challenge}
-
-## Filters
-As well as using Facets to filter the data displayed in OpenRefine you can also apply 'Text Filters' which looks for a particular piece of text appearing in a column. Text filters are applied by clicking the drop down menu at the top of the column you want to apply the filter to and choosing 'Text filter'.
-
-As with Facets, the Filter options appear in the left hand panel in OpenRefine. Simply type in the text you want to use in the Filter to display only rows which contain that text in the relevant column.
-
-You can also use [regular expressions](https://librarycarpentry.github.io/lc-data-intro/01-regular-expressions/) in the filter.
-
-## Working with filtered data
-It is very important to note that when you have filtered the data displayed in OpenRefine, any operations you carry out will apply only to the rows that match the filter - that is the data currently being displayed. To confirm you are working with the data you intended to select, check the number of matching records displayed above the data table. 
-
-## Other types of Facet 
-As well as 'Text facets' Refine also supports a range of other types of facet. These include:
-
-* Numeric facets
-* Timeline facets (for dates)
-* Scatterplot facets
-* Custom facets
-
-
-**Numeric and Timeline facets** display graphs instead of lists of values. The graph includes 'drag and drop' controls you can use to set a start and end range to filter the data displayed.
-
-**Scatterplot facets** are less commonly used. For further information on these see the tutorial at [https://web.archive.org/web/20190105063215/http://enipedia.tudelft.nl/wiki/OpenRefine_Tutorial#Exploring_the_data_with_scatter_plots](https://web.archive.org/web/20190105063215/http://enipedia.tudelft.nl/wiki/OpenRefine_Tutorial#Exploring_the_data_with_scatter_plots).
-
-**Custom facets** are a range of different types of facets. Some of the default custom facets are:
-
-* Word facet - this breaks down text into words and counts the number of records each word appears in
-* Duplicates facet - this results in a binary facet of 'true' or 'false'. Rows appear in the 'true' facet if the value in the selected column is an exact match for a value in the same column in another row
-* Text length facet - creates a numeric facet based on the length (number of characters) of the text in each row for the selected column. This can be useful for spotting incorrect or unusual data in a field where specific lengths are expected (e.g. if the values are expected to be years, any row with a text length more than 4 for that column is likely to be incorrect)
-* Facet by blank - a binary facet of 'true' or 'false'. Rows appear in the 'true' facet if they have no data present in that column. This is useful when looking for rows missing key data.
-
-Facets are intended to group together common values and OpenRefine limits the number of values allowed in a single facet to ensure the software does not perform slowly or run out of memory. If you create a facet where there are many unique values (for example, a facet on a 'book title' column in a data set that has one row per book) the facet created will be very large and may either slow down the application, or OpenRefine will not create the facet.
-
->## Find all publications without a DOI
->* Use the `Facet by blank` function to find all publications in this data set without a DOI
->
->>## Solution
->>
->>1. On the `DOI` column drop down and select `Facets > Customized facets > Facet by blank`
->>2. `True` means that it is blank, so you can:
->>    * Select `include` on True in the facet to filter the list of publications to only those that don't have a DOI
->{: .solution}
-{: .challenge}
-
-## Amending data through facets
-If you create a text facet you can edit the values in the facet to change the value for several records at the same time. To do this, simply mouse-over the value you want to edit and click the 'edit' option that appears.
-
-This approach is useful in relatively small facets where you might have small variations through punctuation or typing errors etc. For example, a column that should contain only terms from a small restricted list such as days of the week or months of the year.
-
-The list of values in the facet will update as you make edits.
-
->## Correct the Language values via a facet
->
->* Create a `Text facet` on the `language` column and correct the variation in the `EN` and `English` values.
->
->>## Solution
->>1. Create a Text facet on the Language column
->>2. Notice that there is both `EN` and `English`
->>3. Put the mouse over the `English` value
->>4. Click `Edit`
->>5. Type `EN` and click `Apply`
->>6. See how the Language facet updates
->{: .solution}
-{: .challenge}
+> Each time you exit AntConc, the settings revert to the default. This means that we need to check these settings each time we launch AntConc. Thankfully, AntConc makes this easier (as well as supporting the production of reproducible results) by enabling you to export your settings to file and then import them each time you launch.
+> To export your settings, click `File` in the navbar, then `Export Settings to File...`. AntConc will then prompt you to save a file with the extension `.ant`. We recommend renaming this file to something sensible (a date, something about your project) and saving it with your corpus.
+> To import your settings, click `File` in the navbar, then `Import Settings from File...`.  Now navigate to your saved `.ant` file and hit `Open`. Should you need them, we've [made available in our repo](https://github.com/CatalogueLegacies/antconc.github.io/tree/gh-pages/data) a `.ant` file with the settings needed for these training materials.
+{: .callout}
