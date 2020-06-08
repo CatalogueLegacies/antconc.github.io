@@ -7,14 +7,12 @@ questions:
 - "What changes are recommended for analysing catalogue data?"
 - "How can I keep a track of the settings I am using in AntConc?"
 objectives:
-- "Explain what Facets and Filters are"
-- "Answer questions about the content of a data set using Facets"
-- "Use facets and filters to work with a subset of data"
-- "Correct data problems through a facet"
+- "Explain how the settings menu works in AntConc"
+- "Ensure global settings are correct for the subsequent modules"
 keypoints:
-- "You can use facets and filters to explore your data"
-- "You can use facets and filters work with a subset of data in OpenRefine"
-- "You can easily correct common data issues from a Facet"
+- "In AntConc settings can be changed for individual tools and globally"
+- "Settings can fundamentally change your use of a tool"
+- "You can export and import settings"
 ---
 
 ## Facets
