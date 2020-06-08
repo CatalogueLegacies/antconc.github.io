@@ -23,7 +23,7 @@ Each of these tools have a `Start` button that can be used to launch the tool an
 
 Away from the main pane, the navbar has four options:
 * `File` we have seen when [importing data into AntConc](https://cataloguelegacies.github.io/antconc.github.io/02-importing-data/index.html), but it also has options for removing files, clearing tools (that is, emptying the output window), saving outputs to file, and both importing and exporting AntConc settings (more on which in the [next episode](https://cataloguelegacies.github.io/antconc.github.io/04-settings/index.html)!).
+* `Help`, which includes a search box and links to helpful resources.
 * `Global Settings`, which contains settings that apply to all tools, including font sizes and colours.
 * `Tool Preferences`, which contains tool specific settings.
-* `Help`, which includes a search box and links to helpful resources.
 	* Note: in some versions of AntConc `Global Settings` and `Tool Preferences` appear together under the heading `Settings`.
