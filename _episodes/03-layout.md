@@ -7,7 +7,7 @@ questions:
 - "How do I access different tools in AntConc?"
 objectives:
 - Locate controls for navigating data in AntConc
-- Find options to work with data through the AntConc tabs
+- Find options for working with data
 keypoints:
 - "Most options for working with data in AntConc are accessed through a menu pane below the output window"
 ---
