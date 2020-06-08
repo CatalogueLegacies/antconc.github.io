@@ -30,8 +30,8 @@ Note that `Letter` is ticked by default (otherwise AntConc would have nothing to
 > ## Saving settings
 >
 > Each time you exit AntConc, the settings revert to the default. This means that we need to check these settings each time we launch AntConc. Thankfully, AntConc makes this easier (as well as supporting the production of reproducible results) by enabling you to export your settings to file and then import them each time you launch.
-> To export your settings, click `File` in the navbar, then `Export Settings to File...`. AntConc will then prompt you to save a file with the extension `.ant`. We recommend renaming this file to something sensible (a date, something about your project) and saving it with your corpus.
-> To import your settings, click `File` in the navbar, then `Import Settings from File...`.  Now navigate to your saved `.ant` file and hit `Open`. Should you need them, we've [made available in our repo](https://github.com/CatalogueLegacies/antconc.github.io/tree/gh-pages/data) a `.ant` file with the settings needed for these training materials.
+>* To export your settings, click `File` in the navbar, then `Export Settings to File...`. AntConc will then prompt you to save a file with the extension `.ant`. We recommend renaming this file to something sensible (a date, something about your project) and saving it with your corpus.
+>* To import your settings, click `File` in the navbar, then `Import Settings from File...`.  Now navigate to your saved `.ant` file and hit `Open`. Should you need them, we've [made available in our repo](https://github.com/CatalogueLegacies/antconc.github.io/tree/gh-pages/data) a `.ant` file with the settings needed for these training materials.
 {: .callout}
 
 ## Tool Preferences
