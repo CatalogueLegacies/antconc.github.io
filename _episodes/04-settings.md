@@ -1,7 +1,7 @@
 ---
-title: "Settings in AntConc (fixme)"
-teaching: 10
-exercises: 10
+title: "Settings in AntConc"
+teaching: 5
+exercises:
 questions:
 - "What are the default settings in AntConc?"
 - "What changes are recommended for analysing catalogue data?"
@@ -33,3 +33,17 @@ Note that `Letter` is ticked by default (otherwise AntConc would have nothing to
 > To export your settings, click `File` in the navbar, then `Export Settings to File...`. AntConc will then prompt you to save a file with the extension `.ant`. We recommend renaming this file to something sensible (a date, something about your project) and saving it with your corpus.
 > To import your settings, click `File` in the navbar, then `Import Settings from File...`.  Now navigate to your saved `.ant` file and hit `Open`. Should you need them, we've [made available in our repo](https://github.com/CatalogueLegacies/antconc.github.io/tree/gh-pages/data) a `.ant` file with the settings needed for these training materials.
 {: .callout}
+
+## Tool Preferences
+
+The `Tool Preferences` screen is seperated into six categoreies, one for each AntConc tool.
+
+Browsing through them you will note that some of options replicate those in the tool window: for example, you can change change the case sensitivity of the `Word List` tool both in the `Tool Preferences` screen and the in the `Word List` window. 
+
+Many of the options here in the `Tool Preferences` screen change the layout or appearance of the tool window, but some can fundamentally change the outputs you get from using a tool. A few examples include:
+
+- The `Collocates` preferences allow you to chose from four different statistical measures of collocation.
+- The `Word List` preferences allows you to upload a 'stoplist', which is a list of words - usually very frequent words - that you want AntConc to ignore.
+- The `Concordance Plot` screen allows you to change the length of concordances presented you when analysing the usage of a given word.
+
+For now, we will make no changes in the `Tool Preferences` screen.
