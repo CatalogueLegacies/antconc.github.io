@@ -100,6 +100,6 @@ Having learnt about the `Word List` tab in AntConc, work in pairs or small group
 >>3. In most cases, "Behind" would be used at the start of a sentence. With this capitalised form accounting for roughly half of the total uses of the word "behind", we can infer a series of possible hypotheses (with increasing uncertainty) about the corpus:
 >>>* The word "behind" is used often at the start of a sentence.
 >>>* Postitional/spatial words might frequently be used at the start of sentences.
->>>* The high frequency of capitalised variants of words like "behind" in the form of prepositions, could indicate the presence in the corpus of many short sentences (because frequent capitalisation is a rough proxy for short sentence length).
+>>>* The high frequency of capitalised variants of prepositions, like "behind", could indicate the presence in the corpus of many short sentences (because frequent capitalisation of prepositions may be an indicator of short sentence length).
 >{: .solution}
 {: .challenge}
