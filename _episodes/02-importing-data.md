@@ -16,7 +16,7 @@ keypoints:
 ## Importing data
 
 >## What kinds of data files can I import?
->Antconc works only with plain text files with the file extension .txt. Other types of plain text file (e.g. .csv, .tsv, .xml) can be imported into AntConc if their file extension is changed to .txt, though - depending on your use case - doing so may not enable you to use the dataset as intended.
+>AntConc works only with plain text files with the file extension .txt. Other types of plain text file (e.g. .csv, .tsv, .xml) can be imported into AntConc if their file extension is changed to .txt, though - depending on your use case - doing so may not enable you to use the dataset as intended.
 >More commonly, catalogue data will be processed so that particular fields can be analysed in AntConc. For information on how we processed the .txt files in [BM-MDG.zip](https://github.com/CatalogueLegacies/antconc.github.io/blob/gh-pages/data/BM-MDG.zip) for use in AntConc, see [*Creation of the BMSatire Descriptions corpus*](http://doi.org/10.5281/zenodo.3245037).
 {: .callout}
 
