@@ -1,9 +1,9 @@
 ---
 title: "Search"
-teaching: 10
-exercises: 10
+teaching: 15
+exercises: 15
 questions:
-- "How do search in AntConc?"
+- "How can I search in AntConc?"
 - "How can I use search to discover features of catalogue data?"
 objectives:
 - "Explain how to search"
@@ -17,7 +17,7 @@ keypoints:
 ## Searching in AntConc
 After generating lists that characterise a whole corpus, the other main way to interact with a dataset in AntConc is to use search to narrow your enquiry to a subset of a corpus.
 
-The `Concordance` tab is one many that responds to search. Navigate to the `Concordance` tab, put the string "wear" into the search box, and hit `Start`.
+The `Concordance` tab is one many tabs that responds to search. Navigate to the `Concordance` tab, put the string "wear" into the search box, and hit `Start`.
 
 After a little thought, AntConc populates the tab. We can observe that - by default - a search in the `Concordance` tab does a number of things:
 
@@ -41,7 +41,7 @@ If you untick `Words`, and rerun your search, you'll notice that AntConc returns
 
 Now we know how the `Words` option works, tick the `Case` option, change the search term to the string "Wear" and hit `Start`. Five results are returned. This is because we have made a case-sensitive search, and the only instances of the string "Wear" in the corpus are for the word 'Wearing' positioned at the start of a sentence (presumably, there are no people called "Wearing" named in the corpus!) 
 
-Finally for now, note the `Kwic Sort` section. `Kwic` means `Keywords in Context` and in AntConc this sort works on `levels`: first `Level 1`, then `Level 2`, then `Level 3`. The values to in the boxes refer to the position relative to the search term on which the sort takes places: so `1R` sorts by the first word to the right of the search term, `1L` by the first word to the left of the search term, `0` by the search term itself, and so on. Note that these `levels` correspond to not only to how the concordance is sorted, but also to the colouring on the words in the concordance.
+Finally for now, note the `Kwic Sort` section. `Kwic` means `Keywords in Context` and in AntConc this sort works on `levels`: first `Level 1`, then `Level 2`, then `Level 3`. The values to in the boxes refer to the position relative to the search term on which the sort takes places: so `1R` sorts by the first word to the right of the search term, `1L` by the first word to the left of the search term, `0` by the search term itself, and so on. Note that these `levels` correspond not only to how the concordance is sorted, but also to the colouring on the words in the concordance.
 
 >## Task 1: get to know the Kwic sort
 >* Search the corpus until you find a word with somehow between 50 and 100 hits (you might want to play around with the `Words` and `Case` options to narrow or expand your search). Spending a few minutes changing the `Kwic Sort` to resort your output in various ways. Write down any queries you have about how the sort works and ask your instructor when the time is up.
@@ -82,9 +82,9 @@ Having learnt using AntConc's `Concordance` tab to search a corpus, work in pair
 >
 >>## Solution
 >>
->>1. Search "he" and "He" separately with `Words` and `Case` both ticked. You should get `4716` hits for "he" and `4456` hits for "He".
+>>1. Search "he" and "He" separately with `Words` and `Case` both ticked. You should get `4670` hits for "he" and `5557` hits for "He".
 >>2. The answer is just under half.
->>>* If you scroll through the results, you'll see that this is an exact solution *for this corpus*. However, this is not a perfect query, as other corpora may contain typographic errors or uncommon uses of the word "he". This is an example when knowing your corpus can help you craft a good enough query, rather than have to expend time and energy creating the perfect query. Handily, the ouputs provided by AntConc are a great way of getting to know a corpus.
+>>>* If you scroll through the results, you'll see that this is an exact solution *for this corpus*. However, this is not a perfect query, as other corpora may contain typographic errors or uncommon uses of the word "he". This is an example when knowing your corpus can help you craft a good enough query, rather than have to expend time and energy creating the perfect query. Handily, the ouputs provided by this AntConc tool are a great way of getting to know a corpus.
 >{: .solution}
 {: .challenge}
 
@@ -95,19 +95,19 @@ Having learnt using AntConc's `Concordance` tab to search a corpus, work in pair
 >>
 >>1. Search for `said|say|says|saying` (with `Words` ticked and `Case` unticked), with the `Kwic sort` set to `Level 1` equals `0` and the other levels unticked. 
 >>2. The word "says" is the most common. We can infer this by scrolling through the sorted results, as "says" starts roughly half way down the list and continues to the end.
->>3. `8300` hits are returned, only around 70 of which are for the word "said", meaning that present tense forms are over one-hundred times more common.
->>4. In terms of what characterises the use of "said" in the corpus, browsing the concordance suggests two main uses: first, instances where the curator/cataloguer is speaking or interpretating ("he is said to be", "the print is said to be"), and second errors replacing transcribed speech with the placeholder `*TRANSCRIBED*`.
->>>* This is a good example of using the browsing features within AntConc to infer results. The exact answers could computed from outputs saved to file, but in many cases reading a sorted list does the same job.
+>>3. `1539` hits are returned, only around 70 of which are for the word "said", meaning that present tense forms are over twenty times more common.
+>>4. In terms of what characterises the use of "said" in the corpus, browsing the concordance suggests two main uses: first, instances where the curator/cataloguer is speaking or interpretating ("he is said to be", "the print is said to be"), and second, in speech transcribed from the print, which represents an error in processing the corpus given that transcribed speech should have been replaced with the placeholder `*TRANSCRIBED*`.
+>>>* This is a good example of using the browsing features within AntConc to infer results. The exact answers could be computed from outputs saved to file, but in many cases reading a sorted list does the same job.
 >{: .solution}
 {: .challenge}
 
->## Task 4: Examine the use of adverbs for the verb "stand".
+>## Task 4: Examine how adverbs are used to modify the verb "stand".
 >* Note: you can search for two-word strings and wildcards can be used more than once.
 >
 >>## Solution
 >>
->>1. Search for `stand*` `Words` ticked and `Case` unticked. You should get `7858` hits.
->>2. Next, search for `stand* *ly` (again with `Words` ticked and `Case` unticked), with the `Kwic sort` set to `Level 1` equals `1R` and the other levels unticked. You should get `277` hits, suggesting that modifiers are used infrequently for the word "stand".
+>>1. Search for `stand*` `Words` ticked and `Case` unticked. You should get `7824` hits.
+>>2. Next, search for `stand* *ly` (again with `Words` ticked and `Case` unticked), with the `Kwic sort` set to `Level 1` equals `1R` and the other levels unticked. You should get `197` hits, suggesting that modifiers are used infrequently for the word "stand".
 >>3. Browse through the output. Note that of the "-ly" words present, there is a small number of unique words, and that those that are more commons indicate readily identifiable states of being ("agressively" and "stiffly" are more common than "truculently" and "deprecatingly"). This potentially indicates that the cataloguer exercised relative control of their vocabulary (that is, there are few modifiers and of those a small number dominate), but this hypothesis would need to be tested against the wider corpus.
 >{: .solution}
 {: .challenge}
