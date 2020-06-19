@@ -1,7 +1,7 @@
 ---
 title: "Importing data into AntConc"
 teaching: 10
-exercises: 5
+exercises: 0
 questions:
 - "How do I get data into AntConc?"
 objectives:
