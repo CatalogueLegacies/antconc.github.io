@@ -12,7 +12,7 @@ objectives:
 keypoints:
 - "Word lists are a way of getting an overview of the lingustic features of a corpus"
 - "AntConc provides a number of options for presenting word lists"
-- "When using AntConc to count things, we need to be mindful that machine readable strings and are not the same as human readable words"
+- "When using AntConc to count things, we need to be mindful that machine readable strings are not the same as human readable words"
 - "Outputs from AntConc queries can be saved locally as text files"
 ---
 
@@ -39,7 +39,7 @@ You will note that AntConc has treated all text as lowercase. This should be cha
 ## Interacting with a word list
 There are a number of ways in which you can interact with your word list output:
 
-First, turning to the `Freq` column you can select and highlight frequency values. If you click on an individual word, AntConc will move to the `Concordance` tab and plot a 'concordance' for that word: that is, a list that shows sentences that contain the word you clicked on. We will look at concordances in the next episode. For now, move back to the `Word List` tab and observe that your results haven't been lost.
+First, turning to the `Freq` column you can select and highlight frequency values. If you click on an individual word, AntConc will move to the `Concordance` tab and plot a 'concordance' for that word: that is, a list that shows sentences that contain the word you clicked on. To test this choose a lower frequency word (ranked below 1000), click on it, and AntConc will move to the `Concordance` tab. We will look at concordances in the next episode. For now, move back to the `Word List` tab and observe that your results haven't been lost.
 
 Second, you can re-sort the output in the `Word List` tab using the options in the `Sort by` area. By default sorts in the `Word List` tab are set by rank, meaning that the most common word type is shown at the top, and the least common word type is shown at the bottom. For example, the sort can be inverted by ticking `Invert Order` and pressing `Start`. Note that you are now presented with a long tail of infrequently used word types.
 
@@ -67,8 +67,8 @@ Having learnt about the `Word List` tab in AntConc, work in pairs or small group
 >>## Solution
 >>
 >>1. Remove any text from the search box, select `Sort by Freq` and hit `Start`.
->>2. Observe the figure of `1214917` word tokens. Select the frequency values of the 30 most common word types, paste them into a spreadsheet programme, and sum them. You should get `508791`. Use these two figures to calculate a percentage: `(508791/1214917) x 100 = 41.87%`
->>>* It is common in English language corpora to find that roughly half the corpus is accounted for by a small number of frequent words. This observation goes a long way to explaining way corpus linguists often present and work with lists of ‘top’ words (not that word lists are the only tool in the corpus linguists armoury, as we shall see!
+>>2. Observe the figure of `1236723` word tokens. Select the frequency values of the 30 most common word types, paste them into a spreadsheet programme, and sum them. You should get `522433`. Use these two figures to calculate a percentage: `(522433/1236723) x 100 = 42.24%`
+>>>* It is common in English language corpora to find that roughly half the corpus is accounted for by a small number of frequent words. This observation goes a long way to explaining way corpus linguists often present and work with lists of ‘top’ words (not that word lists are the only tool in the corpus linguists armoury, as we shall see!)
 >{: .solution}
 {: .challenge}
 
@@ -80,10 +80,10 @@ Having learnt about the `Word List` tab in AntConc, work in pairs or small group
 >>1. Remove any text from the search box, select `Sort by Word` and hit `Start`.
 >>2. Browse to the string "enter". There are five word varients of "enter" with frequencies as follows:
 >>>* Enter: 1
->>>* enter: 54
->>>* entered: 25
->>>* entering : 18
->>>* enters:  110 
+>>>* enter: 54 (sum of "enter", "enter," and "enter.")
+>>>* entered: 25 (sum of "entered," and "entered")
+>>>* entering : 18 (sum of "entering" and "entering.")
+>>>* enters:  110 (sum of "enters", "enters," and "enters."
 >>3. Note the lack of entries in the past tense form ("entered") and the active present participle form ("entering"). Instead the third-person present form dominates, used in speech to refer to individuals, such as in "She enters", "Samir enters", or "Gene enters".
 >>4. "Enter" can also be used in both the plural present form - "they enter" - and the future tense form - "He/She/It/You/We/They will/shall enter" - so we need to check which usage is most common in the corpus. To do this, click on the word form "enter" and look at the output in the `Concordance` tab. Note that the output shows a predominant use of the present tense form of "enter", such as in "who enter from the left", "are about to enter it", "tries to enter through a door".
 >>5. What we can conclude then is that the verb "enter" is used largely in the present tense. We can infer - pending further investigation - that the curatorial descriptions in the corpus describe what is in front of the curator rather than, for example, describe the life of the object or its principle characters.
