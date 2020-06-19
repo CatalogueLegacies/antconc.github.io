@@ -13,13 +13,13 @@ keypoints:
 ---
 
 ## The layout of AntConc
-The main window has a long pane on the left which displays in which the files that are to be analysed are listed (the 'Corpus Files').
+The main window has a long pane on the left which displays in which the files that are to be analysed are listed (the `Corpus Files`).
 
 To the right of this, the main pane displays the tool that is currently being used and the outputs of that tool. When you first open AntConc the default tool shown is the `Concordance` tool and the output window is blank.
 
 At the top of the main pane are a series of tabs, the leftmost of which reads `Concordance`, the tool that is currently shown. The six other tools are `Concordance Plot`, `File View`, `Clusters/N-grams`, `Collocates`, `Word List`, and `Keyword List`, and these are selected by clicking on tabs.
 
-Each of these tools have a `Start` button that can be used to launch the tool and/or a query, and a range of other options (some of which are specific to individual tools) that are used to refine that query. Note that once you start to using AntConc tools to run queries against a dataset, the output windows of tabs you have yet to use may begin to populate.
+Each of these tools have a `Start` button that can be used to launch the tool and/or a query, and a range of other options (some of which are specific to individual tools) that are used to refine that query. Note that once you start using AntConc tools to run queries against a dataset, the output windows of tabs you have yet to use may begin to populate.
 
 Away from the main pane, the navbar has four options:
 * `File` we have seen when [importing data into AntConc](https://cataloguelegacies.github.io/antconc.github.io/02-importing-data/index.html), but it also has options for removing files, clearing tools (that is, emptying the output window), saving outputs to file, and both importing and exporting AntConc settings (more on which in the [next episode](https://cataloguelegacies.github.io/antconc.github.io/04-settings/index.html)!).
