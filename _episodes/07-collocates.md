@@ -9,7 +9,7 @@ questions:
 objectives:
 - "Learn how collocates work in AntConc"
 keypoints:
-- "The collocates of a word are those words that tend to occur in proximity to that word more than they occur in proximity to all other words in the corpus general"
+- "The collocates of a word are those words that tend to occur in proximity to that word more than they occur in proximity to all other words in the corpus"
 ---
 
 ## Introducing Collocates
@@ -44,7 +44,7 @@ Now edit the `From..` and `To..` settings to `1L` and `1R` respectively, and hit
 This output tells us something about both language use and the subject of the cataloguing.
 
 * The absence of "the behind", "a behind", and "this behind" tells us that bums are not described as "behinds" ([George](https://doi.org/10.1093/ref:odnb/45657) tends to prefer "posterior").
-* The dominance of "behind are" over "are behind", suggests a preference for saying 'where' then 'what' in a sentence, rather than 'what' then 'where' then 'what' (that is, the relation between things doesn’t cross sentences). If we click on "are" we go - once again - to the `Condordance` tab to see examples of this: "Behind are constables with staves", "Behind are flames", "close behind are eight other judges", etc, are more common than "The cobbler and his wife are behind a stall" or "His hands are behind him".	
+* The dominance of "behind are" over "are behind", suggests a preference for saying 'where' then 'what' in a sentence, rather than 'what' then 'where' then 'what' (that is, the relation between things doesn’t cross sentences). If we click on "are" we go - once again - to the `Condordance` tab to see examples of this: "Behind are a number of men", "Behind are flames", "close behind are eight other judges", etc, are more common than "The cobbler and his wife are behind a stall" or "His hands are behind him".	
 	* We are also reminded of the value of retaining capitalization (look at how common it is to see punctuation before "Behind".
 * We can also start to make inferences about the high `stat` values for words that have jumped up the list ("them", "just", "immediately"), though to do this properly we need to know more about what the `stat` value means.
 
@@ -72,13 +72,13 @@ Now we have a better sense of what `Stat` is doing, change `Sort by` to `Sort by
 The `Collocates` tab enables you to create a statistical overview of a corpus. But small changes to the variables in the `Collocates` tab can significantly change the statistics that are produced. The tool then needs to be used with caution.
 
 >## Task 2: How regularised are the descriptions of clothing, accessories, and body adornments?
->* Note: to solve this problem, start by searching to the `Collocates` tab for `wear|wears|wearing|wore` (with `Words` ticked, `Case` unticked). You may need to adjust the other settings to capture the ways that words for clothing (e.g. "hat") are used in proximity to the verb "to wear". 
+>* Note: to solve this problem, start by searching in the `Collocates` tab for `wear|wears|wearing|wore` (with `Words` ticked, `Case` unticked). You may need to adjust the other settings to capture the ways that words for clothing (e.g. "hat") are used in proximity to the verb "to wear". 
 >
 >>## Solution
 >>
 >>1. There is no one way of examining this problem. One approach is to edit your `From..` and `To..` settings to `4L` and `4R` respectively, chose the `Sort by Stat` option, and set the `Min. Collocate Frequency` field to "25".
->>2. Hit `Start`. Note that even at this frequency, some very specialised language is present: "biretta" (a type of hat worn by Roman Catholic clergy), "gorget" (an armoured throat piece), and "rouges" (presumably with "bonnet" to refer to a type of French revolutionary hat). This indicates that precision was important to the cataloguer.
->>3. In terms of controlled vocabulary there is one prominent example: 123 occurances of "spectacles" in the output, compared with zero occurances of "glasses". 
->>>* Note: this suggests a use case for corpus linguistics in the review of catalogue data, because tools like those in AntConc's `concordance` tab can indicate hisorically specific cataloguing choices that may have implications for contemporary user experience for catalogue data.
+>>2. Hit `Start`. Note that even at this frequency, some very specialised language is present: "biretta" (a type of hat worn by Roman Catholic clergy), "bicorne" (a military hat associated with Napoleon), and "rouges" (presumably with "bonnet" to refer to a type of French revolutionary hat). This indicates that precision was important to the cataloguer.
+>>3. In terms of controlled vocabulary there is one prominent example: 100 occurances of "spectacles" in the output (48 "spectacles" and 52 "spectacles,"), compared with zero occurances of "glasses". 
+>>>* Note: this suggests a use case for corpus linguistics in the review of catalogue data, because tools like those in AntConc's `concordance` tab can indicate historically specific cataloguing choices that may have implications for contemporary user experience for catalogue data.
 >{: .solution}
 {: .challenge}
