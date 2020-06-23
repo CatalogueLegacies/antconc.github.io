@@ -19,7 +19,7 @@ keypoints:
 ## Word lists
 A word list counts how many times each word occurs in the selected text(s). Generally, in a word list we expect the most frequent words to be function words, e.g. for English-language texts, words like "the", "of", "and", "but", etc. However, for texts that are restricted by topic, genre and/or text type - which we would expect descriptive text in catalogue data to be - then the order of these words can vary and there will also be domain-specific vocabulary.
 
-Word lists then are a useful starting point for getting an overview of the lingustic features of a corpus. They are very effective where you have a corpus with minor variations in data values, e.g. names of people, organisations, places, classification terms.
+Word lists then are a useful starting point for getting an overview of the lingustic features of a corpus. For example, if you have a corpus that includes minor variations in data values - e.g. names of people, organisations, places, classification terms - creating a word list can be an effect way of spotting those variants.
 
 ## Making a word list
 To use the 'Word List' function in AntConc, click on the `Word List` tab and press `Start`.
@@ -29,7 +29,9 @@ Antconc then returns the following information:
 - The total number of unique words in the corpus, which is the vocabulary size of the corpus (`Word Types`).
 - A ranking of every unique word type by its frequency in the corpus.
 
-You will note that AntConc has treated all text as lowercase. This should be changed when examining curatorial voice, because knowing where words are used in relation to punctuation is a tell for features like sentence structure and length. In AntConc you need to change these settings for each tool individually. Change this now by going to `Tool Preferences`, choosing `Word List`, and unticking `Treat all data as lowercase`, and then pressing `Apply`. Back in the `Word List` tab hit `Start` again to see the difference.
+You will note that AntConc has treated all text as lowercase. Whilst this can be useful, it means that the word "cook" and the family name "Cook" are treated as the same `word type` in our count. Case sensitivity is also useful when examining curatorial voice, because knowing where words are used in relation to punctuation is a tell for features like sentence structure and length.
+
+In AntConc you need to change case sensitivity settings for each tool individually. Change this now by going to `Tool Preferences`, choosing `Word List`, and unticking `Treat all data as lowercase`, and then pressing `Apply`. Back in the `Word List` tab hit `Start` again to see the difference.
 
 > ## What is a word?
 >
