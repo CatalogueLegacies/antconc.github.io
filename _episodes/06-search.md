@@ -1,12 +1,12 @@
 ---
-title: "Search"
+title: "Searching concordances"
 teaching: 15
 exercises: 15
 questions:
 - "How can I search in AntConc?"
 - "How can I use search to discover features of catalogue data?"
 objectives:
-- "Explain how to search"
+- "Explain how to search a concordance"
 - "Explain how to read a concordance"
 keypoints:
 - "You can search a corpus in AntConc using free text and wildcards"
@@ -21,11 +21,11 @@ The `Concordance` tab is one many tabs that responds to search. Navigate to the 
 
 After a little thought, AntConc populates the tab. We can observe that - by default - a search in the `Concordance` tab does a number of things:
 
-- It returns a series of lines of text, known as 'condordances' (hence the name of the tab).
+- It returns a series of lines of text, known as 'condordances lines' (hence the name of the tab).
 - It prompts AntConc to tell us how many times the search term has matched in the corpus.
 - It looks for the search term as a word rather than as a string of characters (so our hit count is for *words* not *strings*).
 - It uses a case-insensitive search.
-- It assumes we care more about the word next *after* the search term rather than *before* it.
+- It assumes we care more about the word next *after* the search term rather than *before* it (though this can be changed, as we shall see shortly!)
 - It sorts the results alphabetically by the first character after the search term.
 - For each line, it returns information on the file name from which the search term orginates. That is, whilst we’ve separated our file into parts to ease import and processing, you should be able to see there is comparative potential here.
 
