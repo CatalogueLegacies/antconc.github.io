@@ -9,15 +9,15 @@ objectives:
 keypoints:
 - "Use the `Open` option to import data"
 - "You can import individual files or a folder"
-- "AntConc works only with plain text files with the file extension .txt"
+- "AntConc works only with plain text files, for example those with the file extension .txt"
 - "AntConc will not read common formats like .doc, .xls, or .pdf. You will need to convert these into .txt files to use AntConc."
 ---
 
 ## Importing data
 
 >## What kinds of data files can I import?
->AntConc works only with plain text files with the file extension .txt. Other types of plain text file (e.g. .csv, .tsv, .xml) can be imported into AntConc if their file extension is changed to .txt, though - depending on your use case - doing so may not enable you to use the dataset as intended.
->More commonly, catalogue data will be processed so that particular fields can be analysed in AntConc. For information on how we processed the .txt files in [BM-MDG.zip](https://github.com/CatalogueLegacies/antconc.github.io/blob/gh-pages/data/BM-MDG.zip) for use in AntConc, see [*Creation of the BMSatire Descriptions corpus*](http://doi.org/10.5281/zenodo.3245037).
+>AntConc works only with plain text files, such as those with the file extension .txt. Other types of plain text file (e.g. .csv, .tsv, .xml,.html) can be imported into AntConc, though - depending on your use case - doing so may not enable you to use the dataset as intended. AntConc will not read common formats like .doc, .xls, or .pdf. You will need to convert these into .txt files to use AntConc.
+>A common approach to catalogue data is to process it so that particular fields can be analysed in AntConc. For information on how we processed the .txt files in [BM-MDG.zip](https://github.com/CatalogueLegacies/antconc.github.io/blob/gh-pages/data/BM-MDG.zip) for use in AntConc, see [*Creation of the BMSatire Descriptions corpus*](http://doi.org/10.5281/zenodo.3245037).
 {: .callout}
 
 >## Create your first AntConc project (using provided data)
