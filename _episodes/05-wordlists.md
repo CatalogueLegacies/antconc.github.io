@@ -88,6 +88,7 @@ Having learnt about the `Word List` tab in AntConc, work in pairs or small group
 >>>* enters:  110 (sum of "enters", "enters," and "enters."
 >>3. Note the lack of entries in the past tense form ("entered") and the active present participle form ("entering"). Instead the third-person present form dominates, used in speech to refer to individuals, such as in "She enters", "Samir enters", or "Gene enters".
 >>4. "Enter" can also be used in both the plural present form - "they enter" - and the future tense form - "He/She/It/You/We/They will/shall enter" - so we need to check which usage is most common in the corpus. To do this, click on the word form "enter" and look at the output in the `Concordance` tab. Note that the output shows a predominant use of the present tense form of "enter", such as in "who enter from the left", "are about to enter it", "tries to enter through a door".
+>>* Concordances are explained in more detail in [a later episode](https://github.com/CatalogueLegacies/antconc.github.io/blob/gh-pages/_episodes/06-search.md).
 >>5. What we can conclude then is that the verb "enter" is used largely in the present tense. We can infer - pending further investigation - that the curatorial descriptions in the corpus describe what is in front of the curator rather than, for example, describe the life of the object or its principle characters.
 >{: .solution}
 {: .challenge}
