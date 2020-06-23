@@ -43,10 +43,10 @@ Now edit the `From..` and `To..` settings to `1L` and `1R` respectively, and hit
 
 This output tells us something about both language use and the subject of the cataloguing.
 
-* The absence of "the behind", "a behind", and "this behind" tells us that bums are not described as "behinds" ([George](https://doi.org/10.1093/ref:odnb/45657) tends to prefer "posterior").
+* The absence of "his behind", "your behind", and "my behind" tells us that bums are not described as "behinds" ([George](https://doi.org/10.1093/ref:odnb/45657) tends to prefer "posterior").
 * The dominance of "behind are" over "are behind", suggests a preference for saying 'where' then 'what' in a sentence, rather than 'what' then 'where' then 'what' (that is, the relation between things doesn’t cross sentences). If we click on "are" we go - once again - to the `Condordance` tab to see examples of this: "Behind are a number of men", "Behind are flames", "close behind are eight other judges", etc, are more common than "The cobbler and his wife are behind a stall" or "His hands are behind him".	
 	* We are also reminded of the value of retaining capitalization (look at how common it is to see punctuation before "Behind".
-* We can also start to make inferences about the high `stat` values for words that have jumped up the list ("them", "just", "immediately"), though to do this properly we need to know more about what the `stat` value means.
+* We can also start to make inferences about the high `stat` values for words that have jumped up the list ("them", "just", "immediately"), though to do this properly we need to know more about what the `stat` value means. As a rule, collocation statistics should be read with caution.
 
 ## Reading stat values
 
