@@ -57,7 +57,7 @@ To save the output from your `Word List` go to the `File` menu in the navbar and
 
 > ## Good practice when saving outputs
 >
-> All tabs in AntConc provide the option to save the output. This is vital for keeping a record of your findings. Note that the default output is a file called `antconc_results.txt`. As this contains no information about your corpus, your query, your settings, or what version AntConc you are using, you are encourged to note that information seperately.
+> All tabs in AntConc provide the option to save the output. This is vital for keeping a record of your findings. Note that the default output is a file called `antconc_results.txt`. As this contains no information about your corpus, your query, your settings, or what version AntConc you are using, you are encourged to note that information in the output file name each time you save an output. The sad truth is that if you use the default name regularly, you may be more likley to overwrite previous results!
 {: .callout}
 
 ## Tasks
