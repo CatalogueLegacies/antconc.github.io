@@ -19,7 +19,7 @@ keypoints:
 ## Word lists
 A word list counts how many times each word occurs in the selected text(s). Generally, in a word list we expect the most frequent words to be function words, e.g. for English-language texts, words like "the", "of", "and", "but", etc. However, for texts that are restricted by topic, genre and/or text type - which we would expect descriptive text in catalogue data to be - then the order of these words can vary and there will also be domain-specific vocabulary.
 
-Word lists then are a useful starting point for getting an overview of the lingustic features of a corpus. For example, if you have a corpus that includes minor variations in data values - e.g. names of people, organisations, places, classification terms - creating a word list can be an effect way of spotting those variants.
+Word lists then are a useful starting point for getting an overview of the lingustic features of a corpus. For example, if you have a corpus that includes minor variations in data values - e.g. names of people, organisations, places, classification terms - creating a word list can be an effective way of spotting those variants.
 
 ## Making a word list
 To use the 'Word List' function in AntConc, click on the `Word List` tab and press `Start`.
@@ -35,7 +35,7 @@ In AntConc you need to change case sensitivity settings for each tool individual
 
 > ## What is a word?
 >
-> Note here that depending on your dataset, an important setting is `Token Definition` under `Global Settings` (found in the top navbar). This defines what AntConc sees as a word, e.g. you need to specify that numbers, punctuation characters and symbols can be part of words in order for AntConc to see things like urls or other special characters that provide meaning (e.g. hashtags in tweets).
+> Note here that depending on your dataset, an important setting is `Token Definition` under `Global Settings` (found in the top navbar). As [we've seen](https://cataloguelegacies.github.io/antconc.github.io/04-settings/index.html), this defines what AntConc sees as a word, e.g. you need to specify that numbers, punctuation characters and symbols can be part of words in order for AntConc to see things like urls or other special characters that provide meaning (e.g. hashtags in tweets).
 {: .callout}
 
 ## Interacting with a word list
@@ -43,9 +43,9 @@ There are a number of ways in which you can interact with your word list output:
 
 First, turning to the `Freq` column you can select and highlight frequency values. If you click on an individual word, AntConc will move to the `Concordance` tab and plot a 'concordance' for that word: that is, a list that shows sentences that contain the word you clicked on. To test this choose a lower frequency word (ranked below 1000), click on it, and AntConc will move to the `Concordance` tab. We will look at concordances in the next episode. For now, move back to the `Word List` tab and observe that your results haven't been lost.
 
-Second, you can re-sort the output in the `Word List` tab using the options in the `Sort by` area. By default sorts in the `Word List` tab are set by rank, meaning that the most common word type is shown at the top, and the least common word type is shown at the bottom. For example, the sort can be inverted by ticking `Invert Order` and pressing `Start`. Note that you are now presented with a long tail of infrequently used word types.
+Second, you can re-sort the output in the `Word List` tab using the options in the `Sort by` area. By default sorts in the `Word List` tab are set by rank, meaning that the most common word type is shown at the top, and the least common word type is shown at the bottom. The sort can be inverted by ticking `Invert Order` and pressing `Start`. Note that you are now presented with a long tail of infrequently used word types.
 
-The sort can also be changed so that rather than sorting by the frequencty of words, the sort is made by the words themselves, listed in alphabetical order. To do this, untick `Invert Order`, select `Sort by Word` in the dropdown and hit `Start`. Browsing through an alphabetical sort can be a useful way of finding errors in the data (e.g. stray punctuation), spelling mistakes, variations in capitalisation, or - thinking of curatorical voice - different lemma forms of words.
+The sort can also be changed so that rather than sorting by the frequencty of words, the sort is made by the words themselves, listed in alphabetical order. To do this, untick `Invert Order`, select `Sort by Word` in the dropdown and hit `Start`. Browsing through an alphabetical sort can be a useful way of finding errors in the data (e.g. stray punctuation), spelling mistakes, variations in capitalisation, or - thinking of curatorial voice - different lemma forms of words.
 
 > ## Is AntConc thinking or has it crashed?
 >
