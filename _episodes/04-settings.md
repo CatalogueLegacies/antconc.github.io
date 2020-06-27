@@ -44,6 +44,6 @@ Many of the options here in the `Tool Preferences` screen change the layout or a
 
 - The `Collocates` preferences allow you to chose from four different statistical measures of collocation.
 - The `Word List` preferences allows you to upload a 'stoplist', which is a list of words - usually very frequent words - that you want AntConc to ignore.
-- The `Concordance Plot` screen allows you to change the length of concordances presented when analysing the usage of a given word.
+- The `Concordance Plot` screen allows you to change the length of concordance lines presented when analysing the usage of a given word.
 
 For now, we will make no changes in the `Tool Preferences` screen.
