@@ -9,7 +9,7 @@ objectives:
 - Locate controls for navigating data in AntConc
 - Find options for working with data
 keypoints:
-- "Most options for working with data in AntConc are accessed through a menu pane below the output window"
+- "Many options for working with data in AntConc are accessed through a menu pane below the output window"
 ---
 
 ## The layout of AntConc
