@@ -305,5 +305,27 @@
     "op": "core/column-removal",
     "description": "Remove column ScopeContent_stop",
     "columnName": "ScopeContent_stop"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column ScopeContent_fixed at index 12 based on column ScopeContent using expression grel:value.replace(\"Photography\", \"Photography. \")",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "regex",
+          "caseSensitive": false,
+          "query": "^Genre",
+          "name": "ScopeContent",
+          "type": "text",
+          "columnName": "ScopeContent"
+        }
+      ]
+    },
+    "newColumnName": "ScopeContent_fixed",
+    "columnInsertIndex": 12,
+    "baseColumnName": "ScopeContent",
+    "expression": "grel:value.replace(\"Photography\", \"Photography. \")",
+    "onError": "set-to-blank"
   }
 ]
