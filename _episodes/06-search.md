@@ -31,7 +31,7 @@ After a little thought, AntConc populates the tab. We can observe that - by defa
 
 > ## Comparative analysis in AntConc
 >
-> By working on multiple files, and by providing outputs that identify which result relates to which file, the `Concordance` tab gives us a way into comparative analysis of catalogue data, be that longitudinal (files seperated by the decades in which catalogue entries were made), by collection, or be catalouger. We discuss comparing corpora in more detail in a [later episode](https://cataloguelegacies.github.io/antconc.github.io/09-comparing/index.html).
+> By working on multiple files, and by providing outputs that identify which result relates to which file, the `Concordance` tab gives us a way into comparative analysis of catalogue data, be that longitudinal (files seperated by the decades in which catalogue entries were made), by collection, or be cataloguer. We discuss comparing corpora in more detail in a [later episode](https://cataloguelegacies.github.io/antconc.github.io/09-comparing/index.html).
 {: .callout}
 
 ## Adapting your search
