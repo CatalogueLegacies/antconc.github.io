@@ -17,7 +17,7 @@ keypoints:
 ## Searching in AntConc
 After generating lists that characterise a whole corpus, the other main way to interact with a dataset in AntConc is to use search to narrow your enquiry to a subset of a corpus.
 
-The `Concordance` tab is one many tabs that responds to search. Navigate to the `Concordance` tab, put the string "wear" into the search box, and hit `Start`.
+The `Concordance` tab is one of many tabs that responds to search. Navigate to the `Concordance` tab, put the string "wear" into the search box, and hit `Start`.
 
 After a little thought, AntConc populates the tab. We can observe that - by default - a search in the `Concordance` tab does a number of things:
 
