@@ -27,7 +27,7 @@ Click on the `Collocates` tab, enter the string "behind" in the search box, ensu
 
 AntConc then presents a slightly confusing screen. It contains the following information:
 
-* A ranking of words by frequency, specifically - using the default `Collocates` settings - those words five words either side of the word "behind". The proximity to the searched for word can be changed in the bottom right of the screen, more on which shortly.
+* A ranking of words by frequency, specifically - using the default `Collocates` settings - those five words either side of the word "behind". The proximity to the searched for word can be changed in the bottom right of the screen, more on which shortly.
 * The frequency of the word, broken down into two columns: one by frequency to the left of the word "behind", and one by frequency to the right of the word "behind".
 * A `Stat` (more on which shortly).
 
