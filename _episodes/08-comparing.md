@@ -1,5 +1,5 @@
 ---
-title: "Next Steps 2: comparing corpora (**not yet developed**)"
+title: "Next Steps 1: comparing corpora (**not yet developed**)"
 teaching: 5
 exercises: 0
 questions:
