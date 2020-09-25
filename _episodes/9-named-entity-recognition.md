@@ -1,5 +1,5 @@
 ---
-title: "Next Steps 3: Named Entity Recognition (**not yet developed**)"
+title: "Next Steps 2: Named Entity Recognition (**not yet developed**)"
 teaching: 5
 exercises: 15
 questions:
