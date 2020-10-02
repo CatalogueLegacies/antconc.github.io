@@ -1,5 +1,5 @@
 ---
-title: "Collocates"
+title: "BM-MDG.zip: Collocates"
 teaching: 10
 exercises: 10
 questions:
@@ -11,6 +11,8 @@ objectives:
 keypoints:
 - "The collocates of a word are those words that tend to occur in proximity to that word more than they occur in proximity to all other words in the corpus"
 ---
+
+*This is an archived version of the training module based on the [BM-MDG.zip](https://github.com/CatalogueLegacies/antconc.github.io/blob/gh-pages/data/BM-MDG.zip) dataset (a single corpus of around 1.2 million words seperated into parts containing roughly 100,000 words each). For information on how we processed the .txt files in [BM-MDG.zip](https://github.com/CatalogueLegacies/antconc.github.io/blob/gh-pages/data/BM-MDG.zip) for use in AntConc, see [*Creation of the BMSatire Descriptions corpus*](http://doi.org/10.5281/zenodo.3245037)*
 
 ## Introducing Collocates
 
