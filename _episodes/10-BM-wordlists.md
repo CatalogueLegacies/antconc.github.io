@@ -1,5 +1,5 @@
 ---
-title: "Word lists"
+title: "BM-MDG.zip: Word lists"
 teaching: 10
 exercises: 10
 questions:
@@ -15,6 +15,8 @@ keypoints:
 - "When using AntConc to count things, we need to be mindful that machine readable strings are not the same as human readable words"
 - "Outputs from AntConc queries can be saved locally as text files"
 ---
+
+*This is an archived version of the training module based on the [BM-MDG.zip](https://github.com/CatalogueLegacies/antconc.github.io/blob/gh-pages/data/BM-MDG.zip) dataset (a single corpus of around 1.2 million words seperated into parts containing roughly 100,000 words each). For information on how we processed the .txt files in [BM-MDG.zip](https://github.com/CatalogueLegacies/antconc.github.io/blob/gh-pages/data/BM-MDG.zip) for use in AntConc, see [*Creation of the BMSatire Descriptions corpus*](http://doi.org/10.5281/zenodo.3245037)*
 
 ## Word lists
 A word list counts how many times each word occurs in the selected text(s). Generally, in a word list we expect the most frequent words to be function words, e.g. for English-language texts, words like "the", "of", "and", "but", etc. However, for texts that are restricted by topic, genre and/or text type - which we would expect descriptive text in catalogue data to be - then the order of these words can vary and there will also be domain-specific vocabulary.
