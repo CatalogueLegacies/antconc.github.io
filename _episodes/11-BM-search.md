@@ -1,5 +1,5 @@
 ---
-title: "Searching concordances"
+title: "BM-MDG.zip: Searching concordances"
 teaching: 15
 exercises: 15
 questions:
@@ -13,6 +13,8 @@ keypoints:
 - "Carefully changing the search settings enables you to build better queries"
 - "In addition to generating precise data, AntConc can be used get to know a corpus and make rough suggestions as to its character"
 ---
+
+*This is an archived version of the training module based on the [BM-MDG.zip](https://github.com/CatalogueLegacies/antconc.github.io/blob/gh-pages/data/BM-MDG.zip) dataset (a single corpus of around 1.2 million words seperated into parts containing roughly 100,000 words each). For information on how we processed the .txt files in [BM-MDG.zip](https://github.com/CatalogueLegacies/antconc.github.io/blob/gh-pages/data/BM-MDG.zip) for use in AntConc, see [*Creation of the BMSatire Descriptions corpus*](http://doi.org/10.5281/zenodo.3245037)*
 
 ## Searching in AntConc
 After generating lists that characterise a whole corpus, the other main way to interact with a dataset in AntConc is to use search to narrow your enquiry to a subset of a corpus.
