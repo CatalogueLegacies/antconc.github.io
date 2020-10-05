@@ -82,8 +82,8 @@ Having learnt using AntConc's `Concordance` tab to search a corpus, work in pair
 >
 >>## Solution
 >>
->>1. Search "he" and "He" separately with `Words` and `Case` both ticked. You should get `4670` hits for "he" and `5557` hits for "He".
->>2. The answer is just under half.
+>>1. Search "he" and "He" separately with `Words` and `Case` both ticked. You should get `372` hits for "he" and `213` hits for "He".
+>>2. The answer is just over half.
 >>>* If you scroll through the results, you'll see that this is an exact solution *for this corpus*. However, this is not a perfect query, as other corpora may contain typographic errors or uncommon uses of the word "he". This is an example when knowing your corpus can help you craft a good enough query, rather than have to expend time and energy creating the perfect query. Handily, the ouputs provided by this AntConc tool are a great way of getting to know a corpus.
 >{: .solution}
 {: .challenge}
