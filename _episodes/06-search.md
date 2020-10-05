@@ -102,13 +102,13 @@ Having learnt using AntConc's `Concordance` tab to search a corpus, work in pair
 >{: .solution}
 {: .challenge}
 
->## Task 4: Examine how adverbs are used to modify the verb "stand".
+>## Task 4: Examine how adverbs are used to modify the verbs "look".
 >* Note: you can search for two-word strings and wildcards can be used more than once.
 >
 >>## Solution
 >>
->>1. Search for `stand*` `Words` ticked and `Case` unticked. You should get `7824` hits.
->>2. Next, search for `stand* *ly` (again with `Words` ticked and `Case` unticked), with the `Kwic sort` set to `Level 1` equals `1R` and the other levels unticked. You should get `197` hits, suggesting that modifiers are used infrequently for the word "stand".
->>3. Browse through the output. Note that of the "-ly" words present, there is a small number of unique words, and that those that are more commons indicate readily identifiable states of being ("agressively" and "stiffly" are more common than "truculently" and "deprecatingly"). This potentially indicates that the cataloguer exercised relative control of their vocabulary (that is, there are few modifiers and of those a small number dominate), but this hypothesis would need to be tested against the wider corpus.
+>>1. Search for `look*` `Words` ticked and `Case` unticked. You should get `5989` hits.
+>>2. Next, search for `look* *ly` (again with `Words` ticked and `Case` unticked), with the `Kwic sort` set to `Level 1` equals `1R` and the other levels unticked. You should get `41` hits, suggesting that modifiers are used very infrequently for the word "look".
+>>3. Browse through the output. Note that of the "-ly" words present, there are two common words ("directly", "obliquely") both of which can be clearly understood as descriptions of perspective. This indicates that the cataloguer(s) exercised relative control of their vocabulary (that is, there are few modifiers and of those a small number dominate), but this hypothesis would need to be tested against the wider corpus. One piece of supporting evidence is the small number of infrequent modifiers, most of which are found within third-party text (that is, text not written by the cataloguer or cataloguers). 
 >{: .solution}
 {: .challenge}
