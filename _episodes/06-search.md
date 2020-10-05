@@ -94,10 +94,11 @@ Having learnt using AntConc's `Concordance` tab to search a corpus, work in pair
 >>## Solution
 >>
 >>1. Search for `said|say|says|saying` (with `Words` ticked and `Case` unticked), with the `Kwic sort` set to `Level 1` equals `0` and the other levels unticked. 
->>2. The word "says" is the most common. We can infer this by scrolling through the sorted results, as "says" starts roughly half way down the list and continues to the end.
+>>2. The word "said" is the most common. We can infer this by scrolling through the sorted results, as "say" starts towards the end of the list.
 >>3. `1539` hits are returned, only around 70 of which are for the word "said", meaning that present tense forms are over twenty times more common.
->>4. In terms of what characterises the use of "said" in the corpus, browsing the concordance suggests two main uses: first, instances where the curator/cataloguer is speaking or interpretating ("he is said to be", "the print is said to be"), and second, in speech transcribed from the print, which represents an error in processing the corpus given that transcribed speech should have been replaced with the placeholder `*TRANSCRIBED*`.
+>>4. In terms of what characterises the use of "said" in the corpus, browsing the concordance suggests two main uses: first, instances where the curator/cataloguer is speaking or interpretating ("which is said to be", "the house said to have been"), and second, in third-party text brought into the description (line 45: "..'Oh,' said the Nono, 'I will send..").
 >>>* This is a good example of using the browsing features within AntConc to infer results. The exact answers could be computed from outputs saved to file, but in many cases reading a sorted list does the same job.
+>>>* Note how browsing rather than just counting helps us spot errors: here the names "Said" and "Say". 
 >{: .solution}
 {: .challenge}
 
