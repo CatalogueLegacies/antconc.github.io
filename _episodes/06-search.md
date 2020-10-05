@@ -22,7 +22,7 @@ The `Concordance` tab is one of many tabs that responds to search. Navigate to t
 After a little thought, AntConc populates the tab. We can observe that - by default - a search in the `Concordance` tab does a number of things:
 
 - It returns a series of lines of text, known as 'condordances lines' (hence the name of the tab).
-- It prompts AntConc to tell us how many times the search term has matched in the corpus.
+- It prompts AntConc to tell us how many times the search term has matched in the corpus (39 in this case)
 - It looks for the search term as a word rather than as a string of characters (so our hit count is for *words* not *strings*).
 - It uses a case-insensitive search.
 - It assumes we care more about the word next *after* the search term rather than *before* it (though this can be changed, as we shall see shortly!)
@@ -37,9 +37,9 @@ After a little thought, AntConc populates the tab. We can observe that - by defa
 ## Adapting your search
 The default search can be changed by use of the options available in the `Condordance` tab.
 
-If you untick `Words`, and rerun your search, you'll notice that AntConc returns more hits and that some of those results are for variants of the word "wear". This does not mean, however, that you've instructed AntConc to look for variants of the word "wear". Rather, you have searched for the four-character string `wear`, meaning that the results could include everything from real English words such as "wear", "wears", and "wearing" to strings that contain the character sequence `wear`, such as "footwear", "12345wear", or "jdeoakewearldsgldslg".
+If you untick `Words`, and rerun your search, you'll notice that AntConc returns many more hits (272 compared with 39 before) and that some of those results are for variants of the word "wear". This does not mean, however, that you've instructed AntConc to look for variants of the word "wear". Rather, you have searched for the four-character string `wear`, meaning that the results could include everything from real English words such as "wear", "wears", and "wearing" to strings that contain the character sequence `wear`, such as "footwear", "12345wear", or "jdeoakewearldsgldslg".
 
-Now we know how the `Words` option works, tick the `Case` option, change the search term to the string "Wear" and hit `Start`. Five results are returned. This is because we have made a case-sensitive search, and the only instances of the string "Wear" in the corpus are for the word 'Wearing' positioned at the start of a sentence (presumably, there are no people called "Wearing" named in the corpus!) 
+Now we know how the `Words` option works, tick the `Case` option, change the search term to the string "Wear" and hit `Start`. 271 results are returned (one fewer than before). This is because we have made a case-sensitive search, and the only instance of the string "Wear" in the corpus is for the word 'Wears' positioned at the start of a quotation (there are no people with the family name "Wearing" in this corpus!) 
 
 Finally for now, note the `Kwic Sort` section. `Kwic` means `Keywords in Context` and in AntConc this sort works on `levels`: first `Level 1`, then `Level 2`, then `Level 3`. The values to in the boxes refer to the position relative to the search term on which the sort takes places: so `1R` sorts by the first word to the right of the search term, `1L` by the first word to the left of the search term, `0` by the search term itself, and so on. Note that these `levels` correspond not only to how the concordance is sorted, but also to the colouring on the words in the concordance.
 
