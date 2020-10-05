@@ -44,7 +44,7 @@ Now we know how the `Words` option works, tick the `Case` option, change the sea
 Finally for now, note the `Kwic Sort` section. `Kwic` means `Keywords in Context` and in AntConc this sort works on `levels`: first `Level 1`, then `Level 2`, then `Level 3`. The values to in the boxes refer to the position relative to the search term on which the sort takes places: so `1R` sorts by the first word to the right of the search term, `1L` by the first word to the left of the search term, `0` by the search term itself, and so on. Note that these `levels` correspond not only to how the concordance is sorted, but also to the colouring on the words in the concordance.
 
 >## Task 1: get to know the Kwic sort
->* Search the corpus until you find a word with somewhere between 50 and 100 hits (you might want to play around with the `Words` and `Case` options to narrow or expand your search). Spending a few minutes changing the `Kwic Sort` to resort your output in various ways. Write down any queries you have about how the sort works and ask your instructor when the time is up.
+>* Search the corpus until you find a word with somewhere between 50 and 100 hits (you might want to play around with the `Words` and `Case` options to narrow or expand your search - if you get stuck, try "richly"). Spending a few minutes changing the `Kwic Sort` to resort your output in various ways. Write down any queries you have about how the sort works and ask your instructor when the time is up.
 {: .challenge}
 
 ## Wildcard search
