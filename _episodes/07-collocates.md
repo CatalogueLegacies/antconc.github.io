@@ -76,9 +76,9 @@ The `Collocates` tab enables you to create a statistical overview of a corpus. B
 >
 >>## Solution
 >>
->>1. There is no one way of examining this problem. One approach is to edit your `From..` and `To..` settings to `4L` and `4R` respectively, chose the `Sort by Stat` option, and set the `Min. Collocate Frequency` field to "25".
->>2. Hit `Start`. Note that even at this frequency, some very specialised language is present: "biretta" (a type of hat worn by Roman Catholic clergy), "bicorne" (a military hat associated with Napoleon), and "rouges" (presumably with "bonnet" to refer to a type of French revolutionary hat). This indicates that precision was important to the cataloguer.
->>3. In terms of controlled vocabulary there is one prominent example: 100 occurances of "spectacles" in the output (48 "spectacles" and 52 "spectacles,"), compared with zero occurances of "glasses". 
+>>1. There is no one way of examining this problem. One approach is to edit your `From..` and `To..` settings to `4L` and `4R` respectively, chose the `Sort by Stat` option, and set the `Min. Collocate Frequency` field to "5".
+>>2. Hit `Start`. Note that even at this low minimum collocate frequency, only generalised language is present: we see "hats", "robes", "turban" and "coat", but no regular use of modifiers or specialised language. This indicates that general terminology rather than sartorial precision was important to the cataloguer.
+>>3. In terms of modifiers, whilst of low frequency, they are evaluative and positional: to whom is an item of clothing "ceremonial", "traditional", or "elaborate"? 
 >>>* Note: this suggests a use case for corpus linguistics in the review of catalogue data, because tools like those in AntConc's `concordance` tab can indicate historically specific cataloguing choices that may have implications for contemporary user experience for catalogue data.
 >{: .solution}
 {: .challenge}
