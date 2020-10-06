@@ -38,15 +38,15 @@ Browsing this we can start to make some observations, building on similar themes
 Now edit the `From..` and `To..` settings to `1L` and `1R` respectively, and hit `Start` again. A few things stand out:
 
 * Some high frequency words have zero or very small frequencies on one or either side of "behind";
-* Some words have jumped up the list ("them" from 19 to 5, "just" from 51 to 25, "immediately" from 44 to 26);
-* There is one word in the top 15 words ("a") that has a stat value below 1, and "with" (rank 68) has a negative stat value.
+* Some words have jumped up the list ("him" from 14 to 3, "her" from 22 to 11, "hillside" from 57 to 14);
+* Commons words ("the", "and", "a", "is") have `Stat` values of two or lower.
 
 This output tells us something about both language use and the subject of the cataloguing.
 
-* The absence of "his behind", "your behind", and "my behind" tells us that bums are not described as "behinds" ([George](https://doi.org/10.1093/ref:odnb/45657) tends to prefer "posterior").
-* The dominance of "behind are" over "are behind", suggests a preference for saying 'where' then 'what' in a sentence, rather than 'what' then 'where' then 'what' (that is, the relation between things doesn’t cross sentences). If we click on "are" we go - once again - to the `Condordance` tab to see examples of this: "Behind are a number of men", "Behind are flames", "close behind are eight other judges", etc, are more common than "The cobbler and his wife are behind a stall" or "His hands are behind him".	
-	* We are also reminded of the value of retaining capitalization (look at how common it is to see punctuation before "Behind".
-* We can also start to make inferences about the high `stat` values for words that have jumped up the list ("them", "just", "immediately"), though to do this properly we need to know more about what the `stat` value means. As a rule, collocation statistics should be read with caution.
+* There are a lot of people (mostly men) and things (scroll down) described in relation to their relative depth.
+* The high frequency of 'standing behind' compared with 'Standing behind' suggests that the relation between things doesn’t cross sentences. If we click on "standing" we go - once again - to the `Condordance` tab to see examples of this. And whilst not the small number of examples (55) is not statistically significant, this gives us a way into the style of the cataloguer(s) and reminds us of the value of retaining capitalization.
+* At a more trivial level, the absence of "his behind", "your behind", and "my behind" tells us that posteriors are not described by the cataloguer.
+* We can also start to make inferences about the high `stat` values for words that have jumped up the list ("his", "her", "hillside"), as well as the use of proper names and locations, though to do this properly we need to know more about what the `stat` value means. As a rule, collocation statistics should be read with caution.
 
 ## Reading stat values
 
