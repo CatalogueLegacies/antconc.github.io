@@ -19,7 +19,7 @@ keypoints:
 ## Word lists
 A word list counts how many times each word occurs in the selected text(s). Generally, in a word list we expect the most frequent words to be function words, e.g. for English-language texts, words like "the", "of", "and", "but", etc. However, for texts that are restricted by topic, genre and/or text type - which we would expect descriptive text in catalogue data to be - then the order of these words can vary and there will also be domain-specific vocabulary.
 
-Word lists then are a useful starting point for getting an overview of the lingustic features of a corpus. For example, if you have a corpus that includes minor variations in data values - e.g. names of people, organisations, places, classification terms - creating a word list can be an effective way of spotting those variants.
+Word lists then are a useful starting point for getting an overview of the lingustic features of a corpus. For example, if you have a corpus that includes minor variations in data values - e.g. names of people, organisations, places, classification terms - creating a word list can be an effective way of spotting those variants. In the case of a large catalogue, it can also be useful for distinguishing between different types of catalogue entry, e.g. those written by people with different vocabulary choices, or those that contain text quoted from third-party sources. 
 
 ## Making a word list
 To use the 'Word List' function in AntConc, click on the `Word List` tab and press `Start`.
