@@ -17,7 +17,7 @@ keypoints:
 
 >## What kinds of data files can I import?
 >AntConc works only with plain text files, such as those with the file extension .txt. Other types of plain text file (e.g. .csv, .tsv, .xml,.html) can be imported into AntConc, though - depending on your use case - doing so may not enable you to use the dataset as intended. AntConc will not read common formats like .doc, .xls, or .pdf. You will need to convert these into .txt files to use AntConc.
->A common approach to catalogue data is to process it so that particular fields can be analysed in AntConc. Information on how we processed [IAMS_Photographs_1850-1950_selection3.txt](https://github.com/CatalogueLegacies/antconc.github.io/blob/gh-pages/data/IAMS_Photographs_1850-1950_selection3.txt) will be written up in due course.
+>A common approach to catalogue data is to process it so that particular fields can be analysed in AntConc. Brief documentation on how we processed [IAMS_Photographs_1850-1950_selection3.txt](https://github.com/CatalogueLegacies/antconc.github.io/blob/gh-pages/data/IAMS_Photographs_1850-1950_selection3.txt) is available as a [readme file](https://github.com/CatalogueLegacies/antconc.github.io/blob/gh-pages/data/IAMS_Photographs_1850-1950_selection3_readme.md).
 {: .callout}
 
 >## Create your first AntConc project (using provided data)
