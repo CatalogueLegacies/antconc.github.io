@@ -17,7 +17,7 @@ keypoints:
 
 >## What kinds of data files can I import?
 >AntConc works only with plain text files, such as those with the file extension .txt. Other types of plain text file (e.g. .csv, .tsv, .xml,.html) can be imported into AntConc, though - depending on your use case - doing so may not enable you to use the dataset as intended. AntConc will not read common formats like .doc, .xls, or .pdf. You will need to convert these into .txt files to use AntConc.
->A common approach to catalogue data is to process it so that particular fields can be analysed in AntConc. For information on how we processed the .txt files in [BM-MDG.zip](https://github.com/CatalogueLegacies/antconc.github.io/blob/gh-pages/data/BM-MDG.zip) for use in AntConc, see [*Creation of the BMSatire Descriptions corpus*](http://doi.org/10.5281/zenodo.3245037).
+>A common approach to catalogue data is to process it so that particular fields can be analysed in AntConc. Information on how we processed [IAMS_Photographs_1850-1950_selection3.txt](https://github.com/CatalogueLegacies/antconc.github.io/blob/gh-pages/data/IAMS_Photographs_1850-1950_selection3.txt) will be written up in due course.
 {: .callout}
 
 >## Create your first AntConc project (using provided data)
@@ -25,9 +25,10 @@ keypoints:
 > To import the data for the exercise below, follow the instructions in [Setup](https://cataloguelegacies.github.io/antconc.github.io/setup.html) to download the data and run AntConc.
 >
 >1. Once AntConc is launched, click `File` from the navbar and select `Open Files`
->2. Navigate to where you unzipped [BM-MDG.zip](https://github.com/CatalogueLegacies/antconc.github.io/blob/gh-pages/data/BM-MDG.zip), and whilst holding `ctrl` (`cmd` for Mac) click on each of the twelve .txt files (note: holding `shift` and  hitting the `down arrow` also works here). Alternatively, the `Open Dir` option in the `File` dropdown can be used to open a whole directory.
->3. Click `Open`. The names of the twelve .txt files will now appear in the left-hand `Corpus Files` pane.
->>* Note that although this module asks you to upload twelve .txt files, they are in fact a single corpus of around 1.2 million words seperated into parts containing roughly 100,000 words each. AntConc peforms better with many smaller files than it does with one large file, so if you expect to be working with a large corpus, or notice AntConc running slowly (or even crashing!), consider dividing up your corpus to achieve performance benefits.
+>2. Navigate to where you [IAMS_Photographs_1850-1950_selection3.txt](https://github.com/CatalogueLegacies/antconc.github.io/blob/gh-pages/data/IAMS_Photographs_1850-1950_selection3.txt) and select it.
+>>* Note that you can upload mutiple files to AntConc to analyse simultaneously. Do do this hold `ctrl` (`cmd` for Mac) and click on each of the files (note: holding `shift` and  hitting the `down arrow` also works here). Alternatively, the `Open Dir` option in the `File` dropdown can be used to open a whole directory.
+>3. Click `Open`. The names of the file will now appear in the left-hand `Corpus Files` pane.
+>>* Note that although this module asks you to upload a single file, for large corpora it is recommended that you split your corpus into multiple files. Our alternative episodes (starting with [BM-MDG.zip: Word lists](https://cataloguelegacies.github.io/antconc.github.io/10-BM-wordlists/index.html)) use a dataset of twelve .txt files, a single corpus of around 1.2 million words seperated into parts containing roughly 100,000 words each. AntConc peforms better with many smaller files than it does with one large file, so if you expect to be working with a large corpus, or notice AntConc running slowly (or even crashing!), consider dividing up your corpus to achieve performance benefits.
 >
 {: .checklist}
 
