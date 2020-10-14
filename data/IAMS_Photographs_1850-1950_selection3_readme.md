@@ -1,4 +1,4 @@
-# This file documents the decisions made the resulted in the creation of IAMS_Photographs_1850-1950_selection3.txt
+### This file documents the decisions made that resulted in the creation of IAMS_Photographs_1850-1950_selection3.txt
 
 1. The British Library prepared `IAMS_Photographs_1850_1950_NO_EAP_PUBLISHED.csv`, a file containing 157,910 records for photographs in [IAMS](http://searcharchives.bl.uk/) where the catalogue data was licenced [Creative Commons Zero](https://creativecommons.org/share-your-work/public-domain/cc0/).
 2. The 'ScopeContent' field (containing ~4m words) was selected for analysis as is contained free-text descriptions of the collection.
