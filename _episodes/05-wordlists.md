@@ -60,6 +60,8 @@ To save the output from your `Word List` go to the `File` menu in the navbar and
 > All tabs in AntConc provide the option to save the output. This is vital for keeping a record of your findings. Note that the default output is a file called `antconc_results.txt`. As this contains no information about your corpus, your query, your settings, or what version AntConc you are using, you are encourged to note that information in the output file name each time you save an output. The sad truth is that if you use the default name regularly, you may be more likely to overwrite previous results!
 {: .callout}
 
+Browsing through the downloaded output can be instructive. In this case, we see many places and names. And as we get below the 500 most common words, some vocabulary choices that might benefit from further investigation: 132 occurrences of the word 'poorish' (used it turns out to describe the condition of photographs), 72 occurences of 'Reconnaissances,' (almost certainly the name of a secondary source regularly cited in the entry), and 64 occurences of 'Hon'ble' (likely text transcribed from a caption).
+
 ## Tasks
 Having learnt about the `Word List` tab in AntConc, work in pairs or small groups on the following challenges.
 
