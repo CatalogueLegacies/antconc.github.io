@@ -71,8 +71,8 @@ Having learnt about the `Word List` tab in AntConc, work in pairs or small group
 >>## Solution
 >>
 >>1. Remove any text from the search box, select `Sort by Freq` and hit `Start`.
->>2. Observe the figure of `1236723` word tokens. Select the frequency values of the 30 most common word types, paste them into a spreadsheet programme, and sum them. You should get `522433`. Use these two figures to calculate a percentage: `(522433/1236723) x 100 = 42.24%`
->>>* It is common in English language corpora to find that roughly half the corpus is accounted for by a small number of frequent words. This observation goes a long way to explaining way corpus linguists often present and work with lists of ‘top’ words (not that word lists are the only tool in the corpus linguists armoury, as we shall see!)
+>>2. Observe the figure of `759930` word tokens. Select the frequency values of the 30 most common word types, paste them into a spreadsheet programme, and sum them. You should get `263874`. Use these two figures to calculate a percentage: `(263874/759930) x 100 = 34.72%`
+>>>* It is common in English language corpora to find that roughly half the corpus is accounted for by a small number of frequent words. This observation goes a long way to explaining why corpus linguists often present and work with lists of ‘top’ words (not that word lists are the only tool in the corpus linguists armoury, as we shall see!)
 >{: .solution}
 {: .challenge}
 
