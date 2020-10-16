@@ -104,10 +104,9 @@ Having learnt about the `Word List` tab in AntConc, work in pairs or small group
 >>## Solution
 >>
 >>1. Remove any text from the search box, select `Sort by Word` and hit `Start`.
->>2. Browse to the string "behind". There are two word variants in the corpus: "behind" and "Behind". Their use is roughly 50/50 (with slightly more uses of "behind").
->>3. In most cases, "Behind" would be used at the start of a sentence. With this capitalised form accounting for roughly half of the total uses of the word "behind", we can infer a series of possible hypotheses (with increasing uncertainty) about the corpus:
->>>* The word "behind" is used often at the start of a sentence.
->>>* Postitional/spatial words might frequently be used at the start of sentences.
->>>* The high frequency of capitalised variants of prepositions, like "behind", could indicate the presence in the corpus of many short sentences (because frequent capitalisation of prepositions may be an indicator of short sentence length).
+>>2. Browse to the string "behind". There are two word variants in the corpus: "behind" and "Behind". There are only 25 instances of "Behind" compared to 400 instances of "behind". From these numbers we can infer a series of possible hypotheses about the corpus:
+>>>* There are very few instances of "Behind" being used at the start of a sentence. The low frequency of capitalised variants of prepositions, like "behind", could indicate the lack in the corpus of many short sentences (because frequent capitalisation of prepositions may be an indicator of short sentence length).
+>>>* Out of 400 instances of non-capitalised "behind", 41% of the prepositions appear before some sort of punctuation, such as the end of a clause or a sentence.
+>>>* Positional/spatial words might frequently be used at the end of sentences.
 >{: .solution}
 {: .challenge}
