@@ -82,16 +82,19 @@ Having learnt about the `Word List` tab in AntConc, work in pairs or small group
 >>## Solution
 >>
 >>1. Remove any text from the search box, select `Sort by Word` and hit `Start`.
->>2. Browse to the string "enter". There are five word varients of "enter" with frequencies as follows:
->>>* Enter: 1
->>>* enter: 54 (sum of "enter", "enter," and "enter.")
->>>* entered: 25 (sum of "entered," and "entered")
->>>* entering : 18 (sum of "entering" and "entering.")
->>>* enters:  110 (sum of "enters", "enters," and "enters."
->>3. Note the lack of entries in the past tense form ("entered") and the active present participle form ("entering"). Instead the third-person present form dominates, used in speech to refer to individuals, such as in "She enters", "Samir enters", or "Gene enters".
->>4. "Enter" can also be used in both the plural present form - "they enter" - and the future tense form - "He/She/It/You/We/They will/shall enter" - so we need to check which usage is most common in the corpus. To do this, click on the word form "enter" and look at the output in the `Concordance` tab. Note that the output shows a predominant use of the present tense form of "enter", such as in "who enter from the left", "are about to enter it", "tries to enter through a door".
+>>2. Browse to the string "enter". There are six word varients of "enter" with frequencies as follows:
+>>>* enter: 15 (sum of "enter" and "enter.") 
+>>>* Entered: 1
+>>>* entered: 24 (sum of "entered" and "entered,")
+>>>* Entering: 1
+>>>* entering : 18 (sum of "entering", "entering," and "entering.")
+>>>* enters:  5
+>>3. An initial observation can be made that no one form of the verb "enter" dominates and the verb has several different meanings. 
+>>4. The present tense form ("enter") and active present participle form ("entering") are typically used in relation a visit/access to a site or to direct the gaze of a visitor/onlooker, such as in "The view shows that portion of the building immediately facing you as you enter the court", "View of road entering gorge". These forms appear in both curator/cataloguer descriptions and third-party text.
+>>5. The past tense form ("entered") is often used to refer to people joining an army unit or a profession - "entered the Bengal Civil Service" - but also as archivist/compilor terminology - "The plates entered here also include photographs".   
+>>6. To explore the singular and plural uses of the verb, click on "enter", "enters" or "entering" and look at the output in the `Concordance` tab.
 >>* Concordances are explained in more detail in [a later episode](https://github.com/CatalogueLegacies/antconc.github.io/blob/gh-pages/_episodes/06-search.md).
->>5. What we can conclude then is that the verb "enter" is used largely in the present tense. We can infer - pending further investigation - that the curatorial descriptions in the corpus describe what is in front of the curator rather than, for example, describe the life of the object or its principle characters.
+>>5. We can infer - pending further investigation - that the curatorial descriptions in the corpus describe a perspective/view upon someone entering or something being entered, and quote references to historical sources.
 >{: .solution}
 {: .challenge}
 
