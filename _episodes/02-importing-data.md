@@ -26,9 +26,9 @@ keypoints:
 >
 >1. Once AntConc is launched, click `File` from the navbar and select `Open Files`
 >2. Navigate to where you [IAMS_Photographs_1850-1950_selection3.txt](https://github.com/CatalogueLegacies/antconc.github.io/blob/gh-pages/data/IAMS_Photographs_1850-1950_selection3.txt) and select it.
->>* Note that you can upload mutiple files to AntConc to analyse simultaneously. Do do this hold `ctrl` (`cmd` for Mac) and click on each of the files (note: holding `shift` and  hitting the `down arrow` also works here). Alternatively, the `Open Dir` option in the `File` dropdown can be used to open a whole directory.
 >3. Click `Open`. The names of the file will now appear in the left-hand `Corpus Files` pane.
 >>* Note that although this module asks you to upload a single file, for large corpora it is recommended that you split your corpus into multiple files. Our alternative episodes (starting with [BM-MDG.zip: Word lists](https://cataloguelegacies.github.io/antconc.github.io/10-BM-wordlists/index.html)) use a dataset of twelve .txt files, a single corpus of around 1.2 million words seperated into parts containing roughly 100,000 words each. AntConc peforms better with many smaller files than it does with one large file, so if you expect to be working with a large corpus, or notice AntConc running slowly (or even crashing!), consider dividing up your corpus to achieve performance benefits.
+>>* As the alternative epsiodes from [BM-MDG.zip: Word lists](https://cataloguelegacies.github.io/antconc.github.io/10-BM-wordlists/index.html) show you can upload mutiple files to AntConc to analyse simultaneously. Do do this hold `ctrl` (`cmd` for Mac) and click on each of the files (note: holding `shift` and  hitting the `down arrow` also works here). Alternatively, the `Open Dir` option in the `File` dropdown can be used to open a whole directory.
 >
 {: .checklist}
 
