@@ -19,7 +19,7 @@ Please follow the installation instructions on the main [AntConc page](https://w
 
 ### Downloading the data
 
-You can download [BM-MDG.zip](https://github.com/CatalogueLegacies/antconc.github.io/blob/gh-pages/data/BM-MDG.zip), which is a .zip file that contains a corpus seperated into twelve .txt files. Clicking on [BM-MDG.zip](https://github.com/CatalogueLegacies/antconc.github.io/blob/gh-pages/data/BM-MDG.zip) will open the file in a new browser tab. Be sure to right click or control click in order to save the file (NOTE: In Safari, right click and select **download linked file**; in Chrome and Firefox, right click and select **save link as...**). Unzip the contents and make a note of the location (i.e. the folder, your desktop) in which the twelve .txt files are saved.
+You can download [IAMS_Photographs_1850-1950_selection3.txt](https://github.com/CatalogueLegacies/antconc.github.io/blob/gh-pages/data/IAMS_Photographs_1850-1950_selection3.txt), which is a .zip file that contains a corpus seperated into twelve .txt files. Clicking on [IAMS_Photographs_1850-1950_selection3.txt](https://github.com/CatalogueLegacies/antconc.github.io/blob/gh-pages/data/IAMS_Photographs_1850-1950_selection3.txt) will open the file in a new browser tab. Be sure to right click or control click in order to save the file (NOTE: In Safari, right click and select **download linked file**; in Chrome and Firefox, right click and select **save link as...**).
 
 If you want to know more about the dataset, see Baker, James, & Salway, Andrew. (2019, June 13). Creation of the BMSatire Descriptions corpus (Version v1.0). Zenodo. [http://doi.org/10.5281/zenodo.3245037](http://doi.org/10.5281/zenodo.3245037).
 
