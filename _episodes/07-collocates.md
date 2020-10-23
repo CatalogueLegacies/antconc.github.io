@@ -51,21 +51,21 @@ This output tells us something about both language use and the subject of the ca
 ## Reading stat values
 
 >## Task 1: Taking the word "towards" as an example, what might the stat value signify?
->* Note: to solve this problem, start by going to the `Collocates` tab for the string "behind" (`Words` ticked, `Case` unticked, `From..` and `To..` settings to `1L` and `1R` respectively) and observe the stat column. Note that the values around 2 and below (this can even go into the negative!) are words like "a", "View", "an"; words that we know are common in the corpus. Note also that the higher stat values are for those words we've not really seen before (in the `Word List` tab "river", "valley", and "mountains" are 98th, 336th, and 387th respectively).
+>* Note: to solve this problem, start by going to the `Collocates` tab for the string "towards" (`Words` ticked, `Case` unticked, `From..` and `To..` settings to `1L` and `1R` respectively) and observe the stat column. Note that the values around 2 and below (this can even go into the negative!) are words like "a", "View", "an"; words that we know are common in the corpus. Note also that the higher stat values are for those words we've not really seen before (in the `Word List` tab "river", "valley", and "mountains" are 98th, 336th, and 387th respectively).
 >
 >>## Solution
 >>
->>* The stat value signifies the unusually high or low occurrence of words near the target word, compared to the occurance of those words in the corpus as a whole. So, there are **fewer** occurrences of "a" `1L/1R` of "behind" than we would expect given the frequency of "a" in the corpus, and a **greater** number of occurances of "river" or "valley" `1L/1R` of "behind" than we would expect given the frequency of "them" and "just" in the corpus
+>>* The stat value signifies the unusually high or low occurrence of words near the target word, compared to the occurance of those words in the corpus as a whole. So, there are **fewer** occurrences of "a" `1L/1R` of "towards" than we would expect given the frequency of "a" in the corpus, and a **greater** number of occurances of "river" or "valley" `1L/1R` of "towards" than we would expect given the frequency of "them" and "just" in the corpus
 >>>* Note: by default, the `Stat` column records a '[Mutual Information](https://en.wikipedia.org/wiki/Mutual_information)' score, which is a measure of the probability that the collocate and key word occur near to each other, relative to how many times they each occur in total.
 >{: .solution}
 {: .challenge}
 
-Now we have a better sense of what `Stat` is doing, change `Sort by` to `Sort by Stat` and hit `Start`. Most of the top 150 or so ranked works are now those that occur only once or twice `1L/1R` of "behind", and that - as a result - have high stat scores. This isn’t very useful. To work more effectively with `Sort by Stat`, change the `Min. Collocate Frequency` field to "10" and hit `Start`. We now have sensible results - "mountains" (in various forms, including errors) and "valley" pop towards the top of the list, with "river" a little further down, and by browsing the list we can continue to make inferences about both the language used in cataloguing and the subject of that cataloguing:
+Now we have a better sense of what `Stat` is doing, change `Sort by` to `Sort by Stat` and hit `Start`. Most of the top 150 or so ranked works are now those that occur only once or twice `1L/1R` of "towards", and that - as a result - have high stat scores. This isn’t very useful. To work more effectively with `Sort by Stat`, change the `Min. Collocate Frequency` field to "10" and hit `Start`. We now have sensible results - "mountains" (in various forms, including errors) and "valley" pop towards the top of the list, with "river" a little further down, and by browsing the list we can continue to make inferences about both the language used in cataloguing and the subject of that cataloguing:
 
 * Where verbs appeaar, they are in present tense form.
 * Relative spatial arrangements of quite specialised topographical features are important features of the corpus.
 * There are suggestions that the cataloguing used a relatively controlled vocabulary and phrasing: for example, if we click on the word "street" and `Kwic Sort` by `1L` it is dominated by variants of the phrase ‘view looking along a/the street’.
-* Common locations ("Jhelum", "Maidan", "Bosphorus", "Wellington") appear to the left of "towards", sandwiching it with more specific locations in phrases like "across the Jhelu towards the Shah Hamadan Masjid" or "along the Bosphorus towards Seraglio Point".
+* Common locations ("Jhelum", "Maidan", "Bosphorus", "Wellington") appear to the left of "towards", sandwiching it with more specific locations in phrases like "across the Jhelum towards the Shah Hamadan Masjid" or "along the Bosphorus towards Seraglio Point".
 
 ## From collocation to curatorial voice 
 
