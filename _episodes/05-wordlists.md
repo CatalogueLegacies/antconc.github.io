@@ -72,7 +72,7 @@ Having learnt about the `Word List` tab in AntConc, work in pairs or small group
 >>
 >>1. Remove any text from the search box, select `Sort by Freq` and hit `Start`.
 >>2. Observe the figure of `759930` word tokens. Select the frequency values of the 30 most common word types, paste them into a spreadsheet programme, and sum them. You should get `263874`. Use these two figures to calculate a percentage: `(263874/759930) x 100 = 34.72%`
->>>* It is common in English language corpora to find that roughly half the corpus is accounted for by a small number of frequent words. This observation goes a long way to explaining why corpus linguists often present and work with lists of ‘top’ words (not that word lists are the only tool in the corpus linguists armoury, as we shall see!)
+>>>* It is common in English language corpora to find that roughly half the corpus is accounted for by a small number of frequent words. This observation goes a long way to explaining why corpus linguists often present and work with lists of ‘top’ words (not that word lists are the only tool in the corpus linguists armoury, as we shall see!). In this case, the slightly low percentage of all word tokens accounted for by the 30 most common word types may indicate a greater volume of frequently used words.
 >{: .solution}
 {: .challenge}
 
@@ -105,8 +105,8 @@ Having learnt about the `Word List` tab in AntConc, work in pairs or small group
 >>
 >>1. Remove any text from the search box, select `Sort by Word` and hit `Start`.
 >>2. Browse to the string "behind". There are two word variants in the corpus: "behind" and "Behind". There are only 25 instances of "Behind" compared to 400 instances of "behind". From these numbers we can infer a series of possible hypotheses about the corpus:
->>>* There are very few instances of "Behind" being used at the start of a sentence. The low frequency of capitalised variants of prepositions, like "behind", could indicate the lack in the corpus of many short sentences (because frequent capitalisation of prepositions may be an indicator of short sentence length).
->>>* Out of 400 instances of non-capitalised "behind", 41% of the prepositions appear before some sort of punctuation, such as the end of a clause or a sentence.
+>>>* There are very few instances of "Behind" being used at the start of a sentence. The low frequency of capitalised variants of prepositions, like "Behind", may be indicate something about sentence length (because frequent capitalisation of prepositions may be an indicator of short sentence length).
+>>>* Out of 400 instances of non-capitalised "behind", 41% of the prepositions appear before some sort of punctuation, such as the end of a clause or a sentence. "behind." seems particularly high, and clicking on it gives us an insight into the peculiar way "behind" is used to close a sentence. 
 >>>* Positional/spatial words might frequently be used at the end of sentences.
 >{: .solution}
 {: .challenge}
