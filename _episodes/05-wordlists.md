@@ -90,7 +90,7 @@ Having learnt about the `Word List` tab in AntConc, work in pairs or small group
 >>>* entering : 18 (sum of "entering", "entering," and "entering.")
 >>>* enters:  5
 >>3. An initial observation can be made that no one form of the verb "enter" dominates and the verb has several different meanings. 
->>4. The present tense form ("enter") and active present participle form ("entering") are typically used in relation a visit/access to a site or to direct the gaze of a visitor/onlooker, such as in "The view shows that portion of the building immediately facing you as you enter the court", "View of road entering gorge". These forms appear in both curator/cataloguer descriptions and third-party text.
+>>4. The present tense form ("enter") and active present participle form ("entering") are typically used in relation to a visit/access to a site or to direct the gaze of a visitor/onlooker, such as in "The view shows that portion of the building immediately facing you as you enter the court", "View of road entering gorge". These forms appear in both curator/cataloguer descriptions and third-party text.
 >>5. The past tense form ("entered") is often used to refer to people joining an army unit or a profession - "entered the Bengal Civil Service" - but also as archivist/compilor terminology - "The plates entered here also include photographs".   
 >>6. To explore the singular and plural uses of the verb, click on "enter", "enters" or "entering" and look at the output in the `Concordance` tab.
 >>* Concordances are explained in more detail in [a later episode](https://github.com/CatalogueLegacies/antconc.github.io/blob/gh-pages/_episodes/06-search.md).
