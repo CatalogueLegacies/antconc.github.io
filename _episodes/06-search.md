@@ -11,7 +11,7 @@ objectives:
 keypoints:
 - "You can search a corpus in AntConc using free text and wildcards"
 - "Carefully changing the search settings enables you to build better queries"
-- "In addition to generating precise data, AntConc can be used get to know a corpus and make rough suggestions as to its character"
+- "In addition to generating precise data, AntConc can be used to get to know a corpus and make rough suggestions as to its character"
 ---
 
 ## Searching in AntConc
