@@ -27,7 +27,7 @@ After a little thought, AntConc populates the tab. We can observe that - by defa
 - It uses a case-insensitive search.
 - It assumes we care more about the word next *after* the search term rather than *before* it (though this can be changed, as we shall see shortly!)
 - It sorts the results alphabetically by the first character after the search term.
-- For each line, it returns information on the file name from which the search term orginates. That is, if we’ve separated our file into parts to ease import and processing, we would see many file names. You should be able to see there is comparative potential here, if not take a look at our alternative episodes (starting with [BM-MDG.zip: Word lists](https://cataloguelegacies.github.io/antconc.github.io/10-BM-wordlists/index.html).
+- For each line, it returns information on the file name from which the search term orginates. That is, if we’ve separated our file into parts to ease import and processing, we would see many file names. You should be able to see there is comparative potential here, if not take a look at our alternative episodes (starting with [BM-MDG.zip: Word lists](https://cataloguelegacies.github.io/antconc.github.io/10-BM-wordlists/index.html)).
 
 > ## Comparative analysis in AntConc
 >
