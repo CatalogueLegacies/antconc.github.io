@@ -13,7 +13,7 @@ keypoints:
 ---
 
 ## The layout of AntConc
-The main window has a long pane on the left which displays in which the file or files that are to be analysed are listed (the `Corpus Files`).
+The main window has a long pane on the left in which the file or files that are to be analysed are listed (the `Corpus Files`).
 
 To the right of this, the main pane displays the tool that is currently being used and the outputs of that tool. When you first open AntConc the default tool shown is the `Concordance` tool and the output window is blank.
 
