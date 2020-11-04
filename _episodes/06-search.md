@@ -44,7 +44,11 @@ Now we know how the `Words` option works, tick the `Case` option, change the sea
 Finally for now, note the `Kwic Sort` section. `Kwic` means `Keywords in Context` and in AntConc this sort works on `levels`: first `Level 1`, then `Level 2`, then `Level 3`. The values in the boxes refer to the position relative to the search term on which the sort takes places: so `1R` sorts by the first word to the right of the search term, `1L` by the first word to the left of the search term, `0` by the search term itself, and so on. Note that these `levels` correspond not only to how the concordance is sorted, but also to the colouring on the words in the concordance.
 
 >## Task 1: get to know the Kwic sort
->* Search the corpus until you find a word with somewhere between 50 and 100 hits (you might want to play around with the `Words` and `Case` options to narrow or expand your search - if you get stuck, try "richly"). Spending a few minutes changing the `Kwic Sort` to resort your output in various ways. Write down any queries you have about how the sort works and ask your instructor when the time is up.
+>* Search the corpus until you find a word with somewhere between 50 and 100 hits. You might want to play around with the `Words` and `Case` options to narrow or expand your search; if you get stuck, try "richly" or - [building on Task 3 from the previous episode](https://cataloguelegacies.github.io/antconc.github.io/05-wordlists/index.html#tasks) - "behind." . Spending a few minutes changing the `Kwic Sort` to resort your output in various ways. Write down any queries you have about how the sort works and ask your instructor when the time is up.
+>>## Solution
+>>
+>>* "behind." (with `Regex` unticked and `Words` and `Case` both ticked) is an instructive example here, as if we set `Kwic sort` to `Level 1` equals `1L` we see a pattern emerge of how this spatial word is used at the end of sentences. Specifically, the frequency of the construction ",with .. behind." (e.g. "..buildings, with walls on the hillside behind", "..monastery, with mountains behind.", or "..figures, with three attendants standing behind."), builds on our initial findings from browsing the 'Word List' tab, the a particular use of 'behind' is evident in the corpus.
+>{: .solution}
 {: .challenge}
 
 ## Wildcard search
