@@ -22,3 +22,8 @@ Used creatively, AntConc can provide the basic toolset required to undertake a v
 
 ## Comparing Wordlists
 
+One way to use AntConc to compare catalogue data, is to generate wordlists for comparison. In [Episode 5](https://cataloguelegacies.github.io/antconc.github.io/05-wordlists/index.html#saving-your-output) you used the `Word List` tool to generate an wordlist from `IAMS_Photographs_1850-1950_selection3.txt` in .txt format.
+
+Create a comparator corpus by downloading the *BMSatire Descriptions Corpus*, a wordlist from it, and downloading that wordlist in .txt format. Go to [Episode 10](https://cataloguelegacies.github.io/antconc.github.io/10-BM-wordlists/index.html) and come back here when you are ready.
+
+Now you should have two wordlists. I have called them `IAMS_Photographs_1850-1950_selection3_wordlist.txt` and `BM-MDG_wordlist.txt` respectively, though you have given them different names ([don't forget the value](https://cataloguelegacies.github.io/antconc.github.io/05-wordlists/index.html#saving-your-output) of giving logical names to AntConc outputs!). Open them up in a text editor and arrange them side-by-side. The first thing you will see is that they are different. What we now need to do is observe those differences and start to infer what they might mean.
