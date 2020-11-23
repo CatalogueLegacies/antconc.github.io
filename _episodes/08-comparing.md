@@ -51,5 +51,14 @@ FIXME
 
 ## 3. Comparing Concordances
 
-In [Episode 6](https://cataloguelegacies.github.io/antconc.github.io/06-search/index.html#adapting-your-search) we used the `Concordance` tab to search for the string "behind." (with `Regex` unticked and `Words` and `Case` both ticked and `Kwic sort` set to `Level 1` equals `1L`). We said that it was an instructive example because we see a pattern emerge around how this spatial word is used at the end of sentences, specifically the frequency of the construction ",with .. behind." (e.g. "..buildings, with walls on the hillside behind", "..monastery, with mountains behind.", or "..figures, with three attendants standing behind.").
+In [Episode 6](https://cataloguelegacies.github.io/antconc.github.io/06-search/index.html#adapting-your-search) we used the `Concordance` tab to search for the string "behind." (with `Regex` unticked and `Words` and `Case` both ticked and `Kwic sort`). We said that it was an instructive example because we see a pattern emerge around how this spatial word is used at the end of sentences, specifically the frequency of the construction ",with .. behind." (e.g. "..buildings, with walls on the hillside behind", "..monastery, with mountains behind.", or "..figures, with three attendants standing behind.").
 
+AntConc can also be used to compare concordances. There are two main ways of doing this. The first involves exporting the results from the `Concordance` tab for multiple corpora seperately analysed in AntConc (`File` then `Save Output...`) and reading across them. The second involves importing multiple corpora into AntConc simultanously, and then making a search.
+
+To do this, with `IAMS_Photographs_1850-1950_selection3.txt` already imported into AntConc, import the `BM Satire Corpus` into AntConc (see [Episode 2](https://cataloguelegacies.github.io/antconc.github.io/02-importing-data/index.html#importing-data) for details).
+
+With both corpora listed under `Corpus Files`, search the `Concordance` tab for the string "behind." (with `Regex` unticked and `Words` and `Case` both ticked and `Kwic sort` set to `Level 1` equals `2L`).
+
+188 results are returned (116 more than with `IAMS_Photographs_1850-1950_selection3.txt` alone). Note that the `File` column of the output window lists the name of the file corresponding to the search result. This gives us the ability it compare the concordance lines for the two corpora.
+
+For example, 
