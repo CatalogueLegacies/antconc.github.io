@@ -20,7 +20,7 @@ In the context of catalogue data, there are a number of reasons to compare corpo
 
 Used creatively, AntConc can provide the basic toolset required to undertake a variety of comparative analyses, though the deeper your comparing goes, the more you may find yourself needing other computatational approaches.
 
-## Comparing Wordlists
+## 1. Comparing Wordlists
 
 One way to use AntConc to compare catalogue data, is to generate wordlists for comparison. In [Episode 5](https://cataloguelegacies.github.io/antconc.github.io/05-wordlists/index.html#saving-your-output) you used the `Word List` tool to generate an wordlist from `IAMS_Photographs_1850-1950_selection3.txt` in .txt format.
 
@@ -45,10 +45,11 @@ Now you should have two wordlists. I have called them `IAMS_Photographs_1850-195
 >{: .solution}
 {: .challenge}
 
-## Keyness
+## 2. Keyness
 
 FIXME
 
-## Comparing Concordances
+## 3. Comparing Concordances
 
-FIXME
+In [Episode 6](https://cataloguelegacies.github.io/antconc.github.io/06-search/index.html#adapting-your-search) we used the `Concordance` tab to search for the string "behind." (with `Regex` unticked and `Words` and `Case` both ticked and `Kwic sort` set to `Level 1` equals `1L`). We said that it was an instructive example because we see a pattern emerge around how this spatial word is used at the end of sentences, specifically the frequency of the construction ",with .. behind." (e.g. "..buildings, with walls on the hillside behind", "..monastery, with mountains behind.", or "..figures, with three attendants standing behind.").
+
