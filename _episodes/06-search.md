@@ -52,16 +52,6 @@ Finally for now, note the `Kwic Sort` section. `Kwic` means `Keywords in Context
 >{: .solution}
 {: .challenge}
 
->## Task 2: Work out rough % of the word "he" used at the start of a sentence.
->* Note: to solve this problem, you may find it helpful to do more than one search.
->
->>## Solution
->>
->>1. Search "he" and "He" separately with `Words` and `Case` both ticked. You should get `372` hits for "he" and `213` hits for "He".
->>2. The answer is just over a third.
->>>* If you scroll through the results, you'll see that this is an exact solution *for this corpus*. However, this is not a perfect query, as other corpora may contain typographic errors or uncommon uses of the word "he". This is an example when knowing your corpus can help you craft a good enough query, rather than have to expend time and energy creating the perfect query. Handily, the ouputs provided by this AntConc tool are a great way of getting to know a corpus.
->{: .solution}
-
 ## Wildcard search
 Search in AntConc also takes wildcases, both in the form of a limited set of native wildcards, and in the form of regular expressions. We discuss using regular expressions (or regex) in AntConc in a [later episode](https://cataloguelegacies.github.io/antconc.github.io/11-regex/index.html). For now, we will focus on the native wildcards, which are similar to those in regex (for those who are familiar). These are:
 
