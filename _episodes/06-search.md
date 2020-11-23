@@ -48,7 +48,7 @@ Finally for now, note the `Kwic Sort` section. `Kwic` means `Keywords in Context
 >
 >>## Solution
 >>
->>* "behind." (with `Regex` unticked and `Words` and `Case` both ticked) is an instructive example here, as if we set `Kwic sort` to `Level 1` equals `1L` we see a pattern emerge of how this spatial word is used at the end of sentences. Specifically, the frequency of the construction ",with .. behind." (e.g. "..buildings, with walls on the hillside behind", "..monastery, with mountains behind.", or "..figures, with three attendants standing behind."), builds on our initial findings from browsing the 'Word List' tab, the a particular use of 'behind' is evident in the corpus.
+>>* "behind." (with `Regex` unticked and `Words` and `Case` both ticked) is an instructive example here, as if we set `Kwic sort` to `Level 1` equals `1L` we see a pattern emerge of how this spatial word is used at the end of sentences. Specifically, the frequency of the construction ",with .. behind." (e.g. "..buildings, with walls on the hillside behind", "..monastery, with mountains behind.", or "..figures, with three attendants standing behind."), builds on our initial findings from browsing the 'Word List' tab, that a particular use of 'behind' is evident in the corpus.
 >{: .solution}
 {: .challenge}
 
