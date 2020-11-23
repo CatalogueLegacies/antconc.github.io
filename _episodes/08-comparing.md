@@ -61,4 +61,12 @@ With both corpora listed under `Corpus Files`, search the `Concordance` tab for 
 
 188 results are returned (116 more than with `IAMS_Photographs_1850-1950_selection3.txt` alone). Note that the `File` column of the output window lists the name of the file corresponding to the search result. This gives us the ability it compare the concordance lines for the two corpora.
 
-For example, 
+For example, if we scroll down to the phrases beginning with ", with" (starting at `hit` number 164, ending number 182), we find only one hit from the `BM Satire Corpus` (represented here by `part_aj.txt`). This gives us further evidence that the construction ",with .. behind." is particular to the `IAMS_Photographs_1850-1950_selection3.txt` corpus, rather than a generic term in all cataloguing. We might support our claim by re-sorting our results with `Kwic sort` set to `Level 1` equals `3L`, or introducing comparison with a third corpus.
+
+[Elsewhere in Episode 6](https://cataloguelegacies.github.io/antconc.github.io/06-search/index.html#tasks), we suggested that verb use in the `IAMS_Photographs_1850-1950_selection3.txt` corpus tends towards the present tense. If we re-sort our "behind." search with `Kwic sort` set to `Level 1` equals `1L`, the dominant verb one position left of "behind." is stand. None are in the past tense, but what is striking is how the present tense forms map to the two catalogues:
+
+- "stand behind." (IAMS Photographs = 4, BM Satires = 13)
+- "standing behind." (IAMS Photographs = 35, BM Satires = 5)
+- "stands behind." (IAMS Photographs = 4, BM Satires = 8)
+
+BM Satires contains roughly double the word tokens of IAMS Photographs, which accounts - more or less - the relative frequencies of "stand behind." and "stands behind.". This comparison, however, makes the frequency of the present participle form "standing behind." in `IAMS_Photographs_1850-1950_selection3.txt` even more striking. With more investigation, we might determinet his to be a lingustic feature of the catalogue.
