@@ -41,7 +41,7 @@ Now you should have two wordlists. I have called them `IAMS_Photographs_1850-195
 >>2. The unique vocabulary for *BM Satires* are: `*transcribed*`, `*bracketed*`, his, are, he, an, which, inscribed.
 >>3. The shared vocabulary is: the, of, in, a, and, with, on, at, to, from, is, by.
 >>4. You may have a number of questions. But the first should be to check the assumptions that stand out. So, for *IAMS Photos*, is it correct that most descriptions are of photographs of people and scenes? (they are) And for *BM Satires*, do the descriptions contain a high frequency of named male individuals? (they do) From there, we might ask more specific questions: do the descriptions in *IAMS Photos* contain details of individuals within groups? given their frequency, what role does transcribed text play in the flow of the descriptions in *BM Satires*
->>>* All the shares vocabulary are function words, and there is little that is remarkable about their composition. We may, however, note that words like "or" (that might incidate uncertainty of attribution) and "it" (that could be considered an imprecise placeholder for information) are absent in both cases from the 25 most frequent words (indeed, from the 50 most frequent). Keep this in mind as we move to the next part of the episode.
+>>>* All the shared vocabulary are function words, and there is little that is remarkable about their composition. We may, however, note that words like "or" (that might incidate uncertainty of attribution) and "it" (that could be considered an imprecise placeholder for information) are absent in both cases from the 25 most frequent words (indeed, from the 50 most frequent). Keep this in mind as we move to the next part of the episode.
 >{: .solution}
 {: .challenge}
 
@@ -55,9 +55,20 @@ To examine keyness in the `IAMS_Photographs_1850-1950_selection3.txt` corpus, fi
 
 To read the output we need to understand the column headings, the most significant of which is `Keyness`, against which `Rank` is sorted by default. Any positive value is a score of how unusally frequent the word is in comparison to the [British National Corpus](http://www.natcorp.ox.ac.uk/), and for the `IAMS_Photographs_1850-1950_selection3.txt` corpus the 15 highest ranked words deepen our understanding of the corpus: that compared to everyday language the descriptions emphasise perspective ("View", "view", "looking", "towards"), processes of production ("print", "Photo", "Duplicate", "silver", "paper"), and genre ("Full-length", "portrait", "seated").
 
-If we then scroll down to the work ranked 12219, we find our the first negative value in the keyness column. This word - "to" - is the most unusually infrequent word in the corpus comparison to the [British National Corpus](http://www.natcorp.ox.ac.uk/), and what we find is that the top 15 of these are a collection of pronouns ("I", "you", "he", "she", "her"), common verbs in past or active/future tense forms ("was", "be", "had", "have", "will"), and function words ("to", "that", "it", "for", "not").
+If we then scroll down to the work ranked 12219, we find our the first negative value in the keyness column. This word - "to" - is the most unusually infrequent word in the corpus comparison to the [British National Corpus](http://www.natcorp.ox.ac.uk/), and what we find is that the top 15 of these are a collection of pronouns ("I", "you", "he", "she", "her"), common verbs in past or active/future tense forms ("was", "be", "had", "have", "will"), and function words ("to", "that", "it", "for", "not"). Note that this adds weight to our analysis in Task 1, where we noted that "it" (5th most unusually infrequent) and "or" (64th most unusually infrequent) were absent from the top 25 more frequent words in *IAMS-Photos*, and that this indicated precision of language and certainty of attribution.
 
 >## Task 2: Make a list of the 10 most unusually frequent verbs in the corpus compared with the BMC.
+>* This may require you to make a few assumptions about word use in the corpus (e.g. that "print" is not primarily used as a verb)
+>* Don't worry too much about combining results (e.g. the multiple occurence of "view" in the top 20 ranking).
+>
+>>## Solution
+>>
+>>1. These are: view (1st, 3rd, 17th, 32nd), look (8th), seat (15th), stand (20th), pose (27th), carve (39th), reproduce (46th), show (47th, 48th), read (56th), fade (64th)
+>>2. Making the list emphasises a number of patterns in the cataloguing: that viewpoints are central to the mode of description, the people are commonly found in the descriptions (though we'd need to check if it were animals or objects that are "steading", "standing", or "posing"), and that the description are structured to include transcribed captions (click "reads:" to see this in the `Concordance` tab).
+>{: .solution}
+{: .challenge}
+
+>## Task 3: Make a list of the 10 most unusually frequent verbs in the corpus compared with the BMC.
 >* This may require you to make a few assumptions about word use in the corpus (e.g. that "print" is not primarily used as a verb)
 >* Don't worry too much about combining results (e.g. the multiple occurence of "view" in the top 20 ranking).
 >
