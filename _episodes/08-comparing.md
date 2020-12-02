@@ -51,7 +51,13 @@ Keyness is the frequency of a word in a text when compared with its frequency in
 
 In the context of catalogue descriptions, running keyness analysis over a corpora allows us to better understand the language choices that are unusually frequent and unusally infrequent in comparison to reference corpora, thereby furthering our understanding of the 'features' of a given catalogue. And by comparing catalogue data to samples of contemporary language, we improve the chances of foregrounding historic or archaic language choices that may work against the social justice ambitions of our cultural institutions.
 
-FIXME PROCESS
+To examine keyness in the `IAMS_Photographs_1850-1950_selection3.txt` corpus, first download [BNC_wordlist.txt](https://github.com/CatalogueLegacies/antconc.github.io/blob/gh-pages/data/BNC_wordlist.txt), a wordlist generated from the [British National Corpus](http://www.natcorp.ox.ac.uk/). Next go to `Tool Preferences`, then `Keyword List` and set the preferences are follows: untick `Treat all data as lowercase`, tick `Ahow negative keywords`, change `Keyword effect size measure` to "Ratio of relative frequencies", and change the `Reference Corpus` toggle to `Use word list(s)`. Now hit `Add Files`, select [BNC_wordlist.txt](https://github.com/CatalogueLegacies/antconc.github.io/blob/gh-pages/data/BNC_wordlist.txt), and hit `Load`. Once AntConc has successfully processed the [British National Corpus](http://www.natcorp.ox.ac.uk/) wordlist, the `Loaded` checkbox will show as selected. Finally, hit `Apply`, navigate to the `Keyword List` tab, and hit start. After a short delay the output window will populate with results.
+
+To read the output we need to understand the column headings, the most significant of which is `Keyness`, against which `Rank` is sorted by default. Any positive value is a score of how unusally frequent the word is in comparison to the [British National Corpus](http://www.natcorp.ox.ac.uk/), and for the `IAMS_Photographs_1850-1950_selection3.txt` corpus the 15 highest ranked words deepen our understanding of the corpus: that compared to everyday language the descriptions emphasise perspective ("View", "view", "looking", "towards"), processes of production ("print", "Photo", "Duplicate", "silver", "paper"), and genre ("Full-length", "portrait", "seated").
+
+If we then scroll down to the work ranked 12219, we find our the first negative value in the keyness column. This word - "to" - is the most unusually infrequent word in the corpus comparison to the [British National Corpus](http://www.natcorp.ox.ac.uk/), and what we find is that the top 15 of these are a collection of pronouns ("I", "you", "he", "she", "her"), common verbs in past or active/future tense forms ("was", "be", "had", "have", "will"), and function words ("to", "that", "it", "for", "not").
+
+
 
 ## 3. Comparing Concordances
 
