@@ -63,19 +63,18 @@ If we then scroll down to the work ranked 12219, we find our the first negative 
 >
 >>## Solution
 >>
->>1. These are: view (1st, 3rd, 17th, 32nd), look (8th), seat (15th), stand (20th), pose (27th), carve (39th), reproduce (46th), show (47th, 48th), read (56th), fade (64th)
+>>1. These are: view (1st, 3rd, 17th, 32nd), look (8th), seat (15th), stand (20th), pose (27th), carve (39th), reproduce (46th), show (47th, 48th), read (56th), fade (64th).
 >>2. Making the list emphasises a number of patterns in the cataloguing: that viewpoints are central to the mode of description, the people are commonly found in the descriptions (though we'd need to check if it were animals or objects that are "steading", "standing", or "posing"), and that the description are structured to include transcribed captions (click "reads:" to see this in the `Concordance` tab).
 >{: .solution}
 {: .challenge}
 
->## Task 3: Make a list of the 10 most unusually frequent verbs in the corpus compared with the BMC.
->* This may require you to make a few assumptions about word use in the corpus (e.g. that "print" is not primarily used as a verb)
->* Don't worry too much about combining results (e.g. the multiple occurence of "view" in the top 20 ranking).
+>## Task 3: Looking at the 30 most unusually infrequent words, what do they indicate about the *IAMS-Photos* cataloguing? If this in line with what we've observed in previous episodes?
 >
 >>## Solution
 >>
->>1. These are: view (1st, 3rd, 17th, 32nd), look (8th), seat (15th), stand (20th), pose (27th), carve (39th), reproduce (46th), show (47th, 48th), read (56th), fade (64th)
->>2. Making the list emphasises a number of patterns in the cataloguing: that viewpoints are central to the mode of description, the people are commonly found in the descriptions (though we'd need to check if it were animals or objects that are "steading", "standing", or "posing"), and that the description are structured to include transcribed captions (click "reads:" to see this in the `Concordance` tab).
+>>1. First, the unusually infrequent verb forms in the top 30 - "was", "had", "have", "will", "said", "would", "were", "could" - cluster around past and modal verb forms, indicating [as we suggested in Episode 6](https://cataloguelegacies.github.io/antconc.github.io/06-search/index.html#tasks) that the descriptions in *IAMS-Photos* are more 'of' that which the photographs depict than 'about' their histories or histories of those people or places depicted.
+>>2. However, the unusual infrequency of third-person pronouns - "he", "she", "her", "they" - mightly erroneously suggest that the photography are not about people, when in fact the situation is quite the opposite: as [we've observed in Episode 6](https://cataloguelegacies.github.io/antconc.github.io/07-collocates/index.html#from-collocation-to-curatorial-voice) and [will observe in Episode 9](https://cataloguelegacies.github.io/antconc.github.io/09-named-entity-recognition/index.html) these descriptions are full of people, but people given their proper names, rather than refered to using pronouns.
+>>>* This is yet another indication of why one test can lead us astray, and why corpus linguistics, as we [observed in Episode 1](https://cataloguelegacies.github.io/antconc.github.io/01-introduction/index.html#what-is-corpus-lingustics), is an iterative study of text, where a phenomenon suggested by one output is tested and refined by the next. 
 >{: .solution}
 {: .challenge}
 
