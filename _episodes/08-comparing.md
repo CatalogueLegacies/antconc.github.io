@@ -47,7 +47,11 @@ Now you should have two wordlists. I have called them `IAMS_Photographs_1850-195
 
 ## 2. Keyness
 
-FIXME
+Keyness is the frequency of a word in a text when compared with its frequency in a another corpora, usually a reference corpora such as - for British English language text - the [British National Corpus](http://www.natcorp.ox.ac.uk/), "a 100 million word collection of samples of written and spoken language from a wide range of sources, designed to represent a wide cross-section of British English from the later part of the 20th century, both spoken and written".
+
+In the context of catalogue descriptions, running keyness analysis over a corpora allows us to better understand the language choices that are unusually frequent and unusally infrequent in comparison to reference corpora, thereby furthering our understanding of the 'features' of a given catalogue. And by comparing catalogue data to samples of contemporary language, we improve the chances of foregrounding historic or archaic language choices that may work against the social justice ambitions of our cultural institutions.
+
+FIXME PROCESS
 
 ## 3. Comparing Concordances
 
