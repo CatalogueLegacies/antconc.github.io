@@ -57,7 +57,16 @@ To read the output we need to understand the column headings, the most significa
 
 If we then scroll down to the work ranked 12219, we find our the first negative value in the keyness column. This word - "to" - is the most unusually infrequent word in the corpus comparison to the [British National Corpus](http://www.natcorp.ox.ac.uk/), and what we find is that the top 15 of these are a collection of pronouns ("I", "you", "he", "she", "her"), common verbs in past or active/future tense forms ("was", "be", "had", "have", "will"), and function words ("to", "that", "it", "for", "not").
 
-
+>## Task 2: Make a list of the 10 most unusually frequent verbs in the corpus compared with the BMC.
+>* This may require you to make a few assumptions about word use in the corpus (e.g. that "print" is not primarily used as a verb)
+>* Don't worry too much about combining results (e.g. the multiple occurence of "view" in the top 20 ranking).
+>
+>>## Solution
+>>
+>>1. These are: view (1st, 3rd, 17th, 32nd), look (8th), seat (15th), stand (20th), pose (27th), carve (39th), reproduce (46th), show (47th, 48th), read (56th), fade (64th)
+>>2. Making the list emphasises a number of patterns in the cataloguing: that viewpoints are central to the mode of description, the people are commonly found in the descriptions (though we'd need to check if it were animals or objects that are "steading", "standing", or "posing"), and that the description are structured to include transcribed captions (click "reads:" to see this in the `Concordance` tab).
+>{: .solution}
+{: .challenge}
 
 ## 3. Comparing Concordances
 
