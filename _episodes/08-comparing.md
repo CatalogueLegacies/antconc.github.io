@@ -57,7 +57,7 @@ To read the output we need to understand the column headings, the most significa
 
 If we then scroll down to the work ranked 12219, we find the first negative value in the keyness column. This word - "to" - is the most unusually infrequent word in the corpus in comparison to the *[British National Corpus](http://www.natcorp.ox.ac.uk/)*, and what we find is that the top 15 of these are a collection of pronouns ("I", "you", "he", "she", "her"), common verbs in past or active/future tense forms ("was", "be", "had", "have", "will"), and function words ("to", "that", "it", "for", "not"). Note that this adds weight to our analysis in Task 1, where we noted that "it" (5th most unusually infrequent) and "or" (64th most unusually infrequent) were absent from the top 25 more frequent words in *IAMS-Photos*, and that this indicated precision of language and certainty of attribution.
 
->## Task 2: Make a list of the 10 most unusually frequent verbs in the corpus compared with the BMC.
+>## Task 2: Make a list of the 10 most unusually frequent verbs in the corpus compared with the British National Corpus.
 >* This may require you to make a few assumptions about word use in the corpus (e.g. that "print" is not primarily used as a verb)
 >* Don't worry too much about combining results (e.g. the multiple occurence of "view" in the top 20 ranking).
 >
