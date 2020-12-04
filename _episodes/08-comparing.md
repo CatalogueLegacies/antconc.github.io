@@ -103,3 +103,13 @@ For example, if we scroll down to the phrases beginning with ", with" (starting 
 - "stands behind." (IAMS Photographs = 4, BM Satires = 8)
 
 BM Satires contains roughly double the word tokens of IAMS Photographs, which accounts - more or less - for the relative frequencies of "stand behind." and "stands behind.". This comparison, however, makes the frequency of the present participle form "standing behind." in `IAMS_Photographs_1850-1950_selection3.txt` even more striking. With more investigation, we might determine this to be a lingustic feature of the catalogue.
+
+>## Task 4: Compare now how adverbs are used to modify the verb "look" in *IAMS Photos* and *BM Satires*. Does this reinforce our earlier observations about the differences in the descriptions between the two corpora?>
+>
+>>## Solution
+>>
+>>1. Search the Concordance tab for the string “look* *ly” (as we did  in [Episode 6](https://cataloguelegacies.github.io/antconc.github.io/06-search/index.html#tasks) with Regex unticked and Words and Case both ticked and Kwic sort set to Level 1 equals 1R).
+>>2. There are 131 hits, only 31 instances found in the *IAMS Photos* descriptions.  
+>>3. Browse through the output. Note that there is a great variety of modifiers used for the word "look" in the *BM Satires* that desribe the characters in the prints and that are features of the curatorial voice. In comparison two common words (“directly”, “obliquely”) are used in the *IAMS Photos* as descriptions of perspective. As already observed the use of modifiers with the verb "look" illustrates  two different approaches to descriptions: one, for satires, that focuses on the subjects taking part in the scene; and another, for photography, that uses the viewpoint of the photographer and viewer alike to take a perspectival approach to the scene at hand. 
+>{: .solution}
+{: .challenge}
