@@ -8,7 +8,7 @@ questions:
 - "What are the benefits of comparison?"
 objectives:
 - "Show how to use wordlists to perform an initial comparison of two or more corpora."
-- "Show how to use Keyword lists with AntConc."
+- "Show how to work with Keyword lists in AntConc."
 keypoints:
 - ""
 ---
