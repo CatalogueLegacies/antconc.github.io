@@ -25,13 +25,23 @@ Used creatively, AntConc can provide the basic toolset required to undertake a v
 
 One way to use AntConc to compare catalogue data, is to generate wordlists for comparison. In [Episode 5](https://cataloguelegacies.github.io/antconc.github.io/05-wordlists/index.html#saving-your-output) you used the `Word List` tool to generate a wordlist from `IAMS_Photographs_1850-1950_selection3.txt` in .txt format.
 
-Create a comparator corpus by downloading the *BMSatire Descriptions Corpus*, a wordlist from it, and downloading that wordlist in .txt format. Go to [Episode 10](https://cataloguelegacies.github.io/antconc.github.io/10-BM-wordlists/index.html) and come back here when you are ready.
+Create a comparator corpus by downloading the *BMSatire Descriptions Corpus*, making a wordlist from it, and exporting that wordlist in .txt format (`File`, `Save Output...`). To do this, go to [Episode 10](https://cataloguelegacies.github.io/antconc.github.io/10-BM-wordlists/index.html) and come back here when you are ready.
 
-Now you should have two wordlists. I have called them `IAMS_Photographs_1850-1950_selection3_wordlist.txt` and `BM-MDG_wordlist.txt`, hereafter *[IAMS Photos](https://github.com/CatalogueLegacies/antconc.github.io/blob/gh-pages/data/IAMS_Photographs_1850-1950_selection3_wordlist.txt)* and *[BM Satires](https://github.com/CatalogueLegacies/antconc.github.io/blob/gh-pages/data/BM-MDG_wordlist.txt)* respectively, though you may have given them different names ([don't forget the value](https://cataloguelegacies.github.io/antconc.github.io/05-wordlists/index.html#saving-your-output) of giving logical names to AntConc outputs!). Open them up in a text editor and arrange them side-by-side. The first thing you will see is that they are different. What we now need to do is observe those differences and start to infer what they might mean.
+Now you should have two wordlists. I have called them `IAMS_Photographs_1850-1950_selection3_wordlist.txt` and `BM-MDG_wordlist.txt`, hereafter *[IAMS Photos](https://github.com/CatalogueLegacies/antconc.github.io/blob/gh-pages/data/IAMS_Photographs_1850-1950_selection3_wordlist.txt)* and *[BM Satires](https://github.com/CatalogueLegacies/antconc.github.io/blob/gh-pages/data/BM-MDG_wordlist.txt)* respectively, though you may have given them different names ([don't forget the value](https://cataloguelegacies.github.io/antconc.github.io/05-wordlists/index.html#saving-your-output) of giving logical names to AntConc outputs!).
 
-- **Word Types and Tokens**. *IAMS-Photos* contains more unique words than *BM Satires* (69,476 vs 56,062) despite containing three-fifths of the total words (759,930 vs 1,236,723). This suggests that, lingustically, *BM Satires* has a more constrained corpus than *IAMS-Photos*
-- **Transcribed and Bracketed**. However, *BM Satires* contains two special characters that appear 3rd and 6th in its wordlist: `*transcribed*` and `*bracketed*` are placeholders for text in the description that was either transcribed by the cataloguers (in this case from the objects being described) or placed in brackets as asides or incidental details. This is because, as described in the *[Creation of the BMSatire Descriptions corpus](http://doi.org/10.5281/zenodo.3245037)* document, *BM Satires* was a corpus created to analyse the lingustic choices made during the initial stages of cataloguing, and as consistent patterns for transcriptions and later asides were used, these were removed and replaced with the placeholders `*transcribed*` and `*bracketed*`. Due to the varied nature of *IAMS Photos* no such changes were made to this corpus, meaning that a variety of textual elements - trascribed text, third-party quotations, citations - are included in its wordlist. These differences in the preparation of the corpora likely account for the relative linguistic diversity of the two corpora.
-- **Spatial language**. Nevertheless, as a greater variety of language is likely to be represented by infrequent vocabulary, we can still start to draw conclusions from the two words lists. For example, looking at the 40 most frequent words in *BM Satires*, spatial language is prominent: `behind` (24th), `left` (30th), `right` (31st). These words are not prominent in *IAMS Photos*, instead we observe the prominence of `towards` (18th) and its correlate `looking` (15th). The comparison suggests two very different approaches to descriptions: one, for satires, that moves the reader around the two-dimensional surface of the object and the three-dimensional space of the imagined scene; and another, for photography, that uses the viewpoint of the photographer and viewer alike to take a perspectival approach to the scene at hand. And whilst these lingustic effects are functions of the objects under examination, they remain choices embedded in systems of cataloguing labour and knowledge production.
+Now open each wordlist in a text editor (such as [Notepad](https://en.wikipedia.org/wiki/Microsoft_Notepad) for Windows users, or [TextEdit](https://en.wikipedia.org/wiki/TextEdit) for MacOS users) and arrange them side-by-side on your screen. The first thing you will see is that they are different. What we now need to do is observe those differences and start to infer what they might mean.
+
+### Word Types and Tokens
+
+First we might note that *IAMS-Photos* contains more unique words than *BM Satires* (69,476 vs 56,062) despite containing three-fifths of the total words (759,930 vs 1,236,723). This suggests that, lingustically, *BM Satires* has a more constrained corpus than *IAMS-Photos*
+
+### Transcribed and Bracketed
+
+However, *BM Satires* contains two special characters that appear 3rd and 6th in its wordlist: `*transcribed*` and `*bracketed*` are placeholders for text in the description that was either transcribed by the cataloguers (in this case from the objects being described) or placed in brackets as asides or incidental details. This is because, as described in the *[Creation of the BMSatire Descriptions corpus](http://doi.org/10.5281/zenodo.3245037)* document, *BM Satires* was a corpus created to analyse the lingustic choices made during the initial stages of cataloguing, and as consistent patterns for transcriptions and later asides were used, these were removed and replaced with the placeholders `*transcribed*` and `*bracketed*`. Due to the varied nature of *IAMS Photos* no such changes were made to this corpus, meaning that a variety of textual elements - trascribed text, third-party quotations, citations - are included in its wordlist. These differences in the preparation of the corpora likely account for the relative linguistic diversity of the two corpora.
+
+### Spatial language
+
+Nevertheless, as a greater variety of language is likely to be represented by infrequent vocabulary, we can still start to draw conclusions from the two words lists. For example, looking at the 40 most frequent words in *BM Satires*, spatial language is prominent: `behind` (24th), `left` (30th), `right` (31st). These words are not prominent in *IAMS Photos*, instead we observe the prominence of `towards` (18th) and its correlate `looking` (15th). The comparison suggests two very different approaches to descriptions: one, for satires, that moves the reader around the two-dimensional surface of the object and the three-dimensional space of the imagined scene; and another, for photography, that uses the viewpoint of the photographer and viewer alike to take a perspectival approach to the scene at hand. And whilst these lingustic effects are functions of the objects under examination, they remain choices embedded in systems of cataloguing labour and knowledge production.
 
 >## Task 1: Comparing the 25 most frequent words in *IAMS Photos* and *BM Satires*, make a list of the unique vocabulary and shared vocabulary. What questions might we ask next based on these findings?
 >* We suggest that you ignore punctuation for this exercise.
@@ -52,9 +62,23 @@ Keyness is the frequency of a word in a text when compared with its frequency in
 
 In the context of catalogue descriptions, running keyness analysis over a corpora allows us to better understand the language choices that are unusually frequent and unusally infrequent in comparison to reference corpora, thereby furthering our understanding of the 'features' of a given catalogue. And by comparing catalogue data to samples of contemporary language, we improve the chances of foregrounding historic or archaic language choices that may work against the social justice ambitions of our cultural institutions.
 
-To examine keyness in the *IAMS-Photos* corpus, first download [BNC_wordlist.txt](https://github.com/CatalogueLegacies/antconc.github.io/blob/gh-pages/data/BNC_wordlist.txt), a wordlist generated from the *[British National Corpus](http://www.natcorp.ox.ac.uk/)*. Next go to `Tool Preferences`, then `Keyword List` and set the preferences as follows: untick `Treat all data as lowercase`, tick `Show negative keywords`, change `Keyword effect size measure` to "Ratio of relative frequencies", and change the `Reference Corpus` toggle to `Use word list(s)`. Now hit `Add Files`, select [BNC_wordlist.txt](https://github.com/CatalogueLegacies/antconc.github.io/blob/gh-pages/data/BNC_wordlist.txt), and hit `Load`. Once AntConc has successfully processed the *[British National Corpus](http://www.natcorp.ox.ac.uk/)* wordlist, the `Loaded` checkbox will show as selected. Finally, hit `Apply`, navigate to the `Keyword List` tab, and hit start. After a short delay the output window will populate with results.
+### Creating keyness in AntConc
 
-To read the output we need to understand the column headings, the most significant of which is `Keyness`, against which `Rank` is sorted by default. Any positive value is a score of how unusally frequent the word is in comparison to the [British National Corpus](http://www.natcorp.ox.ac.uk/), and for the *IAMS-Photos* corpus the 15 highest ranked words deepen our understanding of the corpus: that compared to everyday language the descriptions emphasise perspective ("View", "view", "looking", "towards"), processes of production ("print", "Photo", "Duplicate", "silver", "paper"), and genre ("Full-length", "portrait", "seated").
+To examine keyness in the *IAMS-Photos* corpus, first ensure that `IAMS_Photographs_1850-1950_selection3_wordlist.txt` is the only file in the `Corpus Files` list.
+
+Next, download [BNC_wordlist.txt](https://github.com/CatalogueLegacies/antconc.github.io/blob/gh-pages/data/BNC_wordlist.txt), a wordlist generated from the *[British National Corpus](http://www.natcorp.ox.ac.uk/)*. With your settings from [Episode 7](https://cataloguelegacies.github.io/antconc.github.io/07-collocates/index.html) still in place (import [IAMS_settings.ant](https://github.com/CatalogueLegacies/antconc.github.io/blob/gh-pages/data/IAMS_settings.ant) if you've had to quit AntConc for some reason), go to `Tool Preferences`, then `Keyword List` and set the preferences as follows:
+
+- make sure `Treat all data as lowercase` is unticked.
+- tick `Show negative keywords`.
+- change `Keyword effect size measure` to "Ratio of relative frequencies"
+- change the `Reference Corpus` toggle to `Use word list(s)`.
+- Hit `Add Files`, select [BNC_wordlist.txt](https://github.com/CatalogueLegacies/antconc.github.io/blob/gh-pages/data/BNC_wordlist.txt), and hit `Load`.
+
+Once AntConc has successfully processed the *[British National Corpus](http://www.natcorp.ox.ac.uk/)* wordlist, the `Loaded` checkbox will show as selected. Finally, hit `Apply`, navigate to the `Keyword List` tab, and hit start. After a short delay the output window will populate with results.
+
+### Analysing Keyness
+
+To read the output we need to understand the column headings, the most significant of which is `Keyness`, against which `Rank` is sorted by default. All positive values in the `Keyness` column are a score of how unusally frequent the word is in comparison to the [British National Corpus](http://www.natcorp.ox.ac.uk/), and for the *IAMS-Photos* corpus the highest ranked words deepen our understanding of the corpus: that compared to everyday language the descriptions emphasise perspective ("View", "view", "looking", "towards"), processes of production ("print", "Photo", "Duplicate", "silver", "paper"), and genre ("Full-length", "portrait", "seated").
 
 If we then scroll down to the work ranked 12219, we find the first negative value in the keyness column. This word - "to" - is the most unusually infrequent word in the corpus in comparison to the *[British National Corpus](http://www.natcorp.ox.ac.uk/)*, and what we find is that the top 15 of these are a collection of pronouns ("I", "you", "he", "she", "her"), common verbs in past or active/future tense forms ("was", "be", "had", "have", "will"), and function words ("to", "that", "it", "for", "not"). Note that this adds weight to our analysis in Task 1, where we noted that "it" (5th most unusually infrequent) and "or" (64th most unusually infrequent) were absent from the top 25 more frequent words in *IAMS-Photos*, and that this indicated precision of language and certainty of attribution.
 
@@ -65,7 +89,7 @@ If we then scroll down to the work ranked 12219, we find the first negative valu
 >>## Solution
 >>
 >>1. These are: view (1st, 3rd, 17th, 32nd), look (8th), seat (15th), stand (20th), pose (27th), carve (39th), reproduce (46th), show (47th, 48th), read (56th), fade (64th).
->>2. Making the list emphasises a number of patterns in the cataloguing: that viewpoints are central to the mode of description, the people are commonly found in the descriptions (though we'd need to check if it were animals or objects that are "seating", "standing", or "posing"), and that the descriptions are structured to include transcribed captions (click "reads:" to see this in the `Concordance` tab).
+>>2. Making the list emphasises a number of patterns in the cataloguing: that viewpoints are central to the mode of description, the people are commonly found in the descriptions (though we'd need to check if it were animals or objects that are "seating", "standing", or "posing"), and that the descriptions are structured to include transcribed captions (click "reads:" (56th) to see this in the `Concordance` tab).
 >{: .solution}
 {: .challenge}
 
@@ -79,9 +103,13 @@ If we then scroll down to the work ranked 12219, we find the first negative valu
 >{: .solution}
 {: .challenge}
 
+### Next Steps
+
 The many potential practical uses of keyness in the context of cataloguing are beyond the scope of this episode, though some are explored in Andrew Salway and James Baker, ‘Investigating Curatorial Voice with Corpus Linguistic Techniques: The Case of Dorothy George and Applications in Museological Practice’, *Museum and Society* 18:2 (2020), doi: [10.29311/mas.v18i2.3175](https://doi.org/10.29311/mas.v18i2.3175).
 
-Keep in mind though that our examples here use AntConc to compare *IAMS-Photos* corpus to the *[British National Corpus](http://www.natcorp.ox.ac.uk/)*. But if you have a catalogue (or sub-collection of cataloguing) whose descriptions you consider to be gold standard, you could justifiably use that as your `Reference Corpus` as a means of better understanding what other catalogues over and under emphasise. 
+Keep in mind though that our examples here use AntConc to compare *IAMS-Photos* corpus to the *[British National Corpus](http://www.natcorp.ox.ac.uk/)*. But if you have a catalogue (or sub-collection of cataloguing) whose descriptions you consider to be gold standard, you could justifiably use that as your `Reference Corpus` as a means of better understanding what other catalogues over and under emphasise.
+
+To do so, go to `Tool Preferences`, then `Keyword List`, hit `Clear` to remove `BNC_wordlist.txt` as a reference corpus and upload you own: either as a wordlist generated from AntConc (as we did with the *[British National Corpus](http://www.natcorp.ox.ac.uk/)*) or - by changing the `Reference Corpus` toggle to `Use raw file(s)` by uploading the catalogue itself (note that one of the benefits of using a word list as a reference corpus is that AntConc will run keyness analysis more quickly thatn with a raw corpus!)
 
 ## 3. Comparing Concordances
 
@@ -90,6 +118,8 @@ In [Episode 6](https://cataloguelegacies.github.io/antconc.github.io/06-search/i
 AntConc can also be used to compare concordances. There are two main ways of doing this. The first involves exporting the results from the `Concordance` tab for multiple corpora seperately analysed in AntConc (`File` then `Save Output...`) and reading across them. The second involves importing multiple corpora into AntConc simultanously, and then making a search.
 
 To do this, with `IAMS_Photographs_1850-1950_selection3.txt` already imported into AntConc, import the `BM Satire Corpus` into AntConc (see [Episode 2](https://cataloguelegacies.github.io/antconc.github.io/02-importing-data/index.html#importing-data) for details).
+
+### Using the 'File' column
 
 With both corpora listed under `Corpus Files`, search the `Concordance` tab for the string "behind." (with `Regex` unticked and `Words` and `Case` both ticked and `Kwic sort` set to `Level 1` equals `2L`).
 
@@ -106,6 +136,16 @@ For example, if we scroll down to the phrases beginning with ", with" (starting 
 BM Satires contains roughly double the word tokens of IAMS Photographs, which accounts - more or less - for the relative frequencies of "stand behind." and "stands behind.". This comparison, however, makes the frequency of the present participle form "standing behind." in `IAMS_Photographs_1850-1950_selection3.txt` even more striking. With more investigation, we might determine this to be a lingustic feature of the catalogue.
 
 >## Task 4: Compare now how adverbs are used to modify the verb "look" in *IAMS Photos* and *BM Satires*. Does this reinforce our earlier observations about the different approaches to description in the two corpora?
+>
+>>## Solution
+>>
+>>1. Search the Concordance tab for the string “look* *ly” (as we did  in [Episode 6](https://cataloguelegacies.github.io/antconc.github.io/06-search/index.html#tasks) with Regex unticked and Words and Case both ticked and Kwic sort set to Level 1 equals 1R).
+>>2. There are 131 hits, only 31 instances found in the *IAMS Photos* descriptions.  
+>>3. Browse through the output. Note that there is a great variety of modifiers ("amorously", "wryly" etc.) used for the word "look" in the *BM Satires* that desribe the characters in the prints and that are features of "curatorial voice". In comparison two common words (“directly”, “obliquely”) are used in the *IAMS Photos* as descriptions of perspective. As already observed the use of modifiers with the verb "look" illustrates  two different approaches to descriptions: one, for satires, that focuses on the subjects taking part in the scene; and another, for photography, that uses the viewpoint of the photographer and viewer alike to take a perspectival approach to the scene at hand. 
+>{: .solution}
+{: .challenge}
+
+>## Task 5 Compare now how adverbs are used to modify the verb "look" in *IAMS Photos* and *BM Satires*. Does this reinforce our earlier observations about the different approaches to description in the two corpora?
 >
 >>## Solution
 >>
