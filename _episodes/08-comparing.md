@@ -1,5 +1,5 @@
 ---
-title: "Next Steps 1: comparing corpora (**not yet developed**)"
+title: "Next Steps 1: comparing corpora"
 teaching: 30
 exercises: 60
 questions:
@@ -7,10 +7,11 @@ questions:
 - "How can I compare curatorial 'voice' to general language?"
 - "What are the benefits of comparison?"
 objectives:
-- "Show how to use wordlists to perform an initial comparison of two or more corpora."
+- "Show how to use AntConc to perform an initial comparison of two or more corpora."
 - "Show how to work with Keyword lists in AntConc."
 keypoints:
-- ""
+- "If used creatively, AntConc tools offer a number of ways to compare corpora"
+- "Comparison to baseline corpora can provide greater confidence in findings"
 ---
 
 ## Why Compare
