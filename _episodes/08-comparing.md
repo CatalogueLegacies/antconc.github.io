@@ -1,7 +1,7 @@
 ---
 title: "Next Steps 1: comparing corpora (**not yet developed**)"
-teaching: 5
-exercises: 0
+teaching: 30
+exercises: 60
 questions:
 - "How can I use AntConc to compare multiple sets of catalogue data?"
 - "How can I compare curatorial 'voice' to general language?"
