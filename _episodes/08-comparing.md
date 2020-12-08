@@ -113,7 +113,7 @@ To do so, go to `Tool Preferences`, then `Keyword List`, hit `Clear` to remove `
 
 ## 3. Comparing Concordances
 
-In [Episode 6](https://cataloguelegacies.github.io/antconc.github.io/06-search/index.html#adapting-your-search) we used the `Concordance` tab to search for the string "behind." (with `Regex` unticked and `Words` and `Case` both ticked and `Kwic sort`). We said that it was an instructive example because we see a pattern emerge around how this spatial word is used at the end of sentences, specifically the frequency of the construction ",with .. behind." (e.g. "..buildings, with walls on the hillside behind", "..monastery, with mountains behind.", or "..figures, with three attendants standing behind.").
+In [Episode 6](https://cataloguelegacies.github.io/antconc.github.io/06-search/index.html#adapting-your-search) we used the `Concordance` tab to search for the string "behind." (with `Regex` unticked and `Words` and `Case` both ticked and `Kwic sort` set to `Level 1` equals `1L`). We said that it was an instructive example because we see a pattern emerge around how this spatial word is used at the end of sentences, specifically the frequency of the construction ",with .. behind." (e.g. "..buildings, with walls on the hillside behind", "..monastery, with mountains behind.", or "..figures, with three attendants standing behind.").
 
 AntConc can also be used to compare concordances. There are two main ways of doing this. The first involves exporting the results from the `Concordance` tab for multiple corpora seperately analysed in AntConc (`File` then `Save Output...`) and reading across them. The second involves importing multiple corpora into AntConc simultanously, and then making a search.
 
@@ -135,22 +135,12 @@ For example, if we scroll down to the phrases beginning with ", with" (starting 
 
 BM Satires contains roughly double the word tokens of IAMS Photographs, which accounts - more or less - for the relative frequencies of "stand behind." and "stands behind.". This comparison, however, makes the frequency of the present participle form "standing behind." in `IAMS_Photographs_1850-1950_selection3.txt` even more striking. With more investigation, we might determine this to be a lingustic feature of the catalogue.
 
->## Task 4: Compare now how adverbs are used to modify the verb "look" in *IAMS Photos* and *BM Satires*. Does this reinforce our earlier observations about the different approaches to description in the two corpora?
+>## Task 4: Compare how adverbs are used to modify the verb "look" in *IAMS Photos* and *BM Satires*. Does this reinforce our earlier observations about the different approaches to description in the two corpora?
 >
 >>## Solution
 >>
 >>1. Search the Concordance tab for the string “look* *ly” (as we did  in [Episode 6](https://cataloguelegacies.github.io/antconc.github.io/06-search/index.html#tasks) with Regex unticked and Words and Case both ticked and Kwic sort set to Level 1 equals 1R).
 >>2. There are 131 hits, only 31 instances found in the *IAMS Photos* descriptions.  
->>3. Browse through the output. Note that there is a great variety of modifiers ("amorously", "wryly" etc.) used for the word "look" in the *BM Satires* that desribe the characters in the prints and that are features of "curatorial voice". In comparison two common words (“directly”, “obliquely”) are used in the *IAMS Photos* as descriptions of perspective. As already observed the use of modifiers with the verb "look" illustrates  two different approaches to descriptions: one, for satires, that focuses on the subjects taking part in the scene; and another, for photography, that uses the viewpoint of the photographer and viewer alike to take a perspectival approach to the scene at hand. 
->{: .solution}
-{: .challenge}
-
->## Task 5 Compare now how adverbs are used to modify the verb "look" in *IAMS Photos* and *BM Satires*. Does this reinforce our earlier observations about the different approaches to description in the two corpora?
->
->>## Solution
->>
->>1. Search the Concordance tab for the string “look* *ly” (as we did  in [Episode 6](https://cataloguelegacies.github.io/antconc.github.io/06-search/index.html#tasks) with Regex unticked and Words and Case both ticked and Kwic sort set to Level 1 equals 1R).
->>2. There are 131 hits, only 31 instances found in the *IAMS Photos* descriptions.  
->>3. Browse through the output. Note that there is a great variety of modifiers ("amorously", "wryly" etc.) used for the word "look" in the *BM Satires* that desribe the characters in the prints and that are features of "curatorial voice". In comparison two common words (“directly”, “obliquely”) are used in the *IAMS Photos* as descriptions of perspective. As already observed the use of modifiers with the verb "look" illustrates  two different approaches to descriptions: one, for satires, that focuses on the subjects taking part in the scene; and another, for photography, that uses the viewpoint of the photographer and viewer alike to take a perspectival approach to the scene at hand. 
+>>3. Browse through the output. Note that there is a great variety of modifiers ("amorously", "wryly" etc.) used for the word "look" in the *BM Satires* that desribe the characters in the prints and that are features of "curatorial voice". In comparison two common words (“directly”, “obliquely”) are used in the *IAMS Photos* as descriptions of perspective. As already observed the use of modifiers with the verb "look" illustrates two different approaches to descriptions: one, for satires, that focuses on the subjects taking part in the scene; and another, for photography, that uses the viewpoint of the photographer and viewer alike to take a perspectival approach to the scene at hand. 
 >{: .solution}
 {: .challenge}
