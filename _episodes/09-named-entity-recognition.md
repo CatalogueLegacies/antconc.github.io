@@ -51,7 +51,7 @@ The results tell us the kinds of activities for which people are given agency: t
 >The concordance lines for `built by */PERSON` also indicate to us that Stanford NER has successful identified many Middle Eastern and South Asian given and family names as names and in turn given them `/PERSON` tags. Whilst it tells us nothing about false-negatives (Middle Eastern and South Asian given and family names that Stanford NER has not given `/PERSON` tags), it is promising and a result we would continue to monitor as our analysis deepens. AntConc then is a useful tool for testing the results of computational processes  like NER in gradual and situated manner. So even if you hadn't planned to use corpus linguistics to understand your catalogue data, running some searches in a graphical tool like AntConc can help you get a better sense of the quality of computational processes you've run over that catalogue data.
 {: .callout}
 
->## Task FIXME: Using the `Concordance` tool and `IAMS_Photographs_1850-1950_selection3.txt_people.txt`, create concordance lines for all the place names followed by the string ` towards`.
+>## Task FIXME: Using the `Concordance` tool and `IAMS_Photographs_1850-1950_selection3.txt_people.txt`, create concordance lines for all the place names followed by the string " towards".
 >* Think about how to adjust the `Kwic Sort` settings to best display your results.
 >
 >>## Solution
