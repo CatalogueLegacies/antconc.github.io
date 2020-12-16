@@ -93,7 +93,7 @@ Having learnt using AntConc's `Concordance` tab to search a corpus, work in pair
 >{: .solution}
 {: .challenge}
 
->## Task 3: Compare the use of past and present tense forms of the verb "say". Decide which is more common, by roughly what factor, and if there anything that characterises the past tense form.
+>## Task 3: Compare the use of past and present tense forms of the verb "say". Decide which is more common, by roughly what factor, and if there is anything that characterises the past tense form.
 >* Note: there are three present tense forms of the word "say". This problem can also be solved with one query.
 >
 >>## Solution
@@ -107,7 +107,7 @@ Having learnt using AntConc's `Concordance` tab to search a corpus, work in pair
 >{: .solution}
 {: .challenge}
 
->## Task 4: Examine how adverbs are used to modify the verbs "look".
+>## Task 4: Examine how adverbs are used to modify the verb "look".
 >* Note: you can search for two-word strings and wildcards can be used more than once.
 >
 >>## Solution
