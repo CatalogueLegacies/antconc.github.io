@@ -14,7 +14,11 @@ keypoints:
 
 ## Named Entity Recognition (NER)
 
+NER is the process which identifies and tags what we consider to be entities, such as people, placenames, organisations, time etc. By identifying and classifying entities we can start asking questions about the frequency with which they are used or how they change over time. Applied to catalogue data NER can support collection management activities, as well as improve discovery and access.
+
 What it does: add tags to a corpus (show an e.g.). We can put tags and corpus linguistics together in interesting ways. For example, if you wanted to know the language used around all places, we can do that, as the tags give us an anchor to search around. In AntConc, we'd search for the tag and then look at the concordance.
+
+There are different NER tools depending on whether you want to use predefined categories (Spacy) or develop your own by training a classifier on your data (Stanford NER). In this lesson we use Stanford NER to tag entities. For an example of how to use NER with Spacy for text analysis, see Melanie Walsh's [tutorial](https://melaniewalsh.github.io/Intro-Cultural-Analytics/Text-Analysis/Named-Entity-Recognition.html#get-named-entities).
 
 ## (optional) Generating NER tags with Stanford NER and Batchener
 
