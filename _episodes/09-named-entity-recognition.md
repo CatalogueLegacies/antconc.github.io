@@ -34,6 +34,40 @@ There are different NER tools depending on whether you want to use predefined ca
 
 ## 2. (optional) Generating NER tags with Stanford NER and Batchener
 
+To generate NER takes using Stanford NER, we used the [Batchener](https://github.com/collectionslab/batchner) script developed by [Brandon Locke](https://github.com/brandontlocke). To do this yourself you need to be able to run commands in a Unix shell (e.g. Terminal for Linux or MacOS) or a Unix-like shell for Windows (e.g. [Git for Windows](https://gitforwindows.org/)).
+
+Here you have three options:
+
+1. If you are able to use the Unix Shell, completed this section of the episode.
+2. If you are unable to use the Unix Shell but want to learn, see the [Software Carpentry](http://swcarpentry.github.io/shell-novice/) or [Library Carpentry](https://librarycarpentry.org/lc-shell/) tutorials on the Unix Shell, and come back here when you are ready.
+3. If you unable to use the Unix Shell and are unwilling or able to learn how it use it right now, skip to Section 3 of this episode.
+
+For those still here, start by making a new directory called something like "NER" somewhere in your file system: e.g. `cd Documents`, `mkdir NER`. Next go to the [Stanford NER](https://nlp.stanford.edu/software/CRF-NER.shtml#Download) page, download the latest versiom, and unzip so that the directory `stanford-ner-4.0.0` (or more recent version) is a sub-directory of your NER folder.
+
+Now create another sub-directory in your NER folder for the *[IAMS Photos](https://github.com/CatalogueLegacies/antconc.github.io/blob/gh-pages/data/IAMS_Photographs_1850-1950_selection3_wordlist.txt)* data (e.g. `mkdir IAMS_data`) and put a copy of `IAMS_Photographs_1850-1950_selection3_wordlist.txt` in there.
+
+Finally, do `touch batchener_markup.sh` to create a new document called "batchener_markup.sh" in your "IAMS_data" folder called, open it, and paste the script below:
+
+#Takes input of individual .txt files and outputs two .txt files, one for people and one for places, each marked up with `/PERSON` and `/LOCATION` respectively.
+
+```#!/bin/sh
+#echo "doc,entity,entityType,count" > entities.csv
+for file in *.txt
+do
+############################
+#If you're using Windows, delete the # from the start of line 8 and add a # to the start of line 9
+############################
+#nertext=$(java -mx600m -cp ../stanford-ner-2018-10-16/stanford-ner.jar edu.stanford.nlp.ie.crf.CRFClassifier -loadClassifier ../stanford-ner-2018-10-16/classifiers/english.all.3class.distsim.crf.ser.gz -textFile $file)
+nertext=$(../stanford-ner-4.0.0/ner.sh $file)
+
+#echo $nertext | egrep -o "(([[:alnum:]]|\.)+/ORGANIZATION([[:space:]]|$))+" | sed 's/\/ORGANIZATION//g' | sort | uniq -c | awk -v name=${file%%.*} '{printf name ","; for (i = 2; i < NF; i++) printf $i " "; printf $NF; printf "," "organization" ","; printf $1;  print ""}' >> entities.csv
+echo $nertext | egrep "(([[:alpha:]]|\.)*/PERSON([[:space:]]|$))+" | sed 's|/ORGANIZATION||g' | sed 's|/LOCATION||g' | sed 's|/O||g' >> "$(basename "$file")_people.txt"
+echo $nertext | egrep "(([[:alnum:]]|\.)*/LOCATION[[:space:]](,[[:space:]])?)+" | sed 's|/ORGANIZATION||g' | sed 's|/PERSON||g' | sed 's|/O||g' >> "$(basename "$file")_places.txt"
+done
+```
+
+
+
 - need shell foobar
 - mk folder NER
 - unzip download in it https://nlp.stanford.edu/software/CRF-NER.shtml#Download
