@@ -32,9 +32,9 @@ Which is to say two things:
 
 There are different NER tools depending on whether you want to use predefined categories (Spacy) or develop your own by training a classifier on your data (Stanford NER). In this episode we use Stanford NER to tag entities. For an example of how to use NER with Spacy for text analysis, see Melanie Walsh's [tutorial](https://melaniewalsh.github.io/Intro-Cultural-Analytics/Text-Analysis/Named-Entity-Recognition.html#get-named-entities).
 
-## 2. (optional) Generating NER tags with Stanford NER and Batchener
+## 2. (optional) Generating NER tags with Stanford NER and Batchner
 
-To generate NER takes using Stanford NER, we used the [Batchener](https://github.com/collectionslab/batchner) script developed by [Brandon Locke](https://github.com/brandontlocke). To do this yourself you need to be able to run commands in a Unix shell (e.g. Terminal for Linux or MacOS) or a Unix-like shell for Windows (e.g. [Git for Windows](https://gitforwindows.org/)).
+To generate NER takes using Stanford NER, we used the [Batchner](https://github.com/collectionslab/batchner) script developed by [Brandon Locke](https://github.com/brandontlocke). To do this yourself you need to be able to run commands in a Unix shell (e.g. Terminal for Linux or MacOS) or a Unix-like shell for Windows (e.g. [Git for Windows](https://gitforwindows.org/)).
 
 Here you have three options:
 
@@ -46,9 +46,7 @@ For those still here, start by making a new directory called something like "NER
 
 Now create another sub-directory in your NER folder for the *[IAMS Photos](https://github.com/CatalogueLegacies/antconc.github.io/blob/gh-pages/data/IAMS_Photographs_1850-1950_selection3_wordlist.txt)* data (e.g. `mkdir IAMS_data`) and put a copy of `IAMS_Photographs_1850-1950_selection3_wordlist.txt` in there.
 
-Finally, do `touch batchener_markup.sh` to create a new document called "batchener_markup.sh" in your "IAMS_data" folder called, open it, and paste the script below:
-
-#Takes input of individual .txt files and outputs two .txt files, one for people and one for places, each marked up with `/PERSON` and `/LOCATION` respectively.
+Finally, do `touch batchner_markup.sh` to create a new document called "batchner_markup.sh" in your "IAMS_data" folder called, open it, and paste the script below:
 
 ```#!/bin/sh
 #echo "doc,entity,entityType,count" > entities.csv
@@ -65,21 +63,21 @@ echo $nertext | egrep "(([[:alpha:]]|\.)*/PERSON([[:space:]]|$))+" | sed 's|/ORG
 echo $nertext | egrep "(([[:alnum:]]|\.)*/LOCATION[[:space:]](,[[:space:]])?)+" | sed 's|/ORGANIZATION||g' | sed 's|/PERSON||g' | sed 's|/O||g' >> "$(basename "$file")_places.txt"
 done
 ```
+Head to the [Batchner](https://github.com/collectionslab/batchner) page for more on how this works (thanks Brandon!), but - in short - what it does is takes input of individual .txt files in a given directory (so in our case `IAMS_Photographs_1850-1950_selection3_wordlist.txt`), invoke the NER process (`ner.sh`) and output two .txt files, one for people and one for places, each containing data marked up with `/PERSON` and `/LOCATION` respectively.
 
+To run the script enter `sh batchner_markup.sh` and hit return. After a little time, the script will finish and you'll have two new files in your "IAMS_data" directory.
 
-
-- need shell foobar
-- mk folder NER
-- unzip download in it https://nlp.stanford.edu/software/CRF-NER.shtml#Download
-- put custom batchner in there (with thanks to https://github.com/collectionslab/batchner)
-- put data in there
-- run `sh SCRIPT`. Output 'DATASET_people.txt' and 'DATASET_places.txt'
+>## Command failures
+>1. Your machine is not configured to run `.sh` files as executables. This is common error the first time you attempt to run a `.sh` file on a new machine. The fix depends on your system, but generally required you to set the permissions to executable (e.g. for [Ubuntu](https://askubuntu.com/a/38666))
+>2. The path to `ner.sh` is incorrect. The script above is written for Stanford NER Version 4.0.0 and so line 9 points to the path `../stanford-ner-4.0.0/ner.sh`. For later versions replace `stanford-ner-4.0.` with the directory name that appeared when you unzipped [Stanford NER](https://nlp.stanford.edu/software/CRF-NER.shtml#Download) into your `NER` directory.
+>3. Re-running the script. Line 3 of the script (`for file in *.txt`) invokes **all** .txt files in a directory. This is so that you can run an NER process on multiple .txt files simultaneously (hence the "batch" in [Batchner](https://github.com/collectionslab/batchner)). This means that if you run the process, get outputs, and then run it again, `batchner_markup.sh` will rerun over your marked up files. We don't want this. To avoid this when re-running `batchner_markup.sh` you have three options: move outputs to another folder; rewrite Line 3 to specify target files; rewrite Line 13 to redirect outputs. Note that to differentiate outputs - say from different versions of [Stanford NER](https://nlp.stanford.edu/software/CRF-NER.shtml#Download) - you can rename the output files in Lines 12 and 13. And that if you remove the commenting out from Line 11 (delete the leading `#`), you can an alternative use of [Stanford NER](https://nlp.stanford.edu/software/CRF-NER.shtml#Download): a spreadsheet of all 'organisations' (e.g. "2nd Punjab Cavalry") found by the NER process and a count of their occurences (for "2nd Punjab Cavalry", twice).
+{: .callout}
 
 ## 3. Using NER tagged catalogue data in AntConc
 
-If you decided to generate your own NER tags with Stanford NER and Batchener, you will now have two new versions of the *[IAMS Photos](https://github.com/CatalogueLegacies/antconc.github.io/blob/gh-pages/data/IAMS_Photographs_1850-1950_selection3_wordlist.txt)* dataset: `IAMS_Photographs_1850-1950_selection3.txt_people.txt` and `IAMS_Photographs_1850-1950_selection3.txt_places.txt`.
+If you decided to generate your own NER tags with Stanford NER and Batchner, you will now have two new versions of the *[IAMS Photos](https://github.com/CatalogueLegacies/antconc.github.io/blob/gh-pages/data/IAMS_Photographs_1850-1950_selection3_wordlist.txt)* dataset: `IAMS_Photographs_1850-1950_selection3.txt_people.txt` and `IAMS_Photographs_1850-1950_selection3.txt_places.txt`.
 
-If you did not generate your own NER tags with Stanford NER and Batchener, download the files now: [people.txt](https://github.com/CatalogueLegacies/antconc.github.io/blob/gh-pages/data/IAMS_Photographs_1850-1950_selection3.txt_people.txt), [places.txt](https://github.com/CatalogueLegacies/antconc.github.io/blob/gh-pages/data/IAMS_Photographs_1850-1950_selection3.txt_places.txt).
+If you did not generate your own NER tags with Stanford NER and Batchner, download the files now: [people.txt](https://github.com/CatalogueLegacies/antconc.github.io/blob/gh-pages/data/IAMS_Photographs_1850-1950_selection3.txt_people.txt), [places.txt](https://github.com/CatalogueLegacies/antconc.github.io/blob/gh-pages/data/IAMS_Photographs_1850-1950_selection3.txt_places.txt).
 
 The first is the *[IAMS Photos](https://github.com/CatalogueLegacies/antconc.github.io/blob/gh-pages/data/IAMS_Photographs_1850-1950_selection3_wordlist.txt)* with the tag `/PERSON` after each string Stanford NER defined as the name of a person. The second is the *[IAMS Photos](https://github.com/CatalogueLegacies/antconc.github.io/blob/gh-pages/data/IAMS_Photographs_1850-1950_selection3_wordlist.txt)* with the tag `/LOCATION` after each string Stanford NER defined as the name of a place.
 
@@ -101,7 +99,7 @@ The results tell us the kinds of activities for which people are given agency: t
 >The concordance lines for `built by */PERSON` also indicate to us that Stanford NER has successful identified many Middle Eastern and South Asian given and family names as names and in turn given them `/PERSON` tags. Whilst it tells us nothing about false-negatives (Middle Eastern and South Asian given and family names that Stanford NER has not given `/PERSON` tags), it is promising and a result we would continue to monitor as our analysis deepens. AntConc then is a useful tool for testing the results of computational processes  like NER in gradual and situated manner. So even if you hadn't planned to use corpus linguistics to understand your catalogue data, running some searches in a graphical tool like AntConc can help you get a better sense of the quality of computational processes you've run over that catalogue data.
 {: .callout}
 
->## Task FIXME: Using the `Concordance` tool and `IAMS_Photographs_1850-1950_selection3.txt_people.txt`, create concordance lines for all the place names followed by the string " towards".
+>## Task 1: Using the `Concordance` tool and `IAMS_Photographs_1850-1950_selection3.txt_people.txt`, create concordance lines for all the place names followed by the string " towards".
 >* Think about how to adjust the `Kwic Sort` settings to best display your results.
 >
 >>## Solution
