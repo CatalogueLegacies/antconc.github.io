@@ -18,7 +18,8 @@ NER is the process which identifies and tags what we consider to be entities, su
 
 In practice, NER tools take data (e.g. a plain text file or files) and add machine readable markers - or tags - to the data to enable analysis. For example, looking for people and place related entities in a descriptions from the *[IAMS Photos](https://github.com/CatalogueLegacies/antconc.github.io/blob/gh-pages/data/IAMS_Photographs_1850-1950_selection3_wordlist.txt)* catalogue data, would result in the following output:
 
->  Close view of target hanging from wooden frame, with the Lhalu Mansion in the background. See Hugh Richardson, Ceremonies of the Lhasa Year (Serindia, London, 1993), pp. 56-57. 
+>  Close view of target hanging from wooden frame, with the Lhalu Mansion in the background. See Hugh Richardson, Ceremonies of the Lhasa Year (Serindia, London, 1993), pp. 56-57.
+
 > Close view of target hanging from wooden frame, with the Lhalu/LOCATION Mansion/LOCATION in the background. See Hugh/PERSON Richardson/PERSON, Ceremonies of the Lhasa Year (Serindia, London/LOCATION, 1993),pp. 56-57.
 
 Note here that - using the process and technologies described below - that the entity recognition assigns a tab to each part of an entity: the given name *and* the family name, each word in the given name of [a building](https://commons.wikimedia.org/wiki/File:Lhalu_mansion_near_Lhasa.jpg).
