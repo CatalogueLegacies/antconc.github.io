@@ -12,15 +12,27 @@ keypoints:
 - "FIXME"
 ---
 
-## Named Entity Recognition (NER)
+## 1. Named Entity Recognition (NER)
 
 NER is the process which identifies and tags what we consider to be entities, such as people, placenames, organisations, time etc. By identifying and classifying entities we can start asking questions about the frequency with which they are used or how they change over time. Applied to catalogue data NER can support collection management activities, as well as improve discovery and access.
 
-What it does: add tags to a corpus (show an e.g.). We can put tags and corpus linguistics together in interesting ways. For example, if you wanted to know the language used around all places, we can do that, as the tags give us an anchor to search around. In AntConc, we'd search for the tag and then look at the concordance.
+In practice, NER tools take data (e.g. a plain text file or files) and add machine readable markers - or tags - to the data to enable analysis. For example, looking for people and place related entities in a descriptions from the *[IAMS Photos](https://github.com/CatalogueLegacies/antconc.github.io/blob/gh-pages/data/IAMS_Photographs_1850-1950_selection3_wordlist.txt)* catalogue data, would result in the following output:
 
-There are different NER tools depending on whether you want to use predefined categories (Spacy) or develop your own by training a classifier on your data (Stanford NER). In this lesson we use Stanford NER to tag entities. For an example of how to use NER with Spacy for text analysis, see Melanie Walsh's [tutorial](https://melaniewalsh.github.io/Intro-Cultural-Analytics/Text-Analysis/Named-Entity-Recognition.html#get-named-entities).
+>  Close view of target hanging from wooden frame, with the Lhalu Mansion in the background. See Hugh Richardson, Ceremonies of the Lhasa Year (Serindia, London, 1993), pp. 56-57. 
+> Close view of target hanging from wooden frame, with the Lhalu/LOCATION Mansion/LOCATION in the background. See Hugh/PERSON Richardson/PERSON, Ceremonies of the Lhasa Year (Serindia, London/LOCATION, 1993),pp. 56-57.
 
-## (optional) Generating NER tags with Stanford NER and Batchener
+Note here that - using the process and technologies described below - that the entity recognition assigns a tab to each part of an entity: the given name *and* the family name, each word in the given name of [a building](https://commons.wikimedia.org/wiki/File:Lhalu_mansion_near_Lhasa.jpg).
+
+This means that we need to be careful in our analysis (e.g. a count of all `/PERSON` tags does not equal the total number of people in a corpus), but also gives us more powerful options, such as to use other tools - like [regular expressions](https://librarycarpentry.org/lc-data-intro/) - to find all person names with 3 or more parts.
+
+Which is to say two things:
+
+- First, NER is the beginning rather than the outcome of analysis.
+- Second, some of that analysis needs to attend to the character and quality of the NER process.
+
+There are different NER tools depending on whether you want to use predefined categories (Spacy) or develop your own by training a classifier on your data (Stanford NER). In this episode we use Stanford NER to tag entities. For an example of how to use NER with Spacy for text analysis, see Melanie Walsh's [tutorial](https://melaniewalsh.github.io/Intro-Cultural-Analytics/Text-Analysis/Named-Entity-Recognition.html#get-named-entities).
+
+## 2. (optional) Generating NER tags with Stanford NER and Batchener
 
 - need shell foobar
 - mk folder NER
@@ -29,7 +41,7 @@ There are different NER tools depending on whether you want to use predefined ca
 - put data in there
 - run `sh SCRIPT`. Output 'DATASET_people.txt' and 'DATASET_places.txt'
 
-## Using NER tagged catalogue data in AntConc
+## 3. Using NER tagged catalogue data in AntConc
 
 If you decided to generate your own NER tags with Stanford NER and Batchener, you will now have two new versions of the *[IAMS Photos](https://github.com/CatalogueLegacies/antconc.github.io/blob/gh-pages/data/IAMS_Photographs_1850-1950_selection3_wordlist.txt)* dataset: `IAMS_Photographs_1850-1950_selection3.txt_people.txt` and `IAMS_Photographs_1850-1950_selection3.txt_places.txt`.
 
