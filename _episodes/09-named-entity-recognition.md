@@ -1,15 +1,17 @@
 ---
-title: "Next Steps 2: Named Entity Recognition (**not yet developed**)"
-teaching: 5
+title: "Next Steps 2: Named Entity Recognition"
+teaching: 30
 exercises: 15
 questions:
 - "What is Named Entity Recognition (NER)?"
 - "How do I apply NER to catalogue data?"
 - "How can I use NER to analyse catalogue data in AntConc?"
 objectives:
-- "FIXME"
+- "Provide an introduction to NER"
+- "Show how data tagged through NER process can be used in AntConc"
 keypoints:
-- "FIXME"
+- "NER tools create tagged datasets"
+- "AntConc can be used to analyse tagged datasets"
 ---
 
 ## 1. Named Entity Recognition (NER)
