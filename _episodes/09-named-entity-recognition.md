@@ -11,7 +11,7 @@ objectives:
 - "Show how data tagged through NER process can be used in AntConc"
 keypoints:
 - "NER tools create tagged datasets"
-- "AntConc can be used to analyse tagged datasets"
+- "Used creatively, AntConc can be used to analyse tagged datasets"
 ---
 
 ## 1. Named Entity Recognition (NER)
