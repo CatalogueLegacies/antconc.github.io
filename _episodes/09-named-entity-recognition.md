@@ -96,7 +96,7 @@ Next, clear the `Corpus Files` panel in AntConc and open `IAMS_Photographs_1850-
 
 Now go to the `Collocates` tool and search for `by */PERSON` with `Words` and `Case` checked, `Window Span` set to `1L` and `0`, and `Min. Collocate Frequency` set to 20. This will search for the most common words 5 places left of the string `by */PERSON`, where `*` is any text, likely a name part.
 
->## I tried something and I've broken AntConc
+>## I tried something and I think I've broken AntConc
 >Remember in Episode 5 when we asked [Is AntConc thinking or has it crashed?](https://cataloguelegacies.github.io/antconc.github.io/05-wordlists/index.html#interacting-with-a-word-list). Well, using NER tagged data in AntConc is a good example of data that can make AntConc hang. For example, search ` /PERSON` in the `Collocates` tool and you may be waiting a while. With data like this, it is best to look at the data, start with complex queries like to return a handful of results, and work up to bigger queries (or, if you want to be productive whilst waiting for AntConc, run AntConc on a second machine!). Note that we've sculpted our examples so AntConc shouldn't hang or crash, but it may do so depending on the age of your machine.
 {: .callout}
 
