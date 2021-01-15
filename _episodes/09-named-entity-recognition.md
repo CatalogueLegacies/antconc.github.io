@@ -116,3 +116,14 @@ The results tell us the kinds of activities for which people are given agency: t
 >>>* Browsing through the results you will notice a few quirks of the Stanford NER process. First, it tags each part of multi-part location names: "Upper/LOCATION Bosphorus/LOCATION" (line 17) "Galata/LOCATION Bridge/LOCATION" (line 19),"Chatham/LOCATION Dockyard/LOCATION" (line 24). Second, it has missed some locations: "Findikli" (line 6), "Rumeli Hisari" (line 7), "Satti Chaura Ghat" (line 28), likely because - as is the case in these three cases - Stanford NER does not contain these are varient spellings of each place. Again, know your data.
 >{: .solution}
 {: .challenge}
+
+>## Task 2: Using the `Concordance` tool and `IAMS_Photographs_1850-1950_selection3.txt_people.txt`, explore the presence of women in the descriptions.
+>* For example, you can start with constructing queries using "Lady" for which there are 547 results in the `Word List`.
+>
+>>## Solution
+>>
+>>1. 
+>>2. 
+>>>* Notice how not all occurances of "Lady" have been recognised as names (as they were probably tagged as locations instead), such as "Lady Reading", "Lady Sydenham"; also the Stanford NER has not tagged names used in the possessive case: "Lady Waterford's". Another observation to be made is that the NER process tags "Lady/PERSON" when followed by a surname, "Lady/PERSON Butler/PERSON", unlike when "Lady" is followed by a first name, "Lady Alice/PERSON".  
+>{: .solution}
+{: .challenge}
