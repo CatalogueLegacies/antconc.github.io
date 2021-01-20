@@ -17,6 +17,8 @@ number of 'tools' that support linguistic analysis by enabling the user to - for
 ## What is corpus lingustics?
 Corpus linguistics is the study of language through corpora, usually large collections of machine readable text. In order to study large collections, corpus linguistics - and those adopting their methods - use software tools to query their chosen corpora and the '[strings](https://en.wikipedia.org/wiki/String_(computer_science))' and '[lemma](https://en.wikipedia.org/wiki/Lemma_(morphology))' they contain. The outputs of that processing are typically a combination of counts of words, statistical inferences about word use, comparisons with standard language corpora, and subsets of text. These outputs are then analysed by people, from which new queries are formed, and new processing and analysis is made. Corpus lingustics is therefore an iterative study of text, where a phenomenon suggested by one output is tested and refined by the next.
 
+For further reading on corpus lingustics see Stefanowitsch A. 2020. Corpus linguistics: A guide to the methodology. Berlin: Language Science Press. ISBN 978-3-96110-225-9, doi:[10.5281/zenodo.3735822](https://doi.org/10.5281%2Fzenodo.3735822) (open access at [https://langsci-press.org/catalog/book/148](https://langsci-press.org/catalog/book/148)).
+
 ## How can AntConc and corpus linguistics be combined to analyse catalogue data?
 These training materials have been developed because the [project team](https://cataloguelegacies.github.io/#people) believe that corpus lingustic techniques can be usefully applied to analyse catalogue data, specifically what we call "curatorial voice": the authorial voice of institutions produced by curatorial labour.
 
