@@ -29,4 +29,4 @@ This repository is authored and maintained through issues, commits, and pull req
 
 ## Citation
 
-James Baker, Rossitza Atanassova, Andrew Salway (2020). Computational Analysis of Catalogue Data (Version v2020.05.22). https://cataloguelegacies.github.io/antconc.github.io/
+Please use the citation listed in the project [CITATION](https://github.com/CatalogueLegacies/antconc.github.io/blob/gh-pages/CITATION) file.
