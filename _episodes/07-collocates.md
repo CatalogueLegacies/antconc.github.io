@@ -82,3 +82,13 @@ The `Collocates` tab enables you to create a statistical overview of a corpus. B
 >>>* Note: this suggests a use case for corpus linguistics in the review of catalogue data, because tools like those in AntConc's `concordance` tab can indicate historically specific cataloguing choices that may have implications for contemporary user experience for catalogue data.
 >{: .solution}
 {: .challenge}
+
+> ## Finding archaic language
+>
+> AntConc can support cataloguers looking to find archaic and problematic language in their catalogues without needing to first build a list of vocabulary to look for. This can be achieved by browsing [word lists](https://cataloguelegacies.github.io/antconc.github.io/05-wordlists/index.html), though depending on the size of your catalogue data, that could prove an extremely time consuming approach.
+> An alternative would be use `Collocates` tab. We describe a potential process below:
+>1. Start by identifying a common word to search around, perhaps a verb. In the case of the * [IAMS Photos](https://github.com/CatalogueLegacies/antconc.github.io/blob/gh-pages/data/IAMS_Photographs_1850-1950_selection3_wordlist.txt)* catalogue data, the word "looking" is an ideal example.
+>2. Next, edit your `From..` and `To..` settings to `5L` and `5R`, chose the `Sort by Stat` option, and set the `Min. Collocate Frequency` field to "1". Type "looking" into the search box and hit `Start`.
+>>* Note that whilst this approach may save you time browsing an alphabetically sorted wordlist, it is a **computationally** expensive approach (though by no means as concerning as the environmental impact of [large language models](http://faculty.washington.edu/ebender/papers/Stochastic_Parrots.pdf), [AI](http://arxiv.org/abs/1907.10597) or [digital preservation](http://doi.org/10.17723/0360-9081-82.1.165). This means that AntConc may take a number of minutes to return results. We recommend that you run this query on a separate device or at a time when you don't need your main computer for other computationally intensive jobs (like a video call).
+>
+{: .callout}
