@@ -78,6 +78,12 @@ Note that by turning off the `Words` option, AntConc will return results that co
 - `wear|wears|wearing` returns any strings containing "wear", "wears", or "wearing". Note: with `Words` unticked, this is the same as searching `wear`.
 	- Note: not all examples above are of words in the corpus.
 
+
+> ## Variant spelling with wildcards
+>
+> Wildcards offer the possibility of working with variant spellings in AntConc: e.g. the British and American variants of 'colour' or 'aluminium' can be searched simultaneously using syntax like `colo+r` or `aluminium|aluminum`. However, pattern matching for variants works best for known variants, and so can miss hard to guess spelling errors (false-negative) or include unwanted rare or archaic vocabulary that is unknown to you (false-positive). If you suspect or know that your catalogue data contains many errors and inconsistencies, the browsing features of AntConc will provide a useful - if time consuming - means of getting to know the errors and inconsistencies in your data. To reconcile those errors and inconsistencies, we recommend you use a tool designed for working with messy data, the most popular of which at the time of writing is [OpenRefine](https://openrefine.org/): [Library Carpentry](https://librarycarpentry.org/) has a superb [OpenRefine lesson](https://librarycarpentry.org/lc-open-refine/) to get you started.
+{: .callout}
+
 ## Tasks
 
 Having learnt using AntConc's `Concordance` tab to search a corpus, work in pairs or small groups on the following challenges.
