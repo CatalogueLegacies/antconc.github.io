@@ -33,6 +33,8 @@ You will note that AntConc has treated all text as lowercase. Whilst this can be
 
 In AntConc you need to change case sensitivity settings for each tool individually. Change this now by going to `Tool Preferences`, choosing `Word List`, and unticking `Treat all data as lowercase`, and then pressing `Apply`. Back in the `Word List` tab hit `Start` again to see the difference.
 
+![Correct word list tool preferences](../assets/antconc-tool-preferences.png)
+
 > ## What is a word?
 >
 > Note here that depending on your dataset, an important setting is `Token Definition` under `Global Settings` (found in the top navbar). As [we've seen](https://cataloguelegacies.github.io/antconc.github.io/04-settings/index.html), this defines what AntConc sees as a word, e.g. you need to specify that numbers, punctuation characters and symbols can be part of words in order for AntConc to see things like urls or other special characters that provide meaning (e.g. hashtags in tweets).
