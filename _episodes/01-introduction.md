@@ -27,3 +27,10 @@ Having investigated this in [our previous research](https://curatorialvoice.gith
 > Given a set of guidelines for producing curatorial descriptions, corpus techniques could be used to check the extent to which guidelines are being followed at a macro-level, e.g. by identifying what aspects of objects tend to be referred to or not, and by gauging the overall extent of description versus interpretation/evaluation. Further, such analysis could form a basis for plans to edit and enhance a catalogue by providing areas to focus on and estimates of the person time required. It could also be that a corpus-based characterization of the language used in an exemplary catalogue could be used to develop or refine guidelines by identifying that catalogue’s distinctive linguistic features.
 
 These training materials have been designed as a forum in which to test, refine and develop these ideas, and iterated as a result of [substantial input from the GLAM community](https://cataloguelegacies.github.io/antconc-training).
+
+Some examples of successful work in this area includes:
+
+- Baker, James, and Andrew Salway. ‘Curatorial Labour, Voice and Legacy: Mary Dorothy George and the Catalogue of Political and Personal Satires, 1930–54’. *Historical Research* ([2020](https://doi.org/10.1093/hisres/htaa026)).
+- Bowker, Lynne. ‘Corpus Linguistics Is Not Just for Linguists: Considering the Potential of Computer-Based Corpus Methods for Library and Information Science Research’. *Library Hi Tech* ([2018](https://doi.org/10.1108/LHT-12-2017-0271))
+- Froehlich, Heather. 'Distance-reading the feminine landscapes of The Awakening'. *The CliC Dickens Blog* ([2018](http://blog.bham.ac.uk/clic-dickens/2018/06/29/distance-reading-the-feminine-landscapes-of-the-awakening))
+- Tolonen, Mikko, Mark J. Hill, Ali Ijaz, Leo Lahti, and Ville Vaara. ‘Examining the Early Modern Canon: The English Short Title Catalogue and Large-Scale Patterns of Cultural Production’. *Data Visualization in Enlightenment Literature and Culture* ([2020](https://doi.org/10.1007/978-3-030-54913-8_3))
