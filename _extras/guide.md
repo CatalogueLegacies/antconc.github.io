@@ -11,4 +11,4 @@ ____
 - If AntConc hangs for a learner it likely that they have run a resource intensive query. Advise them to force close AntConc, but note that depending how far you are into the lesson, they will need to reapply the settings in [Episode 4](https://cataloguelegacies.github.io/antconc.github.io/04-settings/index.html) and [Episode 5](https://cataloguelegacies.github.io/antconc.github.io/05-wordlists/index.html).
 - For online instruction, a recommended screen arragement for learners is shown below.
 
-https://raw.githubusercontent.com/CatalogueLegacies/antconc.github.io/gh-pages/assets/antconc-screen-arrangement.png
+![AntConc screen arrangement](../assets/antconc-screen-arrangement.png)
