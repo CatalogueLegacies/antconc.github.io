@@ -27,6 +27,8 @@ The `Character Encoding` category has one option: to edit how the text is encode
 
 Note that `Letter` is ticked by default (otherwise AntConc would have nothing to analyse!). For the purpose of these training materials, you should also tick `Number`, `Punctuation`, and `Symbol`. To save your settings, hit `Apply`.
 
+![Correct global settings](../assets/antconc-global-settings.png)
+
 > ## Saving settings
 >
 > Each time you exit AntConc, the settings revert to the default. This means that we need to check these settings each time we launch AntConc. Thankfully, AntConc makes this easier (as well as supporting the production of reproducible results) by enabling you to export your settings to file and then import them each time you launch.
